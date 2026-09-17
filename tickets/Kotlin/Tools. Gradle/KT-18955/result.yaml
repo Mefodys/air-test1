@@ -1,0 +1,23 @@
+ticket: KT-18955
+status: NEEDS_HUMAN
+ticketUpdatedAt: "2025-03-19T13:03:22.553Z"
+checkedAt: "2026-09-17T09:51:00Z"
+environment:
+  kotlin: "2.4.20"
+  gradle: "9.7.1"
+  jdk: "OpenJDK 25.0.2"
+  os: "Linux"
+reproducer:
+  source: new
+  command: "./gradlew --no-daemon clean jar && jar tf build/libs/kt-18955-reproducer.jar | grep 'META-INF/duplicate-module.kotlin_module'"
+  archive: "reproducer.zip"
+verification:
+  reproduced: true
+  exitCode: 0
+  expected: "The assembled JAR contains two entries named META-INF/duplicate-module.kotlin_module."
+  actual: "The assembled JAR contained two identical META-INF/duplicate-module.kotlin_module entries; the build completed successfully without a diagnostic."
+youtrack:
+  commentAdded: false
+  attachmentAdded: false
+  marker: "automated-reproducer:KT-18955:2025-03-19T13:03:22.553Z"
+error: "A guest YouTrack session cannot guarantee the required jetbrains-team comment visibility; no comment or attachment was published."

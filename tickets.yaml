@@ -10,9 +10,9 @@
               "url": "https://youtrack.jetbrains.com/issue/KT-18955",
               "created": "2017-07-11T08:45:00.153Z",
               "updated": "2025-03-19T13:03:22.553Z",
-              "status": "PROCESSING",
-              "result": null,
-              "attempts": 0
+              "status": "NEEDS_HUMAN",
+              "result": "tickets/Kotlin/Tools. Gradle/KT-18955/result.yaml",
+              "attempts": 1
             },
             {
               "id": "KT-41068",

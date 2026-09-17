@@ -1,0 +1,5 @@
+Command: ./gradlew --no-daemon clean jar && jar tf build/libs/kt-18955-reproducer.jar | grep 'META-INF/duplicate-module.kotlin_module'
+Exit code: 0
+
+META-INF/duplicate-module.kotlin_module
+META-INF/duplicate-module.kotlin_module
