@@ -255,12 +255,12 @@
               "created": "2023-01-23T15:58:41.999Z",
               "updated": "2025-01-17T20:43:33.951Z",
               "youtrackStatus": "Backlog",
-              "processingStatus": "NEW",
+              "processingStatus": "PROCESSING",
               "result": null,
-              "attempts": 0,
-              "processingStartedAt": null,
-              "processingOwner": null,
-              "lastAttemptAt": null,
+              "attempts": 1,
+              "processingStartedAt": "2026-09-17T18:05:00Z",
+              "processingOwner": "249882ee-591d-4715-9cf0-5d912cac869a",
+              "lastAttemptAt": "2026-09-17T18:05:00Z",
               "checkedTicketUpdatedAt": null
             },
             {
