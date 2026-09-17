@@ -1,0 +1,25 @@
+ticket: KT-60712
+status: NEEDS_HUMAN
+checkedAt: "2026-09-17T15:08:00Z"
+checkedTicketUpdatedAt: "2026-09-07T14:03:56.905Z"
+environment:
+  kotlin: "Unavailable: versions.yaml is not present"
+  gradle: "Unavailable: versions.yaml is not present"
+  jdk: "OpenJDK 25.0.2"
+  os: "Linux (Docker 29.1.3 available)"
+reproducer:
+  found: false
+  created: false
+  updated: false
+  command: null
+  archive: null
+verification:
+  reproduced: false
+  expected: "Calling Project.getProperties() during Kotlin Gradle Plugin evaluation of a child subproject must not fail because the child project's basedir does not exist."
+  actual: "The public issue contains only instructions to modify an upstream Kotlin Gradle Plugin functional test and its source. It has no runnable attachment or Gradle project. A follow-up states the issue is fixed in master by commit 7cc72f096a90 and reproduces only without that workaround."
+  reason: "A human must provide the intended Kotlin, Gradle, and JDK matrix in versions.yaml and a revision or runnable project without the upstream workaround before the historical scenario can be safely verified in an isolated container."
+error: "No authenticated YouTrack integration is available to guarantee jetbrains-team visibility for the required private comment; no comment or attachment was posted."
+youtrack:
+  commentAdded: false
+  attachmentAdded: false
+  marker: "automated-reproducer:KT-60712:2026-09-07T14:03:56.905Z"
