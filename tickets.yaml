@@ -632,14 +632,15 @@
               "url": "https://youtrack.jetbrains.com/issue/KT-64101",
               "created": "2023-12-05T20:25:41.916Z",
               "updated": "2026-02-11T12:54:37.365Z",
-              "status": "PROCESSING",
-              "processingStatus": "PROCESSING",
-              "result": null,
+              "youtrackStatus": "To be discussed",
+              "status": "VERIFIED",
+              "processingStatus": "VERIFIED",
+              "result": "tickets/Kotlin/Tools. Gradle/KT-64101/result.yaml",
               "attempts": 1,
-              "processingStartedAt": "2026-09-17T20:03:18Z",
-              "processingOwner": "6cb17deb-6a51-407d-9a83-5534592d3689",
-              "lastAttemptAt": "2026-09-17T20:03:18Z",
-              "checkedTicketUpdatedAt": null
+              "processingStartedAt": null,
+              "processingOwner": null,
+              "lastAttemptAt": "2026-09-17T20:08:09Z",
+              "checkedTicketUpdatedAt": "2026-02-11T12:54:37.365Z"
             },
             {
               "id": "KT-64210",

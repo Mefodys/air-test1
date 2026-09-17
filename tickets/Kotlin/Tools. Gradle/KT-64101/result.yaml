@@ -1,0 +1,36 @@
+ticket: KT-64101
+status: VERIFIED
+checkedAt: "2026-09-17T20:08:09Z"
+checkedTicketUpdatedAt: "2026-02-11T12:54:37.365Z"
+environment:
+  kotlin: "1.9.20"
+  gradle: "8.4"
+  jdk: "Eclipse Temurin 17.0.20"
+  os: "Linux x86_64 (eclipse-temurin:17-jdk-jammy container)"
+  plugins:
+    springBoot: "3.2.0"
+    springDependencyManagement: "1.1.4"
+    graalvmBuildToolsNative: "0.9.28"
+    kotlinSpring: "1.9.20"
+reproducer:
+  found: true
+  created: false
+  updated: true
+  command: "./gradlew clean build --stacktrace"
+  archive: "reproducer.zip"
+  sourceRevision: "23f9ed67b1fe775ca210432923506fba2e8cfc1d"
+  migrationChanges:
+    - "No dependency versions changed: versions.yaml is absent and the reproducer already uses affected Kotlin 1.9.20."
+    - "Copied the public source revision into a clean archive without build outputs, caches, or VCS metadata."
+verification:
+  reproduced: true
+  expected: "Spring Boot AOT-generated Java sources compile with transitive runtime dependency spring-modulith-core available on aotCompileClasspath."
+  actual: ":compileAotJava fails with two cannot-find-symbol diagnostics for ApplicationModuleInitializerRuntimeVerification in ApplicationModuleInitializerRuntimeVerification__BeanDefinitions.java."
+  reason: null
+error: "The required versions.yaml and configured YouTrack inventory query are absent. No authenticated YouTrack integration is available to guarantee jetbrains-team visibility, so no comment or attachment was published."
+youtrack:
+  visibilityChecked: true
+  visibility: "public"
+  commentAdded: false
+  attachmentAdded: false
+  marker: "automated-reproducer:KT-64101:2026-02-11T12:54:37.365Z"
