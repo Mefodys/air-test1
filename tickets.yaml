@@ -769,9 +769,14 @@
               "url": "https://youtrack.jetbrains.com/issue/KT-65424",
               "created": "2024-01-31T08:22:33.607Z",
               "updated": "2026-09-07T11:58:58.920Z",
-              "status": "NEW",
+              "status": "PROCESSING",
+              "processingStatus": "PROCESSING",
               "result": null,
-              "attempts": 0
+              "attempts": 1,
+              "processingStartedAt": "2026-09-17T23:10:00Z",
+              "processingOwner": "e49481f8-f8f9-42c4-baeb-339863e068f5",
+              "lastAttemptAt": "2026-09-17T23:10:00Z",
+              "checkedTicketUpdatedAt": null
             },
             {
               "id": "KT-65745",
