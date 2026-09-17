@@ -374,9 +374,15 @@
               "url": "https://youtrack.jetbrains.com/issue/KT-60583",
               "created": "2023-07-20T13:31:15.323Z",
               "updated": "2026-07-23T13:37:52.796Z",
-              "status": "NEW",
-              "result": null,
-              "attempts": 0
+              "status": "Open",
+              "youtrackStatus": "Open",
+              "processingStatus": "NEEDS_HUMAN",
+              "result": "tickets/Kotlin/Tools. Gradle/KT-60583/result.yaml",
+              "attempts": 1,
+              "processingStartedAt": null,
+              "processingOwner": null,
+              "lastAttemptAt": "2026-09-17T14:52:05Z",
+              "checkedTicketUpdatedAt": "2026-07-23T13:37:52.796Z"
             },
             {
               "id": "KT-60712",
@@ -1776,9 +1782,15 @@
               "url": "https://youtrack.jetbrains.com/issue/KT-60583",
               "created": "2023-07-20T13:31:15.323Z",
               "updated": "2026-07-23T13:37:52.796Z",
-              "status": "NEW",
-              "result": null,
-              "attempts": 0
+              "status": "Open",
+              "youtrackStatus": "Open",
+              "processingStatus": "NEEDS_HUMAN",
+              "result": "tickets/Kotlin/Tools. Gradle/KT-60583/result.yaml",
+              "attempts": 1,
+              "processingStartedAt": null,
+              "processingOwner": null,
+              "lastAttemptAt": "2026-09-17T14:52:05Z",
+              "checkedTicketUpdatedAt": "2026-07-23T13:37:52.796Z"
             },
             {
               "id": "KT-63674",

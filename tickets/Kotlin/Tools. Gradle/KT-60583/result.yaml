@@ -1,0 +1,25 @@
+ticket: KT-60583
+status: NEEDS_HUMAN
+checkedAt: "2026-09-17T14:52:05Z"
+checkedTicketUpdatedAt: "2026-07-23T13:37:52.796Z"
+environment:
+  kotlin: "1.8.21 (reported affected version; no configured verification version)"
+  gradle: "Unavailable: versions.yaml is not present"
+  jdk: "OpenJDK 25.0.2"
+  os: "Linux (Docker 29.1.3 available)"
+reproducer:
+  found: true
+  created: false
+  updated: false
+  command: "./gradlew :kotlinx-serialization-json:verifyKotlinJvmModule"
+  archive: null
+verification:
+  reproduced: false
+  expected: "Changing a dependency's module-info.class must make verifyKotlinJvmModule rerun and report JPMS export violations without requiring --rerun."
+  actual: "The public report supplies a Kotlinx Serialization commit and manual source edits, but this repository has no versions.yaml or configured Kotlin/Gradle version matrix. Running the historical external project would not verify the issue against a configured environment."
+  reason: "A human must provide versions.yaml with the intended Kotlin, Gradle, and JDK matrix before the linked historical project can be updated and executed safely in an isolated container."
+error: "No authenticated YouTrack integration is available to guarantee jetbrains-team visibility for the required private comment; no comment or attachment was posted."
+youtrack:
+  commentAdded: false
+  attachmentAdded: false
+  marker: "automated-reproducer:KT-60583:2026-07-23T13:37:52.796Z"
