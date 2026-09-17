@@ -1,0 +1,1864 @@
+{
+  "projects": {
+    "Kotlin": {
+      "subsystems": {
+        "Tools. Gradle": {
+          "tickets": [
+            {
+              "id": "KT-18955",
+              "summary": "two with the same *.kotlin_module name files in one jar",
+              "url": "https://youtrack.jetbrains.com/issue/KT-18955",
+              "created": "2017-07-11T08:45:00.153Z",
+              "updated": "2025-03-19T13:03:22.553Z",
+              "status": "PROCESSING",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-41068",
+              "summary": "CreateProcess error=206, The filename or extension is too long when building with Gradle on windows",
+              "url": "https://youtrack.jetbrains.com/issue/KT-41068",
+              "created": "2020-08-13T19:11:47.072Z",
+              "updated": "2026-08-20T11:49:43.908Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-41077",
+              "summary": "Unable to add custom sourceSet using Kotlin DSL Gradle script in IDEA 2020.2",
+              "url": "https://youtrack.jetbrains.com/issue/KT-41077",
+              "created": "2020-08-14T10:33:10.794Z",
+              "updated": "2026-06-25T13:34:16.191Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-41582",
+              "summary": "Gradle: Using maven-publish plugin requires additional configuration for JVM and for JS, doesn't require it on multiplatform",
+              "url": "https://youtrack.jetbrains.com/issue/KT-41582",
+              "created": "2020-09-01T15:44:34.555Z",
+              "updated": "2026-06-25T13:39:19.766Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-41985",
+              "summary": "Disallow error-prone removal of freeCompilerArgs elements",
+              "url": "https://youtrack.jetbrains.com/issue/KT-41985",
+              "created": "2020-09-17T09:54:22.437Z",
+              "updated": "2026-07-07T13:05:59.687Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-44454",
+              "summary": "Gradle + Java 9: Invalid caching using java modules",
+              "url": "https://youtrack.jetbrains.com/issue/KT-44454",
+              "created": "2021-01-20T14:21:59.847Z",
+              "updated": "2026-07-07T13:02:04.177Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-46199",
+              "summary": "Unnecessary artifacts are added to -Xplugin by Kotlin Gradle Plugin",
+              "url": "https://youtrack.jetbrains.com/issue/KT-46199",
+              "created": "2021-04-19T18:37:24.721Z",
+              "updated": "2026-08-06T10:53:58.267Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-47594",
+              "summary": "Distinguish internal compiler errors in gradle output",
+              "url": "https://youtrack.jetbrains.com/issue/KT-47594",
+              "created": "2021-07-03T19:27:12.069Z",
+              "updated": "2026-07-06T18:21:17.267Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-48324",
+              "summary": "New `kotlinDaemonJvmArgs` property should use a ListProperty API",
+              "url": "https://youtrack.jetbrains.com/issue/KT-48324",
+              "created": "2021-08-18T21:23:34.485Z",
+              "updated": "2024-10-18T21:26:12.981Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-49784",
+              "summary": "On registering new SourceSet as feature Kotlin plugin does not add same attributes as for main SourceSet",
+              "url": "https://youtrack.jetbrains.com/issue/KT-49784",
+              "created": "2021-11-18T15:59:39.850Z",
+              "updated": "2026-07-07T13:45:29.714Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-50130",
+              "summary": "Gradle compileKotlin task is deleting files in destinationDir",
+              "url": "https://youtrack.jetbrains.com/issue/KT-50130",
+              "created": "2021-12-08T08:50:53.916Z",
+              "updated": "2026-07-07T13:50:58.345Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-50552",
+              "summary": "Gradle plugin: provide extension APIs instead of Gradle properties",
+              "url": "https://youtrack.jetbrains.com/issue/KT-50552",
+              "created": "2021-12-27T17:29:02.115Z",
+              "updated": "2026-07-16T13:12:25.522Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-50852",
+              "summary": "Build may be false positively successful with strict JVM target validation mode when Kotlin compilation is up-to-date",
+              "url": "https://youtrack.jetbrains.com/issue/KT-50852",
+              "created": "2022-01-18T16:27:02.957Z",
+              "updated": "2026-07-16T13:37:09.220Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-52205",
+              "summary": "Incremental compilation after restoring from build cache isn't supported for compileKotlinJs task",
+              "url": "https://youtrack.jetbrains.com/issue/KT-52205",
+              "created": "2022-04-27T09:50:12.047Z",
+              "updated": "2026-07-16T13:22:21.309Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-52225",
+              "summary": "Gradle: Kapt performance metrics are being collected, but not reported",
+              "url": "https://youtrack.jetbrains.com/issue/KT-52225",
+              "created": "2022-04-29T03:01:17.078Z",
+              "updated": "2026-08-03T12:35:33.671Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-54207",
+              "summary": "Kotlin has two sources tasks (kotlinSourcesJar and sourcesJar)  that archives sources to the same artifact",
+              "url": "https://youtrack.jetbrains.com/issue/KT-54207",
+              "created": "2022-09-28T10:14:14.729Z",
+              "updated": "2026-07-28T21:01:14.054Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-55350",
+              "summary": "Add constraints from kotlin-gradle-plugin  to kotlin-metadata-jvm",
+              "url": "https://youtrack.jetbrains.com/issue/KT-55350",
+              "created": "2022-12-07T17:32:14.780Z",
+              "updated": "2024-10-18T21:22:17.815Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-55763",
+              "summary": "Default build report path doesn't respect overridden `rootProject.buildDir` when project isolation is enabled",
+              "url": "https://youtrack.jetbrains.com/issue/KT-55763",
+              "created": "2023-01-04T16:44:33.083Z",
+              "updated": "2026-07-16T13:58:39.295Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-56129",
+              "summary": "kotlin.jvm.target.validation.mode check doesn't regard jvm-target value set through freeCompilerArgs",
+              "url": "https://youtrack.jetbrains.com/issue/KT-56129",
+              "created": "2023-01-23T15:58:41.999Z",
+              "updated": "2025-01-17T20:43:33.951Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-56555",
+              "summary": "Build statistics: custom values in build scans aren't reported as well as details to a file  with build stat. if a project has a composite structure (included builds)",
+              "url": "https://youtrack.jetbrains.com/issue/KT-56555",
+              "created": "2023-02-09T17:28:42.578Z",
+              "updated": "2026-07-16T13:59:22.027Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-56830",
+              "summary": "Warn about violated expectations of MPP/Gradle support about applied plugins",
+              "url": "https://youtrack.jetbrains.com/issue/KT-56830",
+              "created": "2023-02-21T13:51:40.736Z",
+              "updated": "2025-02-14T17:54:24.727Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-58266",
+              "summary": "Gradle / FUS: `BooleanMetrics.MAVEN_PUBLISH_EXECUTED` is being incorrectly captured",
+              "url": "https://youtrack.jetbrains.com/issue/KT-58266",
+              "created": "2023-04-25T22:19:16.617Z",
+              "updated": "2026-07-31T17:58:28.989Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-58445",
+              "summary": "Extend \"internal\" modifier visibility scope to include additional test source sets",
+              "url": "https://youtrack.jetbrains.com/issue/KT-58445",
+              "created": "2023-05-03T20:29:26.295Z",
+              "updated": "2024-10-18T19:31:22.132Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-59156",
+              "summary": "Different resolve to empty package in { Java, Kotlin } x { Gradle, JPS } cases",
+              "url": "https://youtrack.jetbrains.com/issue/KT-59156",
+              "created": "2023-06-07T11:25:02.156Z",
+              "updated": "2026-07-23T13:33:53.579Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-60138",
+              "summary": "NativeDownloadAndPlatformLibsIT fails on Windows OS",
+              "url": "https://youtrack.jetbrains.com/issue/KT-60138",
+              "created": "2023-07-05T12:05:17.560Z",
+              "updated": "2025-01-17T20:47:25.406Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-60460",
+              "summary": "Gradle: Plugin changes duplicate resource strategy",
+              "url": "https://youtrack.jetbrains.com/issue/KT-60460",
+              "created": "2023-07-14T18:27:46.957Z",
+              "updated": "2026-07-23T13:37:15.664Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-60542",
+              "summary": "`KotlinBaseApiPlugin` usability",
+              "url": "https://youtrack.jetbrains.com/issue/KT-60542",
+              "created": "2023-07-19T09:03:48.175Z",
+              "updated": "2025-04-28T17:06:30.691Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-60583",
+              "summary": "Kotlin compilation with `module-info.java` handling does not recognize changed `module-info.class` files in dependencies",
+              "url": "https://youtrack.jetbrains.com/issue/KT-60583",
+              "created": "2023-07-20T13:31:15.323Z",
+              "updated": "2026-07-23T13:37:52.796Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-60712",
+              "summary": "Investigate `Caused by: Basedir <...path...> doesn't exist` exception in KGP functional tests with subprojects",
+              "url": "https://youtrack.jetbrains.com/issue/KT-60712",
+              "created": "2023-07-26T08:53:56.208Z",
+              "updated": "2026-09-07T14:03:56.905Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-61081",
+              "summary": "KGP might fail to detect its own version",
+              "url": "https://youtrack.jetbrains.com/issue/KT-61081",
+              "created": "2023-08-08T21:06:09.014Z",
+              "updated": "2025-01-17T20:59:46.478Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-61321",
+              "summary": "explicitApi() option adds twice the corresponding argument with the same value to the list of compiler options",
+              "url": "https://youtrack.jetbrains.com/issue/KT-61321",
+              "created": "2023-08-18T12:00:33.068Z",
+              "updated": "2025-01-17T20:59:53.565Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-61410",
+              "summary": "Add Kotlin compiler options for `-Xjsr305` outside `freeCompilerArgs`",
+              "url": "https://youtrack.jetbrains.com/issue/KT-61410",
+              "created": "2023-08-22T14:41:57.627Z",
+              "updated": "2026-07-23T13:46:51.321Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-61455",
+              "summary": "Native build metrics: tasks are always labeled as incremental in build scans even when they are not",
+              "url": "https://youtrack.jetbrains.com/issue/KT-61455",
+              "created": "2023-08-24T16:15:34.471Z",
+              "updated": "2026-07-23T13:48:24.562Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-61608",
+              "summary": "Supply the required commonSourceSet and scriptSources to a custom usable `KotlinCompile`",
+              "url": "https://youtrack.jetbrains.com/issue/KT-61608",
+              "created": "2023-08-31T10:59:01.142Z",
+              "updated": "2025-01-17T20:29:19.046Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-61619",
+              "summary": "Numerous warnings are presented in case an unsupported by the compiler JVM target value is used",
+              "url": "https://youtrack.jetbrains.com/issue/KT-61619",
+              "created": "2023-08-31T15:46:43.988Z",
+              "updated": "2025-01-17T20:49:45.240Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-61986",
+              "summary": "Kotlin Gradle plugin with toolchains setting \"-Xjdk-release=\" doesn't set jvm-target",
+              "url": "https://youtrack.jetbrains.com/issue/KT-61986",
+              "created": "2023-09-16T02:13:49.143Z",
+              "updated": "2025-01-17T20:49:58.359Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-62093",
+              "summary": "KotlinToolRunner.getIsolatedClassLoader does not release jars properly",
+              "url": "https://youtrack.jetbrains.com/issue/KT-62093",
+              "created": "2023-09-20T13:12:34.479Z",
+              "updated": "2024-10-14T16:00:17.043Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-62095",
+              "summary": "KGP: ignoreTestFailures for KotlinTestReport",
+              "url": "https://youtrack.jetbrains.com/issue/KT-62095",
+              "created": "2023-09-20T16:53:09.909Z",
+              "updated": "2025-01-17T20:50:10.345Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-62258",
+              "summary": "KGP: Configuration cache - DefaultLanguageSettingsBuilder: Failed to query the value of property 'freeCompilerArgs' with KSP",
+              "url": "https://youtrack.jetbrains.com/issue/KT-62258",
+              "created": "2023-10-02T15:04:21.082Z",
+              "updated": "2026-07-23T13:50:10.949Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-63281",
+              "summary": "Move to using org.gradle.api.tasks.VerificationException for KotlinTestReport",
+              "url": "https://youtrack.jetbrains.com/issue/KT-63281",
+              "created": "2023-11-07T18:23:23.769Z",
+              "updated": "2025-01-17T21:00:57.606Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-63674",
+              "summary": "JVM IC: Treat module-info.java, package-info.java as Input properties for Kotlin compilation - Gradle part",
+              "url": "https://youtrack.jetbrains.com/issue/KT-63674",
+              "created": "2023-11-21T13:43:08.010Z",
+              "updated": "2025-01-17T20:56:54.092Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-63675",
+              "summary": "JVM IC: Treat module-info.java, package-info.java as Input properties for Kotlin compilation - IC part",
+              "url": "https://youtrack.jetbrains.com/issue/KT-63675",
+              "created": "2023-11-21T13:45:40.080Z",
+              "updated": "2025-01-17T20:40:26.728Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-64040",
+              "summary": "Gradle integration tests:  assertNoBuildWarnings doesn't always work correctly",
+              "url": "https://youtrack.jetbrains.com/issue/KT-64040",
+              "created": "2023-12-04T11:23:32.088Z",
+              "updated": "2025-01-17T20:56:26.293Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-64101",
+              "summary": "Gradle plugin improperly computing classpath",
+              "url": "https://youtrack.jetbrains.com/issue/KT-64101",
+              "created": "2023-12-05T20:25:41.916Z",
+              "updated": "2026-02-11T12:54:37.365Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-64210",
+              "summary": "False positive warning that Kotlin Gradle plugin was loaded multiple times in different subprojects is displayed",
+              "url": "https://youtrack.jetbrains.com/issue/KT-64210",
+              "created": "2023-12-08T16:35:20.894Z",
+              "updated": "2026-07-24T16:02:16.632Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-64462",
+              "summary": "Gradle complains about already created configurations by KotlinSourceSet",
+              "url": "https://youtrack.jetbrains.com/issue/KT-64462",
+              "created": "2023-12-19T18:39:46.391Z",
+              "updated": "2026-07-30T13:24:31.653Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-64722",
+              "summary": "Mark KotlinSourceSet with KotlinGradlePluginDsl marker",
+              "url": "https://youtrack.jetbrains.com/issue/KT-64722",
+              "created": "2024-01-04T22:02:11.369Z",
+              "updated": "2026-07-30T13:27:35.856Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-64789",
+              "summary": "Investigate strange workaround for AttributesContainer",
+              "url": "https://youtrack.jetbrains.com/issue/KT-64789",
+              "created": "2024-01-07T21:15:09.168Z",
+              "updated": "2025-01-17T20:26:05.752Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-64838",
+              "summary": "Kotlin source sets conventions are not available in 'KotlinSourceSet' DSL",
+              "url": "https://youtrack.jetbrains.com/issue/KT-64838",
+              "created": "2024-01-09T10:13:22.416Z",
+              "updated": "2026-07-30T13:30:02.493Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-64893",
+              "summary": "Source sets configuration inside targets leads to errors: 'NamedDomainObjectProvider<KotlinSourceSet>' can't be called in this context by implicit receiver'",
+              "url": "https://youtrack.jetbrains.com/issue/KT-64893",
+              "created": "2024-01-11T11:24:24.417Z",
+              "updated": "2025-01-17T20:24:09.431Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-64905",
+              "summary": "Source sets accessing within configuration of compilations leads to errors: 'NamedDomainObjectProvider<KotlinSourceSet>' can't be called in this context by implicit receiver'",
+              "url": "https://youtrack.jetbrains.com/issue/KT-64905",
+              "created": "2024-01-11T17:03:31.113Z",
+              "updated": "2025-01-17T20:23:07.183Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-65136",
+              "summary": "Kotlin Gradle plugin fails to compile sources using JPMS",
+              "url": "https://youtrack.jetbrains.com/issue/KT-65136",
+              "created": "2024-01-19T16:21:30.787Z",
+              "updated": "2025-01-20T08:47:53.932Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-65424",
+              "summary": "\"com.google.android:android\" dependency causes Android SDK Symbols unresolved",
+              "url": "https://youtrack.jetbrains.com/issue/KT-65424",
+              "created": "2024-01-31T08:22:33.607Z",
+              "updated": "2026-09-07T11:58:58.920Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-65745",
+              "summary": "Resolve dependent modules test by matching task's output dirs ",
+              "url": "https://youtrack.jetbrains.com/issue/KT-65745",
+              "created": "2024-02-12T12:34:22.188Z",
+              "updated": "2024-11-07T13:52:18.093Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-67125",
+              "summary": "Kotlin daemon: the java.lang.OutOfMemoryError catching logic does not catch all the cases",
+              "url": "https://youtrack.jetbrains.com/issue/KT-67125",
+              "created": "2024-04-03T20:38:00.637Z",
+              "updated": "2026-09-03T11:24:09.875Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-67164",
+              "summary": "Gradle / JVM: KotlinCompilation.runtimeDependencyFiles includes build output",
+              "url": "https://youtrack.jetbrains.com/issue/KT-67164",
+              "created": "2024-04-05T08:32:10.358Z",
+              "updated": "2025-03-24T19:30:57.824Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-67449",
+              "summary": "Gradle compose plugin does not treat stability files as task inputs",
+              "url": "https://youtrack.jetbrains.com/issue/KT-67449",
+              "created": "2024-04-16T07:44:48.006Z",
+              "updated": "2025-01-17T20:20:20.484Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-67576",
+              "summary": "Kotlin Gradle Plugin is missing runtime dependencies in Maven",
+              "url": "https://youtrack.jetbrains.com/issue/KT-67576",
+              "created": "2024-04-19T06:31:22.829Z",
+              "updated": "2026-03-25T10:23:26.858Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-68107",
+              "summary": "Properly handle compiler plugin versions in the BTA mode",
+              "url": "https://youtrack.jetbrains.com/issue/KT-68107",
+              "created": "2024-05-10T16:11:48.592Z",
+              "updated": "2024-10-14T19:15:36.527Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-68534",
+              "summary": "Power-Assert Android sources support",
+              "url": "https://youtrack.jetbrains.com/issue/KT-68534",
+              "created": "2024-05-27T07:29:37.479Z",
+              "updated": "2026-07-30T14:37:59.716Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-69383",
+              "summary": "Setting kotlin.project.persistent.dir in KGP 2.0.0 causes multiple salive files in same directory",
+              "url": "https://youtrack.jetbrains.com/issue/KT-69383",
+              "created": "2024-06-24T18:44:23.290Z",
+              "updated": "2025-04-04T13:37:46.211Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-69386",
+              "summary": "Migrate to non-internal org.gradle.internal.jvm.Jvm API",
+              "url": "https://youtrack.jetbrains.com/issue/KT-69386",
+              "created": "2024-06-24T21:15:32.928Z",
+              "updated": "2024-06-25T12:54:02.517Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-69682",
+              "summary": "Filter out empty strings from freeCompilerArgs",
+              "url": "https://youtrack.jetbrains.com/issue/KT-69682",
+              "created": "2024-07-05T10:04:51.476Z",
+              "updated": "2026-09-07T16:03:27.846Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-69967",
+              "summary": "The Compose Compiler Gradle plugin is not compatible with AGP's new Built-in Kotlin Support",
+              "url": "https://youtrack.jetbrains.com/issue/KT-69967",
+              "created": "2024-07-17T05:28:41.087Z",
+              "updated": "2025-04-22T10:42:59.534Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-70004",
+              "summary": "Cannot access internal kotlin declarations between projects if 'friendPaths' property is set up ",
+              "url": "https://youtrack.jetbrains.com/issue/KT-70004",
+              "created": "2024-07-18T09:23:39.673Z",
+              "updated": "2026-07-30T14:02:51.988Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-70419",
+              "summary": "Refine deprecation message of InternalKotlinTarget.jvmToolchain method",
+              "url": "https://youtrack.jetbrains.com/issue/KT-70419",
+              "created": "2024-08-02T07:47:48.404Z",
+              "updated": "2025-07-17T16:45:23.961Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-70509",
+              "summary": "Compose's 'reportsDestination' is not included in the UP-TO-DATE checks",
+              "url": "https://youtrack.jetbrains.com/issue/KT-70509",
+              "created": "2024-08-06T12:28:03.188Z",
+              "updated": "2026-08-06T13:14:56.721Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-70761",
+              "summary": "Kotlin Gradle Plugin needlessly applies stdlib if kotlin-osgi-bundle is present",
+              "url": "https://youtrack.jetbrains.com/issue/KT-70761",
+              "created": "2024-08-10T09:58:10.047Z",
+              "updated": "2024-11-11T17:53:17.282Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-70841",
+              "summary": "How to disable kotlin.build.report on CI",
+              "url": "https://youtrack.jetbrains.com/issue/KT-70841",
+              "created": "2024-08-21T09:07:28.048Z",
+              "updated": "2025-06-10T22:02:13.453Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-70871",
+              "summary": "Dependency Analysis KGP ability to filter test source sets from its analysis regression",
+              "url": "https://youtrack.jetbrains.com/issue/KT-70871",
+              "created": "2024-08-22T09:09:25.269Z",
+              "updated": "2025-05-25T14:09:04.132Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-71057",
+              "summary": "POM file unusable after upgrading to 2.0.20 from 2.0.10",
+              "url": "https://youtrack.jetbrains.com/issue/KT-71057",
+              "created": "2024-08-29T09:07:04.622Z",
+              "updated": "2026-08-06T13:21:50.426Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-71144",
+              "summary": "Add migration suggestions into KotlinOptions Kdoc",
+              "url": "https://youtrack.jetbrains.com/issue/KT-71144",
+              "created": "2024-09-02T14:42:26.988Z",
+              "updated": "2024-12-11T09:26:08.160Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-71146",
+              "summary": "Add kotlinOptions signatures into compilerOptions DSL",
+              "url": "https://youtrack.jetbrains.com/issue/KT-71146",
+              "created": "2024-09-02T14:46:21.572Z",
+              "updated": "2024-12-11T09:25:43.768Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-71179",
+              "summary": "Gradle properties with Enum value type: there is no user-friendly error message in case of a typo or empty value  ",
+              "url": "https://youtrack.jetbrains.com/issue/KT-71179",
+              "created": "2024-09-03T14:06:20.227Z",
+              "updated": "2025-06-10T21:56:54.120Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-71443",
+              "summary": "Unexpected POM file change when updating from Kotlin 2.0.0 to Kotlin 2.0.20",
+              "url": "https://youtrack.jetbrains.com/issue/KT-71443",
+              "created": "2024-09-12T15:57:27.035Z",
+              "updated": "2026-08-06T13:23:42.334Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-71489",
+              "summary": "Hide tooling types from API",
+              "url": "https://youtrack.jetbrains.com/issue/KT-71489",
+              "created": "2024-09-16T09:25:07.306Z",
+              "updated": "2025-04-07T14:33:51.280Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-71716",
+              "summary": "\"Task :classes UP-TO-DATE\" classes  is not directly depending on compileKotlin  task, but transitively through compileJava",
+              "url": "https://youtrack.jetbrains.com/issue/KT-71716",
+              "created": "2024-09-24T12:49:37.613Z",
+              "updated": "2024-11-11T17:59:02.123Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-72247",
+              "summary": "KGP: Cannot use unsupported API version with compilerVersion that supports it",
+              "url": "https://youtrack.jetbrains.com/issue/KT-72247",
+              "created": "2024-10-14T10:02:38.913Z",
+              "updated": "2026-04-24T07:45:15.848Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-72395",
+              "summary": "Gradle: Stop adding androidTarget.components as AGP does it on its own",
+              "url": "https://youtrack.jetbrains.com/issue/KT-72395",
+              "created": "2024-10-18T08:33:42.227Z",
+              "updated": "2026-08-06T13:30:25.551Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-72517",
+              "summary": "IC issue with constants in different modules, but with the same FqName",
+              "url": "https://youtrack.jetbrains.com/issue/KT-72517",
+              "created": "2024-10-23T09:34:53.886Z",
+              "updated": "2026-08-20T09:16:30.649Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-78094",
+              "summary": "Sync failure when using Kotlin 2.1.20-dev-1129",
+              "url": "https://youtrack.jetbrains.com/issue/KT-78094",
+              "created": "2024-11-01T14:16:18.365Z",
+              "updated": "2025-06-05T16:23:14.425Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-72854",
+              "summary": "KotlinApiPlugin.createKotlinJvmExtension(): in order to create an additional compilation it is required to create first an appropriate java source set and register the extension as kotlin extension  ",
+              "url": "https://youtrack.jetbrains.com/issue/KT-72854",
+              "created": "2024-11-06T09:51:48.033Z",
+              "updated": "2026-08-06T13:31:45.770Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-72870",
+              "summary": "Gradle: kotlin.daemon.jvmargs does not allow values containing whitespaces",
+              "url": "https://youtrack.jetbrains.com/issue/KT-72870",
+              "created": "2024-11-06T13:51:41.432Z",
+              "updated": "2024-11-06T14:55:02.378Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-73402",
+              "summary": "Cannot set languageVersion via sourceSets DSL with AGP's built-in Kotlin support",
+              "url": "https://youtrack.jetbrains.com/issue/KT-73402",
+              "created": "2024-11-25T19:54:31.702Z",
+              "updated": "2026-08-06T15:06:35.863Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-73580",
+              "summary": "Symbols requiring opt-in are not marked as so in the API reference",
+              "url": "https://youtrack.jetbrains.com/issue/KT-73580",
+              "created": "2024-12-02T10:55:12.019Z",
+              "updated": "2024-12-04T16:35:35.047Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-74264",
+              "summary": "KGP: Adding srcDir to compilation does not carry task dependencies",
+              "url": "https://youtrack.jetbrains.com/issue/KT-74264",
+              "created": "2025-01-07T09:05:13.963Z",
+              "updated": "2026-01-29T18:19:51.274Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-74334",
+              "summary": "Gradle integration tests: improve configuration sharing between the build logic and test logic",
+              "url": "https://youtrack.jetbrains.com/issue/KT-74334",
+              "created": "2025-01-09T18:03:00.521Z",
+              "updated": "2026-08-06T13:48:44.916Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-74488",
+              "summary": "Enforce no higher Kotlin language level in dependencies",
+              "url": "https://youtrack.jetbrains.com/issue/KT-74488",
+              "created": "2025-01-17T04:59:27.411Z",
+              "updated": "2025-03-04T18:14:56.795Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-74731",
+              "summary": "Gradle plugin TestRun executionSource should be property-based",
+              "url": "https://youtrack.jetbrains.com/issue/KT-74731",
+              "created": "2025-01-27T21:13:02.229Z",
+              "updated": "2026-08-06T13:57:39.824Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-74837",
+              "summary": "Gradle reusing kotlin daemon with previously hanging compilation causes new compilations to hang as well",
+              "url": "https://youtrack.jetbrains.com/issue/KT-74837",
+              "created": "2025-01-30T18:36:09.623Z",
+              "updated": "2025-03-04T18:15:14.073Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-75089",
+              "summary": "JVM target validation error is reported if .java files are added to non-java source sets ",
+              "url": "https://youtrack.jetbrains.com/issue/KT-75089",
+              "created": "2025-02-10T13:12:41.164Z",
+              "updated": "2025-02-10T13:23:54.627Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-75850",
+              "summary": "Gradle log level changes do not invalidate the kotlinCompile task's configuration cache or propagate correctly",
+              "url": "https://youtrack.jetbrains.com/issue/KT-75850",
+              "created": "2025-03-10T22:25:03.187Z",
+              "updated": "2025-03-24T19:53:39.527Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-76100",
+              "summary": "Drop the ability to disable `TypeEnhancementImprovementsInStrictMode`",
+              "url": "https://youtrack.jetbrains.com/issue/KT-76100",
+              "created": "2025-03-18T15:15:45.554Z",
+              "updated": "2026-08-17T06:52:46.311Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-76891",
+              "summary": "Gradle: 2.1.20 ignores custom Android framework headers",
+              "url": "https://youtrack.jetbrains.com/issue/KT-76891",
+              "created": "2025-04-19T20:33:33.482Z",
+              "updated": "2026-02-23T21:10:01.663Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-76942",
+              "summary": "Configure cocoapods resources link",
+              "url": "https://youtrack.jetbrains.com/issue/KT-76942",
+              "created": "2025-04-22T15:52:43.960Z",
+              "updated": "2026-01-22T14:44:03.563Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-77160",
+              "summary": "Implement logging of the KMP gradle plugin usage",
+              "url": "https://youtrack.jetbrains.com/issue/KT-77160",
+              "created": "2025-04-28T14:37:52.822Z",
+              "updated": "2025-04-30T03:05:16.801Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-77636",
+              "summary": "KGP: configure Gradle `org.gradle.jvm.version` from Kotlin's jvmTarget value",
+              "url": "https://youtrack.jetbrains.com/issue/KT-77636",
+              "created": "2025-05-14T12:12:27.062Z",
+              "updated": "2026-06-25T13:25:13.787Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-77844",
+              "summary": "KGP: \"Value of input property 'kotlinJavaToolchainProvider.javaVersion' has changed for task ':compileKotlin'\": when recompile with another JDK",
+              "url": "https://youtrack.jetbrains.com/issue/KT-77844",
+              "created": "2025-05-27T12:36:12.667Z",
+              "updated": "2026-08-13T13:45:45.963Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-78099",
+              "summary": "SMAP directory path excludes `main/` for `kotlinSourcesJar` task",
+              "url": "https://youtrack.jetbrains.com/issue/KT-78099",
+              "created": "2025-06-06T00:40:37.940Z",
+              "updated": "2026-08-13T13:49:49.068Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-78988",
+              "summary": "Adding project dependency breaks isolated projects in KMP",
+              "url": "https://youtrack.jetbrains.com/issue/KT-78988",
+              "created": "2025-07-08T14:45:24.384Z",
+              "updated": "2025-07-23T13:31:37.010Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-78990",
+              "summary": "Build reports json: 'classFqName' is 'unknown' when a compilation task is up-to-date or from-cache",
+              "url": "https://youtrack.jetbrains.com/issue/KT-78990",
+              "created": "2025-07-08T14:58:50.969Z",
+              "updated": "2026-09-10T13:17:06.328Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-79115",
+              "summary": "Kotlin Gradle Plugin overwrites org.gradle.usage attribute on every source set's compile classpath configuration",
+              "url": "https://youtrack.jetbrains.com/issue/KT-79115",
+              "created": "2025-07-11T14:37:43.559Z",
+              "updated": "2026-04-21T18:47:32.151Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-79532",
+              "summary": "Rework `publishable` property in KotlinNativeTarget",
+              "url": "https://youtrack.jetbrains.com/issue/KT-79532",
+              "created": "2025-07-23T15:47:15.117Z",
+              "updated": "2025-08-04T14:34:06.928Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-79588",
+              "summary": "Diagnostic messages in IJ on Windows missing a space between title and description",
+              "url": "https://youtrack.jetbrains.com/issue/KT-79588",
+              "created": "2025-07-25T16:55:11.339Z",
+              "updated": "2026-08-13T16:08:59.382Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-80931",
+              "summary": "Gradle: diagnostic on unsupported AV/LV configured by `kotlin-dsl` is not properly reported on future compiled version configured via KotlinTopLevelExtension.compilerVersion",
+              "url": "https://youtrack.jetbrains.com/issue/KT-80931",
+              "created": "2025-09-11T22:37:12.070Z",
+              "updated": "2026-08-13T14:05:37.719Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-80932",
+              "summary": "Gradle: using an older compiler version with the current KGP may cause duplicated log line severity prefixes",
+              "url": "https://youtrack.jetbrains.com/issue/KT-80932",
+              "created": "2025-09-11T22:42:48.754Z",
+              "updated": "2025-09-30T06:49:48.169Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-81630",
+              "summary": "Gradle: disallow different compiler versions among the project targets",
+              "url": "https://youtrack.jetbrains.com/issue/KT-81630",
+              "created": "2025-10-10T15:16:11.462Z",
+              "updated": "2025-10-15T11:13:07.753Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-81668",
+              "summary": "Deprecate usages of internal interface on public types",
+              "url": "https://youtrack.jetbrains.com/issue/KT-81668",
+              "created": "2025-10-13T18:43:09.230Z",
+              "updated": "2026-07-29T09:27:56.885Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-81733",
+              "summary": "ClassNotFoundException: Java source code in Kotlin source directory: Kotlin compiler links successfully but don't produce bytecode for Java",
+              "url": "https://youtrack.jetbrains.com/issue/KT-81733",
+              "created": "2025-10-16T18:15:20.277Z",
+              "updated": "2026-09-10T13:21:53.310Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-82035",
+              "summary": "Document Kotlin compiler types available in DSL",
+              "url": "https://youtrack.jetbrains.com/issue/KT-82035",
+              "created": "2025-10-29T16:21:14.009Z",
+              "updated": "2025-10-29T17:14:06.104Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-82477",
+              "summary": "\"Unsafe internal compiler arguments\" warning is not suppressed by Gradle (version dependent) for Kotlin out-of-process compilation",
+              "url": "https://youtrack.jetbrains.com/issue/KT-82477",
+              "created": "2025-11-18T00:26:00.326Z",
+              "updated": "2025-12-15T16:37:58.505Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-82940",
+              "summary": "Improve error message when custom compilerVersion is used with runViaBuildToolsApi=false",
+              "url": "https://youtrack.jetbrains.com/issue/KT-82940",
+              "created": "2025-12-05T13:21:25.452Z",
+              "updated": "2026-05-18T20:52:22.818Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-83016",
+              "summary": "Handle compilerVersion.set() usage in KMP projects while Build Tools API supports only JVM",
+              "url": "https://youtrack.jetbrains.com/issue/KT-83016",
+              "created": "2025-12-09T12:20:16.571Z",
+              "updated": "2025-12-15T13:07:22.505Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-83069",
+              "summary": "CRI: java classes aren't added to the subtypes.table if extended by other kotlin or java classes ",
+              "url": "https://youtrack.jetbrains.com/issue/KT-83069",
+              "created": "2025-12-11T16:05:46.048Z",
+              "updated": "2026-01-15T15:37:05.794Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-83115",
+              "summary": "[ToolingDiagnostic] the output is not colored when Gradle property console=auto in pure PowerShell and CMD",
+              "url": "https://youtrack.jetbrains.com/issue/KT-83115",
+              "created": "2025-12-15T12:48:24.480Z",
+              "updated": "2026-09-10T13:26:02.292Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-83124",
+              "summary": "[ToolingDiagnostic] ANSI escape codes are shown as plain text in IntelliJ IDEA Build tool window",
+              "url": "https://youtrack.jetbrains.com/issue/KT-83124",
+              "created": "2025-12-15T15:58:23.971Z",
+              "updated": "2026-09-11T08:39:21.749Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-83136",
+              "summary": "CRI: classes annotations are added to the subtypes.table",
+              "url": "https://youtrack.jetbrains.com/issue/KT-83136",
+              "created": "2025-12-16T12:56:40.810Z",
+              "updated": "2026-01-13T18:46:24.990Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-83263",
+              "summary": "Improve log messages for unsupported compiler flags when using kotlin.compilerVersion",
+              "url": "https://youtrack.jetbrains.com/issue/KT-83263",
+              "created": "2025-12-19T03:03:28.523Z",
+              "updated": "2026-07-24T11:39:11.530Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-83271",
+              "summary": "Project import fails, `checkSigningConfiguration` could not start 'gpg'",
+              "url": "https://youtrack.jetbrains.com/issue/KT-83271",
+              "created": "2025-12-19T10:50:24.567Z",
+              "updated": "2026-09-11T10:12:12.850Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-83583",
+              "summary": "KGP API reference: misses external links to Gradle API",
+              "url": "https://youtrack.jetbrains.com/issue/KT-83583",
+              "created": "2026-01-09T11:26:54.267Z",
+              "updated": "2026-09-10T13:38:03.511Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-83586",
+              "summary": "KGP API reference: annotations like `ExperimentalKotlinGradlePluginApi` should be annotated with `@MustBeDocumented`",
+              "url": "https://youtrack.jetbrains.com/issue/KT-83586",
+              "created": "2026-01-09T11:44:48.305Z",
+              "updated": "2026-09-10T13:40:04.727Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-83780",
+              "summary": "Add support for IDE tooling to understand what configurations are internal and what are intended for user to configure",
+              "url": "https://youtrack.jetbrains.com/issue/KT-83780",
+              "created": "2026-01-20T16:23:38.799Z",
+              "updated": "2026-05-22T13:06:41.669Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-83808",
+              "summary": "KGP: decide on the expected behavior of `allKotlinSources` API",
+              "url": "https://youtrack.jetbrains.com/issue/KT-83808",
+              "created": "2026-01-21T14:48:22.727Z",
+              "updated": "2026-09-10T13:40:30.633Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-84022",
+              "summary": "The `kotlin` extension is not created when KotlinBaseApiPlugin is applied",
+              "url": "https://youtrack.jetbrains.com/issue/KT-84022",
+              "created": "2026-01-30T18:02:12.789Z",
+              "updated": "2026-09-10T13:44:07.775Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-84306",
+              "summary": "Kotlin compile fails on Gradle composite builds with shared subprojects",
+              "url": "https://youtrack.jetbrains.com/issue/KT-84306",
+              "created": "2026-02-13T22:22:43.184Z",
+              "updated": "2026-09-15T15:59:31.323Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-85518",
+              "summary": "CompileKotlin remains UP-TO-DATE after @argfile changes",
+              "url": "https://youtrack.jetbrains.com/issue/KT-85518",
+              "created": "2026-04-07T10:04:31.675Z",
+              "updated": "2026-09-10T14:00:02.955Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-85759",
+              "summary": "Track compile task outputs correctly in the KotlinWithJavaCompilation outputs",
+              "url": "https://youtrack.jetbrains.com/issue/KT-85759",
+              "created": "2026-04-15T16:55:19.454Z",
+              "updated": "2026-04-15T16:55:42.651Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-85773",
+              "summary": "Make JVM friend paths to be in sync with classpath",
+              "url": "https://youtrack.jetbrains.com/issue/KT-85773",
+              "created": "2026-04-15T22:47:25.207Z",
+              "updated": "2026-04-15T22:47:25.207Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-85935",
+              "summary": "KGP / Android: sourceSets deprecation not shown in DSL block form inside KotlinAndroidProjectExtension",
+              "url": "https://youtrack.jetbrains.com/issue/KT-85935",
+              "created": "2026-04-22T13:42:48.288Z",
+              "updated": "2026-08-06T15:03:45.173Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-85936",
+              "summary": "Gradle: import should populate the IDE model with compiler plugins of kotlin.compilerVersion ",
+              "url": "https://youtrack.jetbrains.com/issue/KT-85936",
+              "created": "2026-04-22T13:45:05.768Z",
+              "updated": "2026-04-22T13:55:55.729Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-85938",
+              "summary": "Gradle: import should populate the IDE model with proper arguments when kotlin.compilerVersion is changed",
+              "url": "https://youtrack.jetbrains.com/issue/KT-85938",
+              "created": "2026-04-22T13:48:29.594Z",
+              "updated": "2026-04-22T14:04:48.181Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-85939",
+              "summary": "Gradle: delegated to IntelliJ builds should respect kotlin.compilerVersion",
+              "url": "https://youtrack.jetbrains.com/issue/KT-85939",
+              "created": "2026-04-22T13:54:17.611Z",
+              "updated": "2026-04-22T14:04:52.231Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-86625",
+              "summary": "KGP: Daemon compilation failure triggers fallback instead of build error on BackendException",
+              "url": "https://youtrack.jetbrains.com/issue/KT-86625",
+              "created": "2026-05-31T16:50:00.613Z",
+              "updated": "2026-06-01T21:46:35.040Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-86695",
+              "summary": "KGP diagnostics are printed twice in console when --warning-mode=all is used ",
+              "url": "https://youtrack.jetbrains.com/issue/KT-86695",
+              "created": "2026-06-03T11:36:04.021Z",
+              "updated": "2026-06-05T14:38:14.612Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-86717",
+              "summary": "Kotlin Source build fails on linux-aarch64: HostManager.host throws TargetSupportException at configuration time",
+              "url": "https://youtrack.jetbrains.com/issue/KT-86717",
+              "created": "2026-06-03T16:59:56.465Z",
+              "updated": "2026-06-08T13:26:25.966Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-86738",
+              "summary": "Kotlin build reports default directory ignores custom layout.buildDirectory when project isolation is disabled",
+              "url": "https://youtrack.jetbrains.com/issue/KT-86738",
+              "created": "2026-06-04T11:21:09.978Z",
+              "updated": "2026-06-22T10:30:19.824Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-87048",
+              "summary": "KotlinKarma.useConfigDirectory() replaces the config directory instead of appending",
+              "url": "https://youtrack.jetbrains.com/issue/KT-87048",
+              "created": "2026-06-17T15:07:36.236Z",
+              "updated": "2026-09-03T14:30:21.311Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-87064",
+              "summary": "KotlinCompile configuration cache failure with __buildFusService__ when develocity and nmcp.settings plugins are both applied",
+              "url": "https://youtrack.jetbrains.com/issue/KT-87064",
+              "created": "2026-06-18T12:46:31.135Z",
+              "updated": "2026-06-24T07:00:19.690Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-87275",
+              "summary": "Invalid compiler argument error is not reported to the Gradle Problems API report",
+              "url": "https://youtrack.jetbrains.com/issue/KT-87275",
+              "created": "2026-06-26T15:25:53.289Z",
+              "updated": "2026-07-24T11:39:11.535Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-87482",
+              "summary": "Mark with Delicate API current KGP Api",
+              "url": "https://youtrack.jetbrains.com/issue/KT-87482",
+              "created": "2026-07-07T07:09:37.381Z",
+              "updated": "2026-07-07T13:41:14.742Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-87492",
+              "summary": "KGP: ClassNotFoundException for ComponentManagerEx when kotlin-gradle-plugin precedes kotlin-compiler-embeddable on the classpath",
+              "url": "https://youtrack.jetbrains.com/issue/KT-87492",
+              "created": "2026-07-07T10:07:19.837Z",
+              "updated": "2026-07-14T08:09:46.869Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-87900",
+              "summary": "\"Please make sure product-info.json is present\" non-deterministic error in CI",
+              "url": "https://youtrack.jetbrains.com/issue/KT-87900",
+              "created": "2026-07-21T08:12:01.779Z",
+              "updated": "2026-08-20T12:46:52.664Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-88105",
+              "summary": "jsPackageJson fails for a symlinked package directory on JDK 8 and 11",
+              "url": "https://youtrack.jetbrains.com/issue/KT-88105",
+              "created": "2026-07-29T14:22:21.309Z",
+              "updated": "2026-07-29T15:57:06.926Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-88514",
+              "summary": "JVM module name starting with \"@\" is silently corrupted (produces \"-no-reflect.kotlin_module\")",
+              "url": "https://youtrack.jetbrains.com/issue/KT-88514",
+              "created": "2026-08-12T23:20:37.808Z",
+              "updated": "2026-08-13T09:09:28.294Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-88583",
+              "summary": "Kapt may unexpectedly load conflicting dependencies from the Gradle runtime classpath",
+              "url": "https://youtrack.jetbrains.com/issue/KT-88583",
+              "created": "2026-08-17T06:49:28.406Z",
+              "updated": "2026-09-01T17:15:58.128Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-88950",
+              "summary": ":kotlin-gradle-plugin:validatePluginsCommon fails intermittently on CI",
+              "url": "https://youtrack.jetbrains.com/issue/KT-88950",
+              "created": "2026-08-28T07:27:19.903Z",
+              "updated": "2026-09-02T08:00:08.657Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-89058",
+              "summary": "Update Ktor benchmark after deprecating some native targets",
+              "url": "https://youtrack.jetbrains.com/issue/KT-89058",
+              "created": "2026-09-02T08:37:13.938Z",
+              "updated": "2026-09-02T08:38:36.013Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-89222",
+              "summary": "Broken KT-87522 link in the error for deprecated kotlin.internal.incremental.enableUnsafeOptimizationsForMultiplatform property",
+              "url": "https://youtrack.jetbrains.com/issue/KT-89222",
+              "created": "2026-09-07T22:04:27.083Z",
+              "updated": "2026-09-15T08:57:48.813Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            }
+          ]
+        },
+        "Tools. Metrics": {
+          "tickets": [
+            {
+              "id": "KT-61455",
+              "summary": "Native build metrics: tasks are always labeled as incremental in build scans even when they are not",
+              "url": "https://youtrack.jetbrains.com/issue/KT-61455",
+              "created": "2023-08-24T16:15:34.471Z",
+              "updated": "2026-07-23T13:48:24.562Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-78990",
+              "summary": "Build reports json: 'classFqName' is 'unknown' when a compilation task is up-to-date or from-cache",
+              "url": "https://youtrack.jetbrains.com/issue/KT-78990",
+              "created": "2025-07-08T14:58:50.969Z",
+              "updated": "2026-09-10T13:17:06.328Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            }
+          ]
+        },
+        "Tools. Gradle. JS": {
+          "tickets": [
+            {
+              "id": "KT-87048",
+              "summary": "KotlinKarma.useConfigDirectory() replaces the config directory instead of appending",
+              "url": "https://youtrack.jetbrains.com/issue/KT-87048",
+              "created": "2026-06-17T15:07:36.236Z",
+              "updated": "2026-09-03T14:30:21.311Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-87482",
+              "summary": "Mark with Delicate API current KGP Api",
+              "url": "https://youtrack.jetbrains.com/issue/KT-87482",
+              "created": "2026-07-07T07:09:37.381Z",
+              "updated": "2026-07-07T13:41:14.742Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            }
+          ]
+        },
+        "Tools. Gradle. Wasm": {
+          "tickets": [
+            {
+              "id": "KT-87048",
+              "summary": "KotlinKarma.useConfigDirectory() replaces the config directory instead of appending",
+              "url": "https://youtrack.jetbrains.com/issue/KT-87048",
+              "created": "2026-06-17T15:07:36.236Z",
+              "updated": "2026-09-03T14:30:21.311Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            }
+          ]
+        },
+        "Tools. Daemon": {
+          "tickets": [
+            {
+              "id": "KT-41068",
+              "summary": "CreateProcess error=206, The filename or extension is too long when building with Gradle on windows",
+              "url": "https://youtrack.jetbrains.com/issue/KT-41068",
+              "created": "2020-08-13T19:11:47.072Z",
+              "updated": "2026-08-20T11:49:43.908Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-67125",
+              "summary": "Kotlin daemon: the java.lang.OutOfMemoryError catching logic does not catch all the cases",
+              "url": "https://youtrack.jetbrains.com/issue/KT-67125",
+              "created": "2024-04-03T20:38:00.637Z",
+              "updated": "2026-09-03T11:24:09.875Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            }
+          ]
+        },
+        "Tools. Build Tools API": {
+          "tickets": [
+            {
+              "id": "KT-67125",
+              "summary": "Kotlin daemon: the java.lang.OutOfMemoryError catching logic does not catch all the cases",
+              "url": "https://youtrack.jetbrains.com/issue/KT-67125",
+              "created": "2024-04-03T20:38:00.637Z",
+              "updated": "2026-09-03T11:24:09.875Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-68107",
+              "summary": "Properly handle compiler plugin versions in the BTA mode",
+              "url": "https://youtrack.jetbrains.com/issue/KT-68107",
+              "created": "2024-05-10T16:11:48.592Z",
+              "updated": "2024-10-14T19:15:36.527Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-83016",
+              "summary": "Handle compilerVersion.set() usage in KMP projects while Build Tools API supports only JVM",
+              "url": "https://youtrack.jetbrains.com/issue/KT-83016",
+              "created": "2025-12-09T12:20:16.571Z",
+              "updated": "2025-12-15T13:07:22.505Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-83069",
+              "summary": "CRI: java classes aren't added to the subtypes.table if extended by other kotlin or java classes ",
+              "url": "https://youtrack.jetbrains.com/issue/KT-83069",
+              "created": "2025-12-11T16:05:46.048Z",
+              "updated": "2026-01-15T15:37:05.794Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-83136",
+              "summary": "CRI: classes annotations are added to the subtypes.table",
+              "url": "https://youtrack.jetbrains.com/issue/KT-83136",
+              "created": "2025-12-16T12:56:40.810Z",
+              "updated": "2026-01-13T18:46:24.990Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            }
+          ]
+        },
+        "Tools. Kapt": {
+          "tickets": [
+            {
+              "id": "KT-88583",
+              "summary": "Kapt may unexpectedly load conflicting dependencies from the Gradle runtime classpath",
+              "url": "https://youtrack.jetbrains.com/issue/KT-88583",
+              "created": "2026-08-17T06:49:28.406Z",
+              "updated": "2026-09-01T17:15:58.128Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            }
+          ]
+        },
+        "Tools. JPS": {
+          "tickets": [
+            {
+              "id": "KT-59156",
+              "summary": "Different resolve to empty package in { Java, Kotlin } x { Gradle, JPS } cases",
+              "url": "https://youtrack.jetbrains.com/issue/KT-59156",
+              "created": "2023-06-07T11:25:02.156Z",
+              "updated": "2026-07-23T13:33:53.579Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-72517",
+              "summary": "IC issue with constants in different modules, but with the same FqName",
+              "url": "https://youtrack.jetbrains.com/issue/KT-72517",
+              "created": "2024-10-23T09:34:53.886Z",
+              "updated": "2026-08-20T09:16:30.649Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            }
+          ]
+        },
+        "Tools. Incremental Compile": {
+          "tickets": [
+            {
+              "id": "KT-52205",
+              "summary": "Incremental compilation after restoring from build cache isn't supported for compileKotlinJs task",
+              "url": "https://youtrack.jetbrains.com/issue/KT-52205",
+              "created": "2022-04-27T09:50:12.047Z",
+              "updated": "2026-07-16T13:22:21.309Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-60583",
+              "summary": "Kotlin compilation with `module-info.java` handling does not recognize changed `module-info.class` files in dependencies",
+              "url": "https://youtrack.jetbrains.com/issue/KT-60583",
+              "created": "2023-07-20T13:31:15.323Z",
+              "updated": "2026-07-23T13:37:52.796Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-63674",
+              "summary": "JVM IC: Treat module-info.java, package-info.java as Input properties for Kotlin compilation - Gradle part",
+              "url": "https://youtrack.jetbrains.com/issue/KT-63674",
+              "created": "2023-11-21T13:43:08.010Z",
+              "updated": "2025-01-17T20:56:54.092Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-63675",
+              "summary": "JVM IC: Treat module-info.java, package-info.java as Input properties for Kotlin compilation - IC part",
+              "url": "https://youtrack.jetbrains.com/issue/KT-63675",
+              "created": "2023-11-21T13:45:40.080Z",
+              "updated": "2025-01-17T20:40:26.728Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-72517",
+              "summary": "IC issue with constants in different modules, but with the same FqName",
+              "url": "https://youtrack.jetbrains.com/issue/KT-72517",
+              "created": "2024-10-23T09:34:53.886Z",
+              "updated": "2026-08-20T09:16:30.649Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            }
+          ]
+        },
+        "Native. Build Infrastructure": {
+          "tickets": [
+            {
+              "id": "KT-76100",
+              "summary": "Drop the ability to disable `TypeEnhancementImprovementsInStrictMode`",
+              "url": "https://youtrack.jetbrains.com/issue/KT-76100",
+              "created": "2025-03-18T15:15:45.554Z",
+              "updated": "2026-08-17T06:52:46.311Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            }
+          ]
+        },
+        "Tools. Statistics (FUS)": {
+          "tickets": [
+            {
+              "id": "KT-58266",
+              "summary": "Gradle / FUS: `BooleanMetrics.MAVEN_PUBLISH_EXECUTED` is being incorrectly captured",
+              "url": "https://youtrack.jetbrains.com/issue/KT-58266",
+              "created": "2023-04-25T22:19:16.617Z",
+              "updated": "2026-07-31T17:58:28.989Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-87064",
+              "summary": "KotlinCompile configuration cache failure with __buildFusService__ when develocity and nmcp.settings plugins are both applied",
+              "url": "https://youtrack.jetbrains.com/issue/KT-87064",
+              "created": "2026-06-18T12:46:31.135Z",
+              "updated": "2026-06-24T07:00:19.690Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            }
+          ]
+        },
+        "Tools. Compiler Plugins": {
+          "tickets": [
+            {
+              "id": "KT-68534",
+              "summary": "Power-Assert Android sources support",
+              "url": "https://youtrack.jetbrains.com/issue/KT-68534",
+              "created": "2024-05-27T07:29:37.479Z",
+              "updated": "2026-07-30T14:37:59.716Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            }
+          ]
+        },
+        "Tools. Gradle. Multiplatform": {
+          "tickets": [
+            {
+              "id": "KT-54207",
+              "summary": "Kotlin has two sources tasks (kotlinSourcesJar and sourcesJar)  that archives sources to the same artifact",
+              "url": "https://youtrack.jetbrains.com/issue/KT-54207",
+              "created": "2022-09-28T10:14:14.729Z",
+              "updated": "2026-07-28T21:01:14.054Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-64893",
+              "summary": "Source sets configuration inside targets leads to errors: 'NamedDomainObjectProvider<KotlinSourceSet>' can't be called in this context by implicit receiver'",
+              "url": "https://youtrack.jetbrains.com/issue/KT-64893",
+              "created": "2024-01-11T11:24:24.417Z",
+              "updated": "2025-01-17T20:24:09.431Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-64905",
+              "summary": "Source sets accessing within configuration of compilations leads to errors: 'NamedDomainObjectProvider<KotlinSourceSet>' can't be called in this context by implicit receiver'",
+              "url": "https://youtrack.jetbrains.com/issue/KT-64905",
+              "created": "2024-01-11T17:03:31.113Z",
+              "updated": "2025-01-17T20:23:07.183Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-71179",
+              "summary": "Gradle properties with Enum value type: there is no user-friendly error message in case of a typo or empty value  ",
+              "url": "https://youtrack.jetbrains.com/issue/KT-71179",
+              "created": "2024-09-03T14:06:20.227Z",
+              "updated": "2025-06-10T21:56:54.120Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-78988",
+              "summary": "Adding project dependency breaks isolated projects in KMP",
+              "url": "https://youtrack.jetbrains.com/issue/KT-78988",
+              "created": "2025-07-08T14:45:24.384Z",
+              "updated": "2025-07-23T13:31:37.010Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-85773",
+              "summary": "Make JVM friend paths to be in sync with classpath",
+              "url": "https://youtrack.jetbrains.com/issue/KT-85773",
+              "created": "2026-04-15T22:47:25.207Z",
+              "updated": "2026-04-15T22:47:25.207Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            },
+            {
+              "id": "KT-87482",
+              "summary": "Mark with Delicate API current KGP Api",
+              "url": "https://youtrack.jetbrains.com/issue/KT-87482",
+              "created": "2026-07-07T07:09:37.381Z",
+              "updated": "2026-07-07T13:41:14.742Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            }
+          ]
+        },
+        "Tools. Gradle. Cocoapods": {
+          "tickets": [
+            {
+              "id": "KT-76942",
+              "summary": "Configure cocoapods resources link",
+              "url": "https://youtrack.jetbrains.com/issue/KT-76942",
+              "created": "2025-04-22T15:52:43.960Z",
+              "updated": "2026-01-22T14:44:03.563Z",
+              "status": "NEW",
+              "result": null,
+              "attempts": 0
+            }
+          ]
+        }
+      }
+    }
+  }
+}
