@@ -1,0 +1,25 @@
+ticket: KT-61455
+status: NEEDS_HUMAN
+checkedAt: "2026-09-17T16:29:00Z"
+checkedTicketUpdatedAt: "2026-07-23T13:48:24.562Z"
+environment:
+  kotlin: "2.4.20"
+  gradle: "9.1.0 (Docker image; 9.7.1 wrapper generation blocked by plugin resolution)"
+  jdk: "21 (Gradle container image)"
+  os: "Linux (Docker container)"
+reproducer:
+  found: false
+  created: true
+  updated: false
+  command: "docker run --rm --network=host -v \"$PWD:/workspace\" -w /workspace gradle:9.1.0-jdk21 gradle clean build --scan --no-daemon"
+  archive: null
+verification:
+  reproduced: false
+  expected: "A Build Scan shows non-incremental Kotlin/Native tasks without the Incremental build tag or empty source-change lists."
+  actual: "The isolated Gradle run could not resolve com.gradle.enterprise:3.18.2, and no configured Build Scan/Develocity service is available to inspect task labels."
+  reason: "A maintainer with access to the relevant Build Scan service must run the project and inspect Kotlin/Native task labels and custom values."
+error: "YouTrack publication was not attempted because no authenticated integration is available to guarantee jetbrains-team visibility."
+youtrack:
+  commentAdded: false
+  attachmentAdded: false
+  marker: "automated-reproducer:KT-61455:2026-07-23T13:48:24.562Z"

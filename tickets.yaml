@@ -449,12 +449,13 @@
               "url": "https://youtrack.jetbrains.com/issue/KT-61455",
               "created": "2023-08-24T16:15:34.471Z",
               "updated": "2026-07-23T13:48:24.562Z",
-              "status": "PROCESSING",
-              "result": null,
+              "status": "NEEDS_HUMAN",
+              "result": "tickets/Kotlin/Tools. Gradle/KT-61455/result.yaml",
               "attempts": 1,
-              "processingStartedAt": "2026-09-17T16:27:00Z",
-              "processingOwner": "d82e4e24-ffae-4a76-aa11-5e419c395a96",
-              "lastAttemptAt": "2026-09-17T16:27:00Z"
+              "processingStartedAt": null,
+              "processingOwner": null,
+              "lastAttemptAt": "2026-09-17T16:29:00Z",
+              "checkedTicketUpdatedAt": "2026-07-23T13:48:24.562Z"
             },
             {
               "id": "KT-61608",
