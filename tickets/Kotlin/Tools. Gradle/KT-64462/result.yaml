@@ -1,0 +1,33 @@
+ticket: KT-64462
+status: REPRODUCER_CREATED
+checkedAt: "2026-09-17T20:39:15Z"
+checkedTicketUpdatedAt: "2026-07-30T13:24:31.653Z"
+environment:
+  kotlin: "2.0.0"
+  gradle: "8.2.1"
+  jdk: "Eclipse Temurin 17.0.20"
+  os: "Linux x86_64 (eclipse-temurin:17-jdk-jammy container)"
+  plugins:
+    kotlin-jvm: "2.0.0"
+reproducer:
+  found: false
+  created: true
+  updated: false
+  command: "./gradlew help --warning-mode all --stacktrace"
+  archive: "reproducer.zip"
+  migrationChanges:
+    - "Created the minimal Gradle Kotlin DSL project from the public issue description."
+    - "Used Kotlin 2.0.0, the nearest published release to the issue's 2.0.255-SNAPSHOT, because versions.yaml is absent."
+verification:
+  reproduced: true
+  expected: "Gradle warns that xImplementation, xCompileOnly, and xRuntimeOnly were created explicitly although their names are reserved."
+  actual: "Gradle 8.2.1 emitted the reported warning for all three configurations, with JavaBasePlugin.warnIfConfigurationAlreadyExists in each stack trace; the help task then succeeded."
+  reason: null
+error: "No authenticated YouTrack integration is available to guarantee jetbrains-team visibility, so no comment or attachment was published. The required versions.yaml and configured inventory query are also absent."
+youtrack:
+  visibilityChecked: true
+  visibility: "public"
+  commentAdded: false
+  attachmentAdded: false
+  marker: "automated-reproducer:KT-64462:2026-07-30T13:24:31.653Z"
+signature: "Produced by Air Automations. Name: Backlog reproducer / Run: https://air.jetbrains.cloud/org/05cf1a7f-6ab5-713b-abd3-29d0c8a05e2d/automations/532b03ac-789f-4461-97e2-0743d00580e6?run=d5813ab3-3d6d-4d00-b170-591067c8d41e"
