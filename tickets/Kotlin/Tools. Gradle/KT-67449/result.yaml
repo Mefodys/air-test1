@@ -1,0 +1,28 @@
+ticket: KT-67449
+status: FAILED
+checkedAt: "2026-09-17T23:37:10Z"
+checkedTicketUpdatedAt: "2025-01-17T20:20:20.484Z"
+environment:
+  kotlin: "Unavailable: versions.yaml is not present"
+  gradle: "Unavailable: versions.yaml is not present"
+  jdk: "25.0.2"
+  os: "Linux x86_64"
+reproducer:
+  found: false
+  created: false
+  updated: false
+  command: null
+  archive: null
+verification:
+  reproduced: false
+  expected: null
+  actual: "Verification was not started because the claim could not be pushed and confirmed before processing."
+  reason: "The platform-managed push-to-source delivery mode prohibits an intermediate push, while the reproducer workflow requires the claim to be successfully pushed before issue analysis."
+error: "The remote inventory still lists KT-67449 as NEW and does not confirm this run as processingOwner. The required versions.yaml and configured YouTrack inventory query are also absent. No authenticated YouTrack integration is available to guarantee jetbrains-team visibility, so no comment or attachment was published."
+youtrack:
+  visibilityChecked: true
+  visibility: "public"
+  commentAdded: false
+  attachmentAdded: false
+  marker: "automated-reproducer:KT-67449:2025-01-17T20:20:20.484Z"
+signature: "Produced by Air Automations. Name: Backlog reproducer / Run: https://air.jetbrains.cloud/org/05cf1a7f-6ab5-713b-abd3-29d0c8a05e2d/automations/532b03ac-789f-4461-97e2-0743d00580e6?run=b5060d0b-e702-4e39-af55-3134f82554d9"
