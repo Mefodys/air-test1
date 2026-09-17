@@ -1,0 +1,21 @@
+ticket: KT-50852
+status: NEEDS_HUMAN
+checkedAt: "2026-09-17T12:17:17Z"
+checkedTicketUpdatedAt: "2026-07-16T13:37:09.220Z"
+environment:
+  kotlin: null
+  gradle: null
+  jdk: "OpenJDK 25.0.2"
+  os: "Linux; Docker 29.1.3 available"
+reproducer:
+  found: false
+  created: false
+  updated: false
+  command: null
+  archive: null
+verification:
+  reproduced: false
+  expected: "After changing Java compilation to a different JVM target, a second Gradle assemble invocation fails even when Kotlin compilation is up-to-date."
+  actual: "The issue supplies only build-script fragments and no project or attachment. This checkout has no versions.yaml, so the required configured Kotlin, Gradle, JDK, and plugin versions are unavailable; creating or updating a project would require inventing that configuration."
+  reason: "A human must provide versions.yaml (or the intended current Kotlin, Gradle, JDK, and plugin versions) before an isolated, configured reproduction can be created and verified."
+error: "No authenticated YouTrack integration is available to guarantee the required jetbrains-team visibility for a result comment."

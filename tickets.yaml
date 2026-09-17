@@ -168,12 +168,13 @@
               "url": "https://youtrack.jetbrains.com/issue/KT-50852",
               "created": "2022-01-18T16:27:02.957Z",
               "updated": "2026-07-16T13:37:09.220Z",
-              "status": "PROCESSING",
-              "result": null,
+              "status": "NEEDS_HUMAN",
+              "result": "tickets/Kotlin/Tools. Gradle/KT-50852/result.yaml",
               "attempts": 1,
-              "processingStartedAt": "2026-09-17T12:16:01Z",
-              "processingOwner": "7159f84cd1c54d7ec637b925035463e9",
-              "lastAttemptAt": "2026-09-17T12:16:01Z"
+              "processingStartedAt": null,
+              "processingOwner": null,
+              "lastAttemptAt": "2026-09-17T12:17:17Z",
+              "checkedTicketUpdatedAt": "2026-07-16T13:37:09.220Z"
             },
             {
               "id": "KT-52205",
