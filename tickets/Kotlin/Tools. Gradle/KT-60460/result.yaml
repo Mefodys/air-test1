@@ -1,0 +1,25 @@
+ticket: KT-60460
+status: NEEDS_HUMAN
+checkedAt: "2026-09-17T14:34:00Z"
+checkedTicketUpdatedAt: "2026-07-23T13:37:15.664Z"
+environment:
+  kotlin: "1.9.0 (reported affected version; no configured verification version)"
+  gradle: "Unavailable: versions.yaml is not present"
+  jdk: "OpenJDK 25.0.2"
+  os: "Linux (Docker and Podman available)"
+reproducer:
+  found: false
+  created: false
+  updated: false
+  command: null
+  archive: null
+verification:
+  reproduced: false
+  expected: "Applying the Kotlin Gradle plugin must not change duplicate-resource detection for the entire Gradle project."
+  actual: "The public issue has no attached or linked Gradle project, build script, resource layout, command, observed duplicate-resource output, or version matrix. The report only links to a Kotlin plugin source line and records an affected Kotlin version. Without the configured Gradle and plugin versions, a faithful isolated reproduction cannot be created or verified safely."
+  reason: "A human must provide a minimal affected Gradle project or exact reproduction steps, including the duplicate-resource layout and intended Kotlin/Gradle version matrix."
+error: "No authenticated YouTrack integration is available to guarantee jetbrains-team visibility for the required private comment; no comment or attachment was posted."
+youtrack:
+  commentAdded: false
+  attachmentAdded: false
+  marker: "automated-reproducer:KT-60460:2026-07-23T13:37:15.664Z"
