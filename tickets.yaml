@@ -434,9 +434,14 @@
               "url": "https://youtrack.jetbrains.com/issue/KT-61410",
               "created": "2023-08-22T14:41:57.627Z",
               "updated": "2026-07-23T13:46:51.321Z",
-              "status": "NEW",
+              "youtrackStatus": "Unknown",
+              "processingStatus": "PROCESSING",
               "result": null,
-              "attempts": 0
+              "attempts": 1,
+              "processingStartedAt": "2026-09-17T16:16:01Z",
+              "processingOwner": "7b171f1f-ad94-42e2-b46d-a5f18ccbfac3",
+              "lastAttemptAt": "2026-09-17T16:16:01Z",
+              "checkedTicketUpdatedAt": null
             },
             {
               "id": "KT-61455",
