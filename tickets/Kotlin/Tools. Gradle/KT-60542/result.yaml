@@ -1,0 +1,25 @@
+ticket: KT-60542
+status: NEEDS_HUMAN
+checkedAt: "2026-09-17T14:48:30Z"
+checkedTicketUpdatedAt: "2025-04-28T17:06:30.691Z"
+environment:
+  kotlin: "1.8.21 (reported affected version; no configured verification version)"
+  gradle: "Unavailable: versions.yaml is not present"
+  jdk: "OpenJDK 25.0.2"
+  os: "Linux (Docker available)"
+reproducer:
+  found: false
+  created: false
+  updated: false
+  command: null
+  archive: null
+verification:
+  reproduced: false
+  expected: "KotlinBaseApiPlugin should have a plugin ID and registerKotlinJvmCompileTask should support direct task configuration."
+  actual: "The public report contains an API-usability request and one rejected workaround, but no runnable project, code that demonstrates a failing behavior, required Gradle version, or objective expected compiler/build output. No attached or linked reproducer is available."
+  reason: "A human must provide a minimal Gradle project, the intended Kotlin/Gradle version matrix, and an observable pass/fail criterion before this API request can be verified safely."
+error: "No authenticated YouTrack integration is available to guarantee jetbrains-team visibility for the required private comment; no comment or attachment was posted."
+youtrack:
+  commentAdded: false
+  attachmentAdded: false
+  marker: "automated-reproducer:KT-60542:2025-04-28T17:06:30.691Z"
