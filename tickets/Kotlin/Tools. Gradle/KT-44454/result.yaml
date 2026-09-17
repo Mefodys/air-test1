@@ -1,0 +1,25 @@
+ticket: KT-44454
+status: VERIFIED
+checkedAt: "2026-09-17T11:41:00Z"
+checkedTicketUpdatedAt: "2026-07-07T13:02:04.177Z"
+environment:
+  kotlin: "2.4.20"
+  gradle: "9.7.1"
+  jdk: "Eclipse Temurin 25.0.4"
+  os: "Linux (Docker: gradle:9.7.1-jdk25)"
+reproducer:
+  found: true
+  created: false
+  updated: true
+  command: "docker run --rm --network host -e JAVA_TOOL_OPTIONS='<proxy settings required by this environment>' -v $PWD:/workspace -w /workspace gradle:9.7.1-jdk25 sh ./verify.sh"
+  archive: "reproducer.zip"
+verification:
+  reproduced: true
+  expected: "After removing requires kotlin.stdlib from module-info.java, Kotlin compilation fails with the missing Kotlin standard library module-graph error."
+  actual: "After an initial successful compilation with requires kotlin.stdlib, the second compileKotlin task succeeds after that declaration is removed; verify.sh exits 1 because this success is unexpected."
+  reason: null
+youtrack:
+  commentAdded: false
+  attachmentAdded: false
+  marker: "automated-reproducer:KT-44454:2026-07-07T13:02:04.177Z"
+error: "No authenticated YouTrack integration was available to guarantee the required jetbrains-team visibility, so no comment or attachment was posted."
