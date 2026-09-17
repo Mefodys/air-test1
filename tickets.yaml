@@ -557,9 +557,13 @@
               "url": "https://youtrack.jetbrains.com/issue/KT-62258",
               "created": "2023-10-02T15:04:21.082Z",
               "updated": "2026-07-23T13:50:10.949Z",
-              "status": "NEW",
+              "processingStatus": "PROCESSING",
               "result": null,
-              "attempts": 0
+              "attempts": 1,
+              "processingStartedAt": "2026-09-17T18:15:00Z",
+              "processingOwner": "5e91ad58-4936-4ae6-bb26-da5bf6a87f9d",
+              "lastAttemptAt": "2026-09-17T18:15:00Z",
+              "checkedTicketUpdatedAt": null
             },
             {
               "id": "KT-63281",
