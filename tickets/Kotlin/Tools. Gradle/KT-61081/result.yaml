@@ -1,0 +1,25 @@
+ticket: KT-61081
+status: NEEDS_HUMAN
+checkedAt: "2026-09-17T15:17:14Z"
+checkedTicketUpdatedAt: "2025-01-17T20:59:46.478Z"
+environment:
+  kotlin: "Unavailable: versions.yaml is not present"
+  gradle: "Unavailable: versions.yaml is not present"
+  jdk: "OpenJDK 25.0.2"
+  os: "Linux (Docker and Podman available)"
+reproducer:
+  found: false
+  created: false
+  updated: false
+  command: null
+  archive: null
+verification:
+  reproduced: false
+  expected: "Kotlin Gradle Plugin resolves its own and the default Kotlin/Native versions even when another classpath artifact contains project.properties."
+  actual: "The public issue supplies only a design-level description of a possible project.properties classpath collision; it has no executable scenario, affected build, stack trace, or defined failing outcome."
+  reason: "A human must provide a runnable failing project or precise observable symptom and the intended Kotlin, Gradle, and JDK matrix before isolated verification is safe."
+error: "No authenticated YouTrack integration is available to guarantee jetbrains-team visibility for the required private comment; no comment or attachment was posted."
+youtrack:
+  commentAdded: false
+  attachmentAdded: false
+  marker: "automated-reproducer:KT-61081:2025-01-17T20:59:46.478Z"
