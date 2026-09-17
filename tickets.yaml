@@ -390,9 +390,14 @@
               "url": "https://youtrack.jetbrains.com/issue/KT-60712",
               "created": "2023-07-26T08:53:56.208Z",
               "updated": "2026-09-07T14:03:56.905Z",
-              "status": "NEW",
+              "status": "PROCESSING",
+              "processingStatus": "PROCESSING",
               "result": null,
-              "attempts": 0
+              "attempts": 1,
+              "processingStartedAt": "2026-09-17T15:06:42Z",
+              "processingOwner": "e91ba215-fcb4-4693-8a29-04eaa52384ff",
+              "lastAttemptAt": "2026-09-17T15:06:42Z",
+              "checkedTicketUpdatedAt": null
             },
             {
               "id": "KT-61081",
