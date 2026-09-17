@@ -126,9 +126,12 @@
               "url": "https://youtrack.jetbrains.com/issue/KT-49784",
               "created": "2021-11-18T15:59:39.850Z",
               "updated": "2026-07-07T13:45:29.714Z",
-              "status": "NEW",
+              "status": "PROCESSING",
               "result": null,
-              "attempts": 0
+              "attempts": 1,
+              "processingStartedAt": "2026-09-17T11:55:47Z",
+              "processingOwner": "backlog-reproducer-ad19a21d-93ba-4002-9e88-7c701003adae",
+              "lastAttemptAt": "2026-09-17T11:55:47Z"
             },
             {
               "id": "KT-50130",
