@@ -1,0 +1,25 @@
+ticket: KT-61608
+status: REPRODUCER_CREATED
+checkedAt: "2026-09-17T17:04:41Z"
+checkedTicketUpdatedAt: "2025-01-17T20:29:19.046Z"
+environment:
+  kotlin: "2.4.20"
+  gradle: "9.1.0"
+  jdk: "21"
+  os: "Linux 6.17.0-1017-aws x86_64 (Docker container)"
+reproducer:
+  found: false
+  created: true
+  updated: false
+  command: "docker run --rm -v \"$PWD:/workspace\" -w /workspace gradle:9.1.0-jdk21 gradle help --no-daemon"
+  archive: "reproducer.zip"
+verification:
+  reproduced: true
+  expected: "A custom Kotlin JVM compile task can copy script and common source inputs from the standard task through supported public APIs."
+  actual: "Kotlin DSL compilation reports unresolved references for scriptSources and commonSourceSet; the adjacent public sources access compiles."
+  reason: null
+error: "YouTrack publication was not attempted because no authenticated integration is available to guarantee jetbrains-team visibility."
+youtrack:
+  commentAdded: false
+  attachmentAdded: false
+  marker: "automated-reproducer:KT-61608:2025-01-17T20:29:19.046Z"
