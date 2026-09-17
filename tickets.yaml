@@ -196,9 +196,13 @@
               "url": "https://youtrack.jetbrains.com/issue/KT-52225",
               "created": "2022-04-29T03:01:17.078Z",
               "updated": "2026-08-03T12:35:33.671Z",
-              "status": "NEW",
+              "status": "PROCESSING",
               "result": null,
-              "attempts": 0
+              "attempts": 1,
+              "processingStartedAt": "2026-09-17T12:26:08Z",
+              "processingOwner": "518d0725-e074-43a7-9213-a0eb20136692",
+              "lastAttemptAt": "2026-09-17T12:26:08Z",
+              "checkedTicketUpdatedAt": null
             },
             {
               "id": "KT-54207",
