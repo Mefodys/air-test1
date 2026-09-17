@@ -1,0 +1,25 @@
+ticket: KT-41582
+status: REPRODUCER_CREATED
+checkedAt: "2026-09-17T10:52:00Z"
+checkedTicketUpdatedAt: "2026-06-25T13:39:19.766Z"
+environment:
+  kotlin: "2.4.20"
+  gradle: "9.7.1"
+  jdk: "OpenJDK 25"
+  os: "Linux (Docker: gradle:9.7.1-jdk25)"
+reproducer:
+  found: false
+  created: true
+  updated: false
+  command: "docker run --rm --network host -v $PWD:/workspace -w /workspace gradle:9.7.1-jdk25 gradle --no-daemon :jvm:publishToMavenLocal :mpp:publishToMavenLocal"
+  archive: "reproducer.zip"
+verification:
+  reproduced: true
+  expected: "Kotlin/JVM and Kotlin/JS modules should publish to Maven local without explicit MavenPublication configuration, as Kotlin Multiplatform modules do."
+  actual: "The unconfigured Kotlin/JVM publishToMavenLocal task completed without publication tasks or Maven artifacts; the unconfigured multiplatform module generated publication tasks and artifacts. Kotlin 2.4.20 rejects the legacy standalone Kotlin/JS plugin before execution."
+  reason: null
+youtrack:
+  commentAdded: false
+  attachmentAdded: false
+  marker: "automated-reproducer:KT-41582:2026-06-25T13:39:19.766Z"
+error: "No authenticated YouTrack integration was available to guarantee the required jetbrains-team visibility, so no comment or attachment was posted."
