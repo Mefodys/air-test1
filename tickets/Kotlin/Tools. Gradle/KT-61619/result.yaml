@@ -1,0 +1,25 @@
+ticket: KT-61619
+status: NEEDS_HUMAN
+checkedAt: "2026-09-17T17:23:50Z"
+checkedTicketUpdatedAt: "2025-01-17T20:49:45.240Z"
+environment:
+  kotlin: "2.4.20"
+  gradle: "9.7.1"
+  jdk: "Temurin 26.0.2"
+  os: "Linux x86_64 (Docker container)"
+reproducer:
+  found: false
+  created: true
+  updated: false
+  command: "docker run --rm -v \"$PWD:/workspace\" -w /workspace gradle:9.7.1-jdk26 gradle clean build --warning-mode=all --no-daemon"
+  archive: "reproducer.zip"
+verification:
+  reproduced: false
+  expected: "An unsupported installed JVM toolchain produces one concise fallback warning instead of duplicate configuration and per-task warnings."
+  actual: "The build succeeded with zero fallback warnings because Kotlin 2.4.20 supports the newest available JDK 26 target."
+  reason: "The required versions.yaml is absent and no installed JDK newer than the checked Kotlin compiler supports was available; the essential unsupported-toolchain condition requires human verification."
+error: "No authenticated YouTrack integration is available to guarantee jetbrains-team visibility; no comment or attachment was published."
+youtrack:
+  commentAdded: false
+  attachmentAdded: false
+  marker: "automated-reproducer:KT-61619:2025-01-17T20:49:45.240Z"

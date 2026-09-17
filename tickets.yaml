@@ -480,14 +480,14 @@
               "created": "2023-08-31T15:46:43.988Z",
               "updated": "2025-01-17T20:49:45.240Z",
               "youtrackStatus": "Backlog",
-              "processingStatus": "PROCESSING",
-              "status": "PROCESSING",
-              "result": null,
+              "processingStatus": "NEEDS_HUMAN",
+              "status": "NEEDS_HUMAN",
+              "result": "tickets/Kotlin/Tools. Gradle/KT-61619/result.yaml",
               "attempts": 1,
-              "processingStartedAt": "2026-09-17T17:16:38Z",
-              "processingOwner": "4b25eff2-7eee-4621-90be-2ad0bdf0f559",
-              "lastAttemptAt": "2026-09-17T17:16:38Z",
-              "checkedTicketUpdatedAt": null
+              "processingStartedAt": null,
+              "processingOwner": null,
+              "lastAttemptAt": "2026-09-17T17:23:50Z",
+              "checkedTicketUpdatedAt": "2025-01-17T20:49:45.240Z"
             },
             {
               "id": "KT-61986",
