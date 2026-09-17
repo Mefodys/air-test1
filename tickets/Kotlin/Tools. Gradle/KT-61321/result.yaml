@@ -1,0 +1,25 @@
+ticket: KT-61321
+status: REPRODUCER_BROKEN
+checkedAt: "2026-09-17T15:29:00Z"
+checkedTicketUpdatedAt: "2025-01-17T20:59:53.565Z"
+environment:
+  kotlin: "1.9.20-Beta-35 (declared by attached reproducer)"
+  gradle: "8.2.1"
+  jdk: "Eclipse Temurin OpenJDK 17.0.8"
+  os: "Linux (Docker container)"
+reproducer:
+  found: true
+  created: false
+  updated: true
+  command: "gradle compileKotlin --info"
+  archive: null
+verification:
+  reproduced: false
+  expected: "The Kotlin compiler invocation contains -Xexplicit-api=strict twice after explicitApi() is configured."
+  actual: "Gradle stopped during settings evaluation because org.gradle.toolchains.foojay-resolver-convention:0.5.0 could not be resolved. Kotlin compilation did not run."
+  reason: "The supplied project cannot be executed to its Kotlin compilation stage in the available isolated environment."
+error: "The reproducer declares a Foojay resolver settings plugin that Gradle could not resolve from its configured repositories. versions.yaml is also absent, so no configured replacement version can be selected safely."
+youtrack:
+  commentAdded: true
+  attachmentAdded: false
+  marker: "automated-reproducer:KT-61321:2025-01-17T20:59:53.565Z"
