@@ -602,9 +602,14 @@
               "url": "https://youtrack.jetbrains.com/issue/KT-63675",
               "created": "2023-11-21T13:45:40.080Z",
               "updated": "2025-01-17T20:40:26.728Z",
-              "status": "NEW",
+              "youtrackStatus": "Backlog",
+              "processingStatus": "PROCESSING",
               "result": null,
-              "attempts": 0
+              "attempts": 1,
+              "processingStartedAt": "2026-09-17T19:36:44Z",
+              "processingOwner": "3f24ce8c-e4b6-4108-94a3-993a4925603c",
+              "lastAttemptAt": "2026-09-17T19:36:44Z",
+              "checkedTicketUpdatedAt": null
             },
             {
               "id": "KT-64040",
