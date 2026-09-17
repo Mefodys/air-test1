@@ -32,9 +32,11 @@
               "url": "https://youtrack.jetbrains.com/issue/KT-41077",
               "created": "2020-08-14T10:33:10.794Z",
               "updated": "2026-06-25T13:34:16.191Z",
-              "status": "NEW",
+              "status": "PROCESSING",
               "result": null,
-              "attempts": 0
+              "attempts": 1,
+              "lastAttemptAt": "2026-09-17T10:40:48Z",
+              "checkedTicketUpdatedAt": null
             },
             {
               "id": "KT-41582",
