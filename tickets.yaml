@@ -241,7 +241,12 @@
               "updated": "2026-07-16T13:58:39.295Z",
               "status": "NEW",
               "result": null,
-              "attempts": 0
+              "attempts": 1,
+              "processingStatus": "PROCESSING",
+              "processingStartedAt": "2026-09-17T12:52:23Z",
+              "processingOwner": "70d7d3eb-5266-46b8-ae16-83aea5264cb2",
+              "lastAttemptAt": "2026-09-17T12:52:23Z",
+              "checkedTicketUpdatedAt": null
             },
             {
               "id": "KT-56129",
