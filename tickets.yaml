@@ -286,7 +286,12 @@
               "updated": "2026-07-31T17:58:28.989Z",
               "status": "NEW",
               "result": null,
-              "attempts": 0
+              "attempts": 1,
+              "processingStatus": "PROCESSING",
+              "processingStartedAt": "2026-09-17T13:20:00Z",
+              "processingOwner": "4c353da6-a1e8-43a1-9d9c-29023bd94ecc",
+              "lastAttemptAt": "2026-09-17T13:20:00Z",
+              "checkedTicketUpdatedAt": null
             },
             {
               "id": "KT-58445",
