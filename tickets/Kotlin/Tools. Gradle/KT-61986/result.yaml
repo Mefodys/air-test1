@@ -1,0 +1,25 @@
+ticket: KT-61986
+status: REPRODUCER_CREATED
+checkedAt: "2026-09-17T17:30:00Z"
+checkedTicketUpdatedAt: "2025-01-17T20:49:58.359Z"
+environment:
+  kotlin: "2.4.20"
+  gradle: "9.7.1"
+  jdk: "Temurin 26.0.2"
+  os: "Linux x86_64 (Docker container)"
+reproducer:
+  found: false
+  created: true
+  updated: false
+  command: "docker run --rm -v \"$PWD:/workspace\" -w /workspace gradle:9.7.1-jdk26 gradle clean build --warning-mode=all --no-daemon"
+  archive: "reproducer.zip"
+verification:
+  reproduced: true
+  expected: "-Xjdk-release=17 sets Kotlin's JVM target to 17, matching compileJava, and the build passes JVM target validation."
+  actual: "compileKotlin fails because compileJava targets 17 while compileKotlin targets the JDK 26 toolchain."
+  reason: null
+error: "The configured YouTrack integration can create a restricted comment but has no attachment-upload capability; no comment was published so a later run can atomically publish the comment and reproducer archive. The required versions.yaml is also absent; the immediately preceding result's fallback matrix was used."
+youtrack:
+  commentAdded: false
+  attachmentAdded: false
+  marker: "automated-reproducer:KT-61986:2025-01-17T20:49:58.359Z"
