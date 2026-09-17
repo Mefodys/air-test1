@@ -140,12 +140,13 @@
               "url": "https://youtrack.jetbrains.com/issue/KT-50130",
               "created": "2021-12-08T08:50:53.916Z",
               "updated": "2026-07-07T13:50:58.345Z",
-              "status": "PROCESSING",
-              "result": null,
+              "status": "NEEDS_HUMAN",
+              "result": "tickets/Kotlin/Tools. Gradle/KT-50130/result.yaml",
               "attempts": 1,
-              "processingStartedAt": "2026-09-17T12:04:04Z",
-              "processingOwner": "3298818b-3245-4642-8691-c8e52b8d9769",
-              "lastAttemptAt": "2026-09-17T12:04:04Z"
+              "processingStartedAt": null,
+              "processingOwner": null,
+              "lastAttemptAt": "2026-09-17T12:04:30Z",
+              "checkedTicketUpdatedAt": "2026-07-07T13:50:58.345Z"
             },
             {
               "id": "KT-50552",

@@ -1,0 +1,25 @@
+ticket: KT-50130
+status: NEEDS_HUMAN
+checkedAt: "2026-09-17T12:04:30Z"
+checkedTicketUpdatedAt: "2026-07-07T13:50:58.345Z"
+environment:
+  kotlin: "Unspecified (versions.yaml is absent)"
+  gradle: "7.2 (reported); 8.10.2 attempted"
+  jdk: "17 (Docker image)"
+  os: "Linux (isolated Docker container)"
+reproducer:
+  found: false
+  created: false
+  updated: false
+  command: "./gradlew compileKotlin"
+  archive: null
+verification:
+  reproduced: false
+  expected: "A pre-existing file in the custom compileKotlin destination directory remains after compileKotlin."
+  actual: "Verification could not start because the Kotlin Gradle plugin could not be resolved from the isolated Gradle environment."
+  reason: "The repository has no versions.yaml and no accessible configured Kotlin plugin repository for the container."
+youtrack:
+  commentAdded: false
+  attachmentAdded: false
+  marker: "automated-reproducer:KT-50130:2026-07-07T13:50:58.345Z"
+error: "No authenticated YouTrack integration was available to guarantee jetbrains-team visibility; no comment was posted."
