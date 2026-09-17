@@ -1,0 +1,25 @@
+ticket: KT-62093
+status: NEEDS_HUMAN
+checkedAt: "2026-09-17T17:42:37Z"
+checkedTicketUpdatedAt: "2024-10-14T16:00:17.043Z"
+environment:
+  kotlin: "Unavailable: versions.yaml is not present"
+  gradle: "Unavailable: versions.yaml is not present"
+  jdk: "25.0.2"
+  os: "Linux 6.17.0-1017-aws x86_64"
+reproducer:
+  found: false
+  created: false
+  updated: false
+  command: null
+  archive: null
+verification:
+  reproduced: false
+  expected: "After an in-process Kotlin/Native compilation, kotlin-native-compiler-embeddable.jar and trove4j.jar are released and can be deleted on Windows."
+  actual: "The issue provides no standalone project or attachment and requires running NativeDownloadAndPlatformLibsNonParallelIT on Windows. This Linux environment cannot verify Windows file-handle release semantics. A public issue comment also states that KotlinToolRunner.getIsolatedClassloader was removed and the replacement build-service behavior must be rechecked."
+  reason: "A human or automation worker with a Windows environment and access to the Kotlin repository integration-test infrastructure must recheck the current build-service implementation."
+error: "No authenticated YouTrack integration is available to guarantee jetbrains-team visibility for the required private comment; no comment or attachment was posted. The required versions.yaml is also absent."
+youtrack:
+  commentAdded: false
+  attachmentAdded: false
+  marker: "automated-reproducer:KT-62093:2024-10-14T16:00:17.043Z"

@@ -512,13 +512,13 @@
               "created": "2023-09-20T13:12:34.479Z",
               "updated": "2024-10-14T16:00:17.043Z",
               "youtrackStatus": "Backlog",
-              "processingStatus": "PROCESSING",
-              "result": null,
+              "processingStatus": "NEEDS_HUMAN",
+              "result": "tickets/Kotlin/Tools. Gradle/KT-62093/result.yaml",
               "attempts": 1,
-              "processingStartedAt": "2026-09-17T17:41:52Z",
-              "processingOwner": "b3e0e3f8-a582-4204-9287-0cfb084d1bdf",
-              "lastAttemptAt": "2026-09-17T17:41:52Z",
-              "checkedTicketUpdatedAt": null
+              "processingStartedAt": null,
+              "processingOwner": null,
+              "lastAttemptAt": "2026-09-17T17:42:37Z",
+              "checkedTicketUpdatedAt": "2024-10-14T16:00:17.043Z"
             },
             {
               "id": "KT-62095",
