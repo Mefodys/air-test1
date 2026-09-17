@@ -603,13 +603,13 @@
               "created": "2023-11-21T13:45:40.080Z",
               "updated": "2025-01-17T20:40:26.728Z",
               "youtrackStatus": "Backlog",
-              "processingStatus": "PROCESSING",
-              "result": null,
+              "processingStatus": "NEEDS_HUMAN",
+              "result": "tickets/Kotlin/Tools. Gradle/KT-63675/result.yaml",
               "attempts": 1,
-              "processingStartedAt": "2026-09-17T19:36:44Z",
-              "processingOwner": "3f24ce8c-e4b6-4108-94a3-993a4925603c",
-              "lastAttemptAt": "2026-09-17T19:36:44Z",
-              "checkedTicketUpdatedAt": null
+              "processingStartedAt": null,
+              "processingOwner": null,
+              "lastAttemptAt": "2026-09-17T19:37:31Z",
+              "checkedTicketUpdatedAt": "2025-01-17T20:40:26.728Z"
             },
             {
               "id": "KT-64040",
