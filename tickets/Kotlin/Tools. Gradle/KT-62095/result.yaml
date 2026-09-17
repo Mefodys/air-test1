@@ -1,0 +1,25 @@
+ticket: KT-62095
+status: NEEDS_HUMAN
+checkedAt: "2026-09-17T17:45:03Z"
+checkedTicketUpdatedAt: "2025-01-17T20:50:10.345Z"
+environment:
+  kotlin: "Not checked"
+  gradle: "Not checked"
+  jdk: "Not checked"
+  os: "Linux x86_64"
+reproducer:
+  found: false
+  created: false
+  updated: false
+  command: null
+  archive: null
+verification:
+  reproduced: false
+  expected: "A supported, project-wide KotlinTestReport API can ignore test failures without doFirst task mutation and remains compatible with configuration cache."
+  actual: "No deterministic verification was possible: the issue is an API-design request and provides no sample project, failing test, checked version, or defined success criteria."
+  reason: "A human must define the intended supported API and version matrix, or provide a minimal project and observable acceptance criteria; related feature request KT-62839 tracks the public API proposal."
+error: "No authenticated YouTrack integration is available to guarantee jetbrains-team visibility; no comment or attachment was published."
+youtrack:
+  commentAdded: false
+  attachmentAdded: false
+  marker: "automated-reproducer:KT-62095:2025-01-17T20:50:10.345Z"
