@@ -1,0 +1,25 @@
+ticket: KT-41985
+status: FAILED
+checkedAt: "2026-09-17T11:22:00Z"
+checkedTicketUpdatedAt: "2026-07-07T13:05:59.687Z"
+environment:
+  kotlin: null
+  gradle: null
+  jdk: null
+  os: "Linux"
+reproducer:
+  found: false
+  created: false
+  updated: false
+  command: null
+  archive: null
+verification:
+  reproduced: false
+  expected: "Verification requires the configured Kotlin, Gradle, JDK, and plugin versions."
+  actual: "The repository does not contain the required versions.yaml, and the run delivery mode prohibits pushing the claim before analysis."
+  reason: "The required version configuration and required claim-push step were unavailable."
+youtrack:
+  commentAdded: false
+  attachmentAdded: false
+  marker: "automated-reproducer:KT-41985:2026-07-07T13:05:59.687Z"
+error: "No verification or YouTrack publication was attempted because versions.yaml is absent and the platform-owned push occurs only after this run completes."
