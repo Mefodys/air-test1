@@ -249,21 +249,6 @@
               "checkedTicketUpdatedAt": "2026-07-16T13:58:39.295Z"
             },
             {
-              "id": "KT-56129",
-              "summary": "kotlin.jvm.target.validation.mode check doesn't regard jvm-target value set through freeCompilerArgs",
-              "url": "https://youtrack.jetbrains.com/issue/KT-56129",
-              "created": "2023-01-23T15:58:41.999Z",
-              "updated": "2025-01-17T20:43:33.951Z",
-              "status": "NEW",
-              "result": null,
-              "attempts": 1,
-              "processingStatus": "PROCESSING",
-              "processingStartedAt": "2026-09-17T13:01:25Z",
-              "processingOwner": "0bdfa6c4-0353-4d5c-ba8c-7081f00014d7",
-              "lastAttemptAt": "2026-09-17T13:01:25Z",
-              "checkedTicketUpdatedAt": null
-            },
-            {
               "id": "KT-56555",
               "summary": "Build statistics: custom values in build scans aren't reported as well as details to a file  with build stat. if a project has a composite structure (included builds)",
               "url": "https://youtrack.jetbrains.com/issue/KT-56555",
@@ -1929,5 +1914,12 @@
         }
       }
     }
-  }
+  },
+  "privateTickets": [
+    {
+      "id": "KT-56129",
+      "processingStatus": "SKIPPED_PRIVATE",
+      "reason": "Restricted visibility. Manual review is required."
+    }
+  ]
 }
