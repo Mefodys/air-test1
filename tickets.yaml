@@ -182,12 +182,13 @@
               "url": "https://youtrack.jetbrains.com/issue/KT-52205",
               "created": "2022-04-27T09:50:12.047Z",
               "updated": "2026-07-16T13:22:21.309Z",
-              "status": "PROCESSING",
-              "result": null,
+              "status": "NEEDS_HUMAN",
+              "result": "tickets/Kotlin/Tools. Gradle/KT-52205/result.yaml",
               "attempts": 1,
-              "processingStartedAt": "2026-09-17T12:20:48Z",
-              "processingOwner": "b31c4475-25be-497b-89a7-1498fb696c50",
-              "lastAttemptAt": "2026-09-17T12:20:48Z"
+              "processingStartedAt": null,
+              "processingOwner": null,
+              "lastAttemptAt": "2026-09-17T12:21:34Z",
+              "checkedTicketUpdatedAt": "2026-07-16T13:22:21.309Z"
             },
             {
               "id": "KT-52225",
