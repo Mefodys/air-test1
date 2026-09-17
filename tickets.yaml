@@ -419,9 +419,14 @@
               "url": "https://youtrack.jetbrains.com/issue/KT-61321",
               "created": "2023-08-18T12:00:33.068Z",
               "updated": "2025-01-17T20:59:53.565Z",
-              "status": "NEW",
+              "youtrackStatus": null,
+              "processingStatus": "PROCESSING",
               "result": null,
-              "attempts": 0
+              "attempts": 1,
+              "processingStartedAt": "2026-09-17T15:27:15Z",
+              "processingOwner": "085046b5-a158-4ffa-aa47-d828b1d82031",
+              "lastAttemptAt": "2026-09-17T15:27:15Z",
+              "checkedTicketUpdatedAt": null
             },
             {
               "id": "KT-61410",
