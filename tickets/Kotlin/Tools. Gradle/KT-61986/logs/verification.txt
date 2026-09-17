@@ -1,0 +1,7 @@
+Command: docker run --rm -e HTTP_PROXY -e HTTPS_PROXY -e http_proxy -e https_proxy -e JAVA_TOOL_OPTIONS -v "$PWD:/workspace" -w /workspace gradle:9.7.1-jdk26 gradle clean build --warning-mode=all --no-daemon
+Exit code: 1
+
+> Task :compileKotlin FAILED
+Inconsistent JVM-target compatibility detected for tasks 'compileJava' (17) and 'compileKotlin' (26).
+
+BUILD FAILED
