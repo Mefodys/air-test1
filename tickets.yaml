@@ -256,7 +256,12 @@
               "updated": "2025-01-17T20:43:33.951Z",
               "status": "NEW",
               "result": null,
-              "attempts": 0
+              "attempts": 1,
+              "processingStatus": "PROCESSING",
+              "processingStartedAt": "2026-09-17T13:01:25Z",
+              "processingOwner": "0bdfa6c4-0353-4d5c-ba8c-7081f00014d7",
+              "lastAttemptAt": "2026-09-17T13:01:25Z",
+              "checkedTicketUpdatedAt": null
             },
             {
               "id": "KT-56555",
