@@ -1,0 +1,25 @@
+ticket: KT-47594
+status: NEEDS_HUMAN
+checkedAt: "2026-09-17T11:50:00Z"
+checkedTicketUpdatedAt: "2026-07-06T18:21:17.267Z"
+environment:
+  kotlin: "2.4.20 (reported by the latest issue comment)"
+  gradle: null
+  jdk: "JBR 25.0.2 available on host"
+  os: "Linux"
+reproducer:
+  found: false
+  created: false
+  updated: false
+  command: null
+  archive: null
+verification:
+  reproduced: false
+  expected: "An internal Kotlin compiler failure, including JS/Native linker failures, can be distinguished reliably from ordinary compilation errors in Gradle output."
+  actual: "The issue supplies no project, compiler crash, linker failure, stack trace, or deterministic steps that cause an internal failure. The latest comment describes a best-effort Gradle Problems API integration but does not provide a verification scenario."
+  reason: "A minimal reproducer cannot be created without fabricating the internal compiler or linker failure that the issue asks Gradle to classify."
+youtrack:
+  commentAdded: false
+  attachmentAdded: false
+  marker: "automated-reproducer:KT-47594:2026-07-06T18:21:17.267Z"
+error: "No authenticated YouTrack integration was available to guarantee the required jetbrains-team visibility, so no comment was posted."
