@@ -112,9 +112,12 @@
               "url": "https://youtrack.jetbrains.com/issue/KT-48324",
               "created": "2021-08-18T21:23:34.485Z",
               "updated": "2024-10-18T21:26:12.981Z",
-              "status": "NEW",
+              "status": "PROCESSING",
               "result": null,
-              "attempts": 0
+              "attempts": 1,
+              "processingStartedAt": "2026-09-17T11:51:01Z",
+              "processingOwner": "backlog-reproducer-20260917T115101Z-8fe503f4",
+              "lastAttemptAt": "2026-09-17T11:51:01Z"
             },
             {
               "id": "KT-49784",
