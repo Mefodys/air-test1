@@ -799,9 +799,14 @@
               "url": "https://youtrack.jetbrains.com/issue/KT-67125",
               "created": "2024-04-03T20:38:00.637Z",
               "updated": "2026-09-03T11:24:09.875Z",
-              "status": "NEW",
-              "result": null,
-              "attempts": 0
+              "status": "FAILED",
+              "processingStatus": "FAILED",
+              "result": "tickets/Kotlin/Tools. Gradle/KT-67125/result.yaml",
+              "attempts": 1,
+              "processingStartedAt": null,
+              "processingOwner": null,
+              "lastAttemptAt": "2026-09-17T23:26:47Z",
+              "checkedTicketUpdatedAt": "2026-09-03T11:24:09.875Z"
             },
             {
               "id": "KT-67164",
