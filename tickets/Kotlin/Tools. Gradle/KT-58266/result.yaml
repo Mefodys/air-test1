@@ -1,0 +1,25 @@
+ticket: KT-58266
+status: NEEDS_HUMAN
+checkedAt: "2026-09-17T13:20:00Z"
+checkedTicketUpdatedAt: "2026-07-31T17:58:28.989Z"
+environment:
+  kotlin: "Unavailable: versions.yaml is not present"
+  gradle: "Unavailable: versions.yaml is not present"
+  jdk: "OpenJDK 25.0.2"
+  os: "Linux (Docker 29.1.3 available)"
+reproducer:
+  found: false
+  created: false
+  updated: false
+  command: null
+  archive: null
+verification:
+  reproduced: false
+  expected: "The FUS MAVEN_PUBLISH_EXECUTED metric should report true only when an AbstractPublishToMaven task from maven-publish actually executes, rather than when a task named install merely appears in the task graph."
+  actual: "The public issue provides only a Kotlin excerpt from the Kotlin repository's internal FUS collector. It has no attachment, linked source repository, runnable Gradle project, execution output, or deterministic test procedure. versions.yaml is absent, so the configured Kotlin and Gradle versions are unknown."
+  reason: "A human must provide the affected Kotlin repository revision or a minimal project plus the collector implementation and version matrix before this internal metric behavior can be verified safely."
+error: "No authenticated YouTrack integration is available to add the required jetbrains-team-only comment; no public comment or attachment was created."
+youtrack:
+  commentAdded: false
+  attachmentAdded: false
+  marker: "automated-reproducer:KT-58266:2026-07-31T17:58:28.989Z"
