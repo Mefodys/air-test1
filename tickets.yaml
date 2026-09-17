@@ -249,6 +249,21 @@
               "checkedTicketUpdatedAt": "2026-07-16T13:58:39.295Z"
             },
             {
+              "id": "KT-56129",
+              "summary": "kotlin.jvm.target.validation.mode check doesn't regard jvm-target value set through freeCompilerArgs",
+              "url": "https://youtrack.jetbrains.com/issue/KT-56129",
+              "created": "2023-01-23T15:58:41.999Z",
+              "updated": "2025-01-17T20:43:33.951Z",
+              "youtrackStatus": "Backlog",
+              "processingStatus": "NEW",
+              "result": null,
+              "attempts": 0,
+              "processingStartedAt": null,
+              "processingOwner": null,
+              "lastAttemptAt": null,
+              "checkedTicketUpdatedAt": null
+            },
+            {
               "id": "KT-56555",
               "summary": "Build statistics: custom values in build scans aren't reported as well as details to a file  with build stat. if a project has a composite structure (included builds)",
               "url": "https://youtrack.jetbrains.com/issue/KT-56555",
@@ -512,13 +527,13 @@
               "created": "2023-09-20T13:12:34.479Z",
               "updated": "2024-10-14T16:00:17.043Z",
               "youtrackStatus": "Backlog",
-              "processingStatus": "PROCESSING",
-              "result": null,
+              "processingStatus": "NEEDS_HUMAN",
+              "result": "tickets/Kotlin/Tools. Gradle/KT-62093/result.yaml",
               "attempts": 1,
-              "processingStartedAt": "2026-09-17T17:42:21Z",
-              "processingOwner": "45f4d78f-0a1d-4dce-82e3-c04b053762b0",
-              "lastAttemptAt": "2026-09-17T17:42:21Z",
-              "checkedTicketUpdatedAt": null
+              "processingStartedAt": null,
+              "processingOwner": null,
+              "lastAttemptAt": "2026-09-17T17:42:37Z",
+              "checkedTicketUpdatedAt": "2024-10-14T16:00:17.043Z"
             },
             {
               "id": "KT-62095",
@@ -2013,11 +2028,5 @@
       }
     }
   },
-  "privateTickets": [
-    {
-      "id": "KT-56129",
-      "processingStatus": "SKIPPED_PRIVATE",
-      "reason": "Restricted visibility. Manual review is required."
-    }
-  ]
+  "privateTickets": []
 }
