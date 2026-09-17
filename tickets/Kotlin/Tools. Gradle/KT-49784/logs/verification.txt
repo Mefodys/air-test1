@@ -1,0 +1,7 @@
+Command:
+docker run --rm --network host -v "$PWD:/workspace" -w /workspace gradle:9.7.1-jdk25 sh ./verify.sh
+
+Published Gradle module metadata:
+apiElements: {'org.gradle.category': 'library', 'org.gradle.dependency.bundling': 'external', 'org.gradle.jvm.environment': 'standard-jvm', 'org.gradle.jvm.version': 17, 'org.gradle.libraryelements': 'jar', 'org.gradle.usage': 'java-api', 'org.jetbrains.kotlin.platform.type': 'jvm'}
+commonApiElements: {'org.gradle.category': 'library', 'org.gradle.dependency.bundling': 'external', 'org.gradle.jvm.version': 17, 'org.gradle.libraryelements': 'jar', 'org.gradle.usage': 'java-api'}
+REPRODUCED: org.gradle.jvm.environment, org.jetbrains.kotlin.platform.type

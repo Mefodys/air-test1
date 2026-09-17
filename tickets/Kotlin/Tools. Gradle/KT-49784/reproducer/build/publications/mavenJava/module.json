@@ -1,0 +1,156 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.example",
+    "module": "kt-49784-reproducer",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kt-49784-reproducer-1.0.jar",
+          "url": "kt-49784-reproducer-1.0.jar",
+          "size": 1036,
+          "sha512": "112602493818d876845f13d5eea444ddf7f1a2dffd599f62ec73ac34b5678aef579327efea158f38e7737d78130f5fae37b388ab16f67ce9322cb055581a1e9a",
+          "sha256": "d6b34d450e16bccd1f9ef654a70e70b82bbcbdf38c3e80dab5319b4348d785ff",
+          "sha1": "334c5c75792f417c40d516dd2929d1185e713702",
+          "md5": "6c1cb8469f7b14f202907a12c4431582"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kt-49784-reproducer-1.0.jar",
+          "url": "kt-49784-reproducer-1.0.jar",
+          "size": 1036,
+          "sha512": "112602493818d876845f13d5eea444ddf7f1a2dffd599f62ec73ac34b5678aef579327efea158f38e7737d78130f5fae37b388ab16f67ce9322cb055581a1e9a",
+          "sha256": "d6b34d450e16bccd1f9ef654a70e70b82bbcbdf38c3e80dab5319b4348d785ff",
+          "sha1": "334c5c75792f417c40d516dd2929d1185e713702",
+          "md5": "6c1cb8469f7b14f202907a12c4431582"
+        }
+      ]
+    },
+    {
+      "name": "commonApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kt-49784-reproducer-1.0-common.jar",
+          "url": "kt-49784-reproducer-1.0-common.jar",
+          "size": 261,
+          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
+          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
+          "md5": "f43436d6bec321290f6af228ad602604"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.example",
+          "name": "kt-49784-reproducer-common",
+          "version": "1.0"
+        }
+      ]
+    },
+    {
+      "name": "commonRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kt-49784-reproducer-1.0-common.jar",
+          "url": "kt-49784-reproducer-1.0-common.jar",
+          "size": 261,
+          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
+          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
+          "md5": "f43436d6bec321290f6af228ad602604"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.example",
+          "name": "kt-49784-reproducer-common",
+          "version": "1.0"
+        }
+      ]
+    }
+  ]
+}

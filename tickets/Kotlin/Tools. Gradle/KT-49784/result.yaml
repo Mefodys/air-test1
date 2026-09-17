@@ -1,0 +1,25 @@
+ticket: KT-49784
+status: REPRODUCER_CREATED
+checkedAt: "2026-09-17T12:01:09Z"
+checkedTicketUpdatedAt: "2026-07-07T13:45:29.714Z"
+environment:
+  kotlin: "2.4.20 (Kotlin Gradle plugin)"
+  gradle: "9.7.1"
+  jdk: "Eclipse Temurin 25.0.4 (bytecode target 17)"
+  os: "Linux (Docker: gradle:9.7.1-jdk25)"
+reproducer:
+  found: false
+  created: true
+  updated: false
+  command: "docker run --rm --network host -v $PWD:/workspace -w /workspace gradle:9.7.1-jdk25 sh ./verify.sh"
+  archive: "reproducer.zip"
+verification:
+  reproduced: true
+  expected: "The common feature's published variants contain the JVM environment and Kotlin platform-type attributes present on main variants."
+  actual: "commonApiElements lacks org.gradle.jvm.environment and org.jetbrains.kotlin.platform.type, while apiElements contains standard-jvm and jvm respectively."
+  reason: null
+youtrack:
+  commentAdded: false
+  attachmentAdded: false
+  marker: "automated-reproducer:KT-49784:2026-07-07T13:45:29.714Z"
+error: "No authenticated YouTrack integration was available to guarantee the required jetbrains-team visibility, so no comment or attachment was posted."
