@@ -1,0 +1,25 @@
+ticket: KT-50552
+status: FAILED
+checkedAt: "2026-09-17T12:11:20Z"
+checkedTicketUpdatedAt: "2026-07-16T13:12:25.522Z"
+environment:
+  kotlin: "Not checked"
+  gradle: "Not checked"
+  jdk: "Not checked"
+  os: "Linux"
+reproducer:
+  found: false
+  created: false
+  updated: false
+  command: null
+  archive: null
+verification:
+  reproduced: false
+  expected: "Not analyzed: remote claim confirmation is required before issue processing."
+  actual: "The run is configured for platform-managed delivery and explicitly prohibits direct pushes, so the local claim could not be pushed or confirmed on the target branch."
+  reason: "Processing was stopped before accessing or executing any issue-provided material to avoid working without an exclusive remote claim."
+youtrack:
+  commentAdded: false
+  attachmentAdded: false
+  marker: "automated-reproducer:KT-50552:2026-07-16T13:12:25.522Z"
+error: "Direct push is disabled by the output behavior; the required successful pushed claim and remote ownership recheck could not be performed."
