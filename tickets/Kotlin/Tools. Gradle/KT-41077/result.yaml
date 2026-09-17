@@ -1,0 +1,25 @@
+ticket: KT-41077
+status: NEEDS_HUMAN
+checkedAt: "2026-09-17T10:44:34Z"
+checkedTicketUpdatedAt: "2026-06-25T13:34:16.191Z"
+environment:
+  kotlin: "2.4.20"
+  gradle: "9.7.1"
+  jdk: "OpenJDK 25.0.2"
+  os: "Linux (Docker: gradle:9.7.1-jdk25)"
+reproducer:
+  found: false
+  created: true
+  updated: false
+  command: "docker run --rm -v $PWD:/workspace -w /workspace gradle:9.7.1-jdk25 ./gradlew --no-daemon build"
+  archive: "reproducer.zip"
+verification:
+  reproduced: true
+  expected: "The grafana source set should be offered and recognized as an IntelliJ source root, and its Kotlin source should be compiled by the normal Gradle build."
+  actual: "The isolated Gradle build succeeded with :compileKotlin NO-SOURCE even though src/grafana/kotlin/Grafana.kt contains an unresolved type, confirming that the created KotlinSourceSet is not wired to the JVM compilation. IntelliJ IDEA's Windows-specific source-root UI could not be observed."
+  reason: "Windows and IntelliJ IDEA 2020.2 are required to verify the ticket's IDE import and source-root behavior."
+youtrack:
+  commentAdded: false
+  attachmentAdded: false
+  marker: "automated-reproducer:KT-41077:2026-06-25T13:34:16.191Z"
+error: "No authenticated YouTrack integration was available to guarantee the required jetbrains-team visibility, so no comment or attachment was posted."

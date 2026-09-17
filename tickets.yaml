@@ -32,11 +32,11 @@
               "url": "https://youtrack.jetbrains.com/issue/KT-41077",
               "created": "2020-08-14T10:33:10.794Z",
               "updated": "2026-06-25T13:34:16.191Z",
-              "status": "PROCESSING",
-              "result": null,
+              "status": "NEEDS_HUMAN",
+              "result": "tickets/Kotlin/Tools. Gradle/KT-41077/result.yaml",
               "attempts": 1,
               "lastAttemptAt": "2026-09-17T10:40:48Z",
-              "checkedTicketUpdatedAt": null
+              "checkedTicketUpdatedAt": "2026-06-25T13:34:16.191Z"
             },
             {
               "id": "KT-41582",
