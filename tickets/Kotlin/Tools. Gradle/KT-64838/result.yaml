@@ -1,0 +1,28 @@
+ticket: KT-64838
+status: NEEDS_HUMAN
+checkedAt: "2026-09-17T22:07:23Z"
+checkedTicketUpdatedAt: "2026-07-30T13:30:02.493Z"
+environment:
+  kotlin: "Unavailable: versions.yaml is not present"
+  gradle: "Unavailable: versions.yaml is not present"
+  jdk: "25.0.2"
+  os: "Linux 6.17.0-1017-aws x86_64"
+reproducer:
+  found: false
+  created: false
+  updated: false
+  command: null
+  archive: null
+verification:
+  reproduced: false
+  expected: "The Kotlin Multiplatform DSL accepts source-set convention access from the supported source-set and target scopes without DSL_SCOPE_VIOLATION errors, including dependsOn(commonMain.get()) and access to sourceSets.androidMain inside androidTarget."
+  actual: "The public issue contains source snippets and no attachment. A later issue comment states that the two original source-set-scope examples no longer reproduce on Kotlin master and narrows the remaining problem to static source-set access inside target DSL scope. No configured Kotlin, Gradle, or JDK version matrix is available in this repository, so the remaining version-dependent behavior could not be tested against the required versions."
+  reason: "A human must provide versions.yaml or otherwise define the Kotlin, Gradle, JDK, and Android plugin versions to check. The target-scope Android cases also require an Android SDK and plugin version before a deterministic isolated reproducer can be verified."
+error: "The required versions.yaml and configured YouTrack inventory query are absent. No authenticated YouTrack integration is available to guarantee jetbrains-team visibility for the required private comment, so no comment or attachment was published. The platform-managed delivery mode prohibits pushing the claim separately; the claim and final result will be delivered together."
+youtrack:
+  visibilityChecked: true
+  visibility: "public"
+  commentAdded: false
+  attachmentAdded: false
+  marker: "automated-reproducer:KT-64838:2026-07-30T13:30:02.493Z"
+signature: "Produced by Air Automations. Name: Backlog reproducer / Run: https://air.jetbrains.cloud/org/05cf1a7f-6ab5-713b-abd3-29d0c8a05e2d/automations/532b03ac-789f-4461-97e2-0743d00580e6?run=36ec1f31-61ac-4e5c-8158-7709476d2302"
