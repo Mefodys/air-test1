@@ -1,0 +1,28 @@
+ticket: KT-86717
+status: NEEDS_HUMAN
+checkedAt: "2026-09-17T22:47:15Z"
+checkedTicketUpdatedAt: "2026-06-08T13:26:25.966Z"
+environment:
+  kotlin: "2.4.0 (reported; not executed)"
+  gradle: "9.4.1 (reported; not executed)"
+  jdk: "JetBrains Runtime 25.0.2 (runner)"
+  os: "Ubuntu Linux x86_64 (runner); linux-aarch64 required"
+reproducer:
+  found: true
+  created: false
+  updated: false
+  command: "gradle help (on linux-aarch64)"
+  archive: null
+verification:
+  reproduced: false
+  expected: "Gradle configuration on linux-aarch64 fails with TargetSupportException: Unknown host target: linux aarch64."
+  actual: "Not executed because the isolated runner is x86_64; the reported failure depends on HostManager detecting linux-aarch64."
+  reason: "A linux-aarch64 environment is required to verify the host-dependent configuration failure. Run the supplied minimal Gradle scenario on an isolated Linux AArch64 host with JDK 21 or newer."
+error: "The required versions.yaml and configured YouTrack inventory query are absent. No authenticated YouTrack integration is available to guarantee jetbrains-team visibility, so no comment or attachment was published. The platform-managed delivery mode prohibits pushing the claim separately; the claim and final result will be delivered together."
+youtrack:
+  visibilityChecked: true
+  visibility: "public"
+  commentAdded: false
+  attachmentAdded: false
+  marker: "automated-reproducer:KT-86717:2026-06-08T13:26:25.966Z"
+signature: "Produced by Air Automations. Name: Backlog reproducer / Run: https://air.jetbrains.cloud/org/05cf1a7f-6ab5-713b-abd3-29d0c8a05e2d/automations/532b03ac-789f-4461-97e2-0743d00580e6?run=f2c95df7-1296-4fa1-93b6-659f5214afba"
