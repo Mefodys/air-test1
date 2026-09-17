@@ -1,0 +1,26 @@
+ticket: KT-59156
+status: NEEDS_HUMAN
+checkedAt: "2026-09-17T14:06:00Z"
+checkedTicketUpdatedAt: "2026-07-23T13:33:53.579Z"
+environment:
+  kotlin: "1.8.21"
+  gradle: "7.6.6"
+  jdk: "Eclipse Temurin 17.0.20"
+  os: "Linux Docker container"
+reproducer:
+  found: false
+  created: true
+  updated: false
+  command: "gradle --no-daemon compileKotlin"
+  archive: "reproducer.zip"
+verification:
+  reproduced: false
+  expected: "Kotlin compilation fails with an unresolved reference for noSources."
+  actual: "Gradle could not resolve org.jetbrains.kotlin:kotlin-gradle-plugin:1.8.21 because the isolated container could not resolve Maven Central; compilation did not start."
+  reason: "The supplied project requires an environment with dependency repository DNS/network access to reach the reported compiler behavior."
+error: null
+youtrack:
+  commentAdded: false
+  attachmentAdded: false
+  marker: "automated-reproducer:KT-59156:2026-07-23T13:33:53.579Z"
+  error: "No authenticated YouTrack integration is available to guarantee jetbrains-team visibility; no comment or attachment was posted."
