@@ -632,9 +632,14 @@
               "url": "https://youtrack.jetbrains.com/issue/KT-64101",
               "created": "2023-12-05T20:25:41.916Z",
               "updated": "2026-02-11T12:54:37.365Z",
-              "status": "NEW",
+              "status": "PROCESSING",
+              "processingStatus": "PROCESSING",
               "result": null,
-              "attempts": 0
+              "attempts": 1,
+              "processingStartedAt": "2026-09-17T20:03:18Z",
+              "processingOwner": "6cb17deb-6a51-407d-9a83-5534592d3689",
+              "lastAttemptAt": "2026-09-17T20:03:18Z",
+              "checkedTicketUpdatedAt": null
             },
             {
               "id": "KT-64210",
