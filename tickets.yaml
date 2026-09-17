@@ -693,14 +693,14 @@
               "url": "https://youtrack.jetbrains.com/issue/KT-64789",
               "created": "2024-01-07T21:15:09.168Z",
               "updated": "2025-01-17T20:26:05.752Z",
-              "status": "PROCESSING",
-              "processingStatus": "PROCESSING",
-              "result": null,
+              "status": "NEEDS_HUMAN",
+              "processingStatus": "NEEDS_HUMAN",
+              "result": "tickets/Kotlin/Tools. Gradle/KT-64789/result.yaml",
               "attempts": 1,
-              "processingStartedAt": "2026-09-17T21:56:20Z",
-              "processingOwner": "febc5ea9-1480-4e81-9c60-08e48c8305e2",
-              "lastAttemptAt": "2026-09-17T21:56:20Z",
-              "checkedTicketUpdatedAt": null
+              "processingStartedAt": null,
+              "processingOwner": null,
+              "lastAttemptAt": "2026-09-17T21:57:05Z",
+              "checkedTicketUpdatedAt": "2025-01-17T20:26:05.752Z"
             },
             {
               "id": "KT-64838",

@@ -1,0 +1,25 @@
+ticket: KT-64789
+status: NEEDS_HUMAN
+checkedAt: "2026-09-17T21:57:05Z"
+checkedTicketUpdatedAt: "2025-01-17T20:26:05.752Z"
+environment:
+  kotlin: "Unavailable: versions.yaml is not present"
+  gradle: "Unavailable: versions.yaml is not present"
+  jdk: "25.0.2"
+  os: "Linux 6.17.0-1017-aws x86_64"
+reproducer:
+  found: false
+  created: false
+  updated: false
+  command: null
+  archive: null
+verification:
+  reproduced: false
+  expected: "Determine why org.gradle.libraryelements is absent from AttributesContainer.keySet() on the first invocation but present after explicitly calling keySet(), and reduce the behavior to a standalone Gradle project."
+  actual: "The public issue provides no standalone reproducer, code sample, stack trace, build command, or observable assertion. Its only reproduction reference is the internal KotlinAndroidMppIT.testMppAndroidLibFlavorsPublication integration test from the Kotlin repository."
+  reason: "A human must inspect the referenced Kotlin Gradle Plugin integration test and its KT-60664 workaround in the Kotlin source repository, identify the exact Gradle configuration sequence, and provide a deterministic standalone scenario before this behavior can be verified."
+error: "The required versions.yaml is absent. No authenticated YouTrack integration is available to guarantee jetbrains-team visibility for the required private comment, so no comment or attachment was published. The platform-managed delivery mode prohibits pushing the claim separately; the claim and final result will be delivered together."
+youtrack:
+  commentAdded: false
+  attachmentAdded: false
+  marker: "automated-reproducer:KT-64789:2025-01-17T20:26:05.752Z"
