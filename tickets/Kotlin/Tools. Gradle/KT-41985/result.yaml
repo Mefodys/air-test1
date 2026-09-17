@@ -1,0 +1,25 @@
+ticket: KT-41985
+status: FAILED
+checkedAt: "2026-09-17T11:02:57Z"
+checkedTicketUpdatedAt: "2026-07-07T13:05:59.687Z"
+environment:
+  kotlin: "2.4.20"
+  gradle: "9.7.1"
+  jdk: "OpenJDK 25"
+  os: "Linux (Docker: gradle:9.7.1-jdk25)"
+reproducer:
+  found: false
+  created: true
+  updated: false
+  command: "docker run --rm --network host -v $PWD:/workspace -w /workspace gradle:9.7.1-jdk25 gradle --no-daemon clean compileKotlin"
+  archive: null
+verification:
+  reproduced: false
+  expected: "Replacing compilerOptions.freeCompilerArgs must preserve options configured by kotlin { explicitApi() }, or fail with an actionable error."
+  actual: "Gradle could not resolve org.jetbrains.kotlin.jvm:2.4.20, so compilation did not start and the reported behavior could not be observed."
+  reason: "The repository-configured Kotlin version is not available from the plugin repositories in the isolated environment."
+youtrack:
+  commentAdded: false
+  attachmentAdded: false
+  marker: "automated-reproducer:KT-41985:2026-07-07T13:05:59.687Z"
+error: "Plugin [id: 'org.jetbrains.kotlin.jvm', version: '2.4.20'] was not found in the Gradle Plugin Portal. No authenticated YouTrack integration was available to guarantee the required jetbrains-team visibility, so no comment was posted."
