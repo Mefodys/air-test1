@@ -210,14 +210,14 @@
               "url": "https://youtrack.jetbrains.com/issue/KT-54207",
               "created": "2022-09-28T10:14:14.729Z",
               "updated": "2026-07-28T21:01:14.054Z",
-              "status": "PROCESSING",
-              "processingStatus": "PROCESSING",
-              "result": null,
+              "status": "REPRODUCER_CREATED",
+              "processingStatus": "REPRODUCER_CREATED",
+              "result": "tickets/Kotlin/Tools. Gradle/KT-54207/result.yaml",
               "attempts": 1,
-              "processingStartedAt": "2026-09-17T12:35:00Z",
-              "processingOwner": "4620cccb-1fec-4a98-bafc-382fa140ce86",
-              "lastAttemptAt": "2026-09-17T12:35:00Z",
-              "checkedTicketUpdatedAt": null
+              "processingStartedAt": null,
+              "processingOwner": null,
+              "lastAttemptAt": "2026-09-17T12:38:26Z",
+              "checkedTicketUpdatedAt": "2026-07-28T21:01:14.054Z"
             },
             {
               "id": "KT-55350",

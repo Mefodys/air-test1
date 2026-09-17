@@ -1,0 +1,25 @@
+ticket: KT-54207
+status: REPRODUCER_CREATED
+checkedAt: "2026-09-17T12:38:26Z"
+checkedTicketUpdatedAt: "2026-07-28T21:01:14.054Z"
+environment:
+  kotlin: "2.4.20"
+  gradle: "9.7.1"
+  jdk: "Eclipse Temurin 25.0.4"
+  os: "Linux (Docker: gradle:9.7.1-jdk25)"
+reproducer:
+  found: false
+  created: true
+  updated: false
+  command: "docker run --rm --network host -e JAVA_TOOL_OPTIONS='<proxy settings required by this environment>' -v $PWD:/workspace -w /workspace gradle:9.7.1-jdk25 sh ./verify.sh"
+  archive: "reproducer.zip"
+verification:
+  reproduced: true
+  expected: "sourcesJar and kotlinSourcesJar write the same source JAR with different source paths; kotlinSourcesJar places sources below main/."
+  actual: "sourcesJar contained Kotlin.kt and foo/bar/Java.java, while kotlinSourcesJar contained main/Kotlin.kt and main/foo/bar/Java.java. verify.sh exited 0."
+  reason: null
+youtrack:
+  commentAdded: false
+  attachmentAdded: false
+  marker: "automated-reproducer:KT-54207:2026-07-28T21:01:14.054Z"
+error: "No authenticated YouTrack integration is available to guarantee the required jetbrains-team visibility, so no comment or attachment was posted."
