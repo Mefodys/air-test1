@@ -678,13 +678,14 @@
               "url": "https://youtrack.jetbrains.com/issue/KT-64722",
               "created": "2024-01-04T22:02:11.369Z",
               "updated": "2026-07-30T13:27:35.856Z",
-              "status": "NEW",
-              "result": null,
+              "status": "NEEDS_HUMAN",
+              "result": "tickets/Kotlin/Tools. Gradle/KT-64722/result.yaml",
               "attempts": 1,
-              "processingStatus": "PROCESSING",
-              "processingStartedAt": "2026-09-17T21:10:00Z",
-              "processingOwner": "f0577e94-c7fe-4368-96a9-896f3fa3104b",
-              "lastAttemptAt": "2026-09-17T21:10:00Z"
+              "processingStatus": "NEEDS_HUMAN",
+              "processingStartedAt": null,
+              "processingOwner": null,
+              "lastAttemptAt": "2026-09-17T21:12:20Z",
+              "checkedTicketUpdatedAt": "2026-07-30T13:27:35.856Z"
             },
             {
               "id": "KT-64789",

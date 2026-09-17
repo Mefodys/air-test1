@@ -1,0 +1,25 @@
+ticket: KT-64722
+status: NEEDS_HUMAN
+checkedAt: "2026-09-17T21:12:20Z"
+checkedTicketUpdatedAt: "2026-07-30T13:27:35.856Z"
+environment:
+  kotlin: "Unavailable: versions.yaml is not present"
+  gradle: "Unavailable: versions.yaml is not present"
+  jdk: "25.0.2"
+  os: "Linux 6.17.0-1017-aws x86_64"
+reproducer:
+  found: false
+  created: false
+  updated: false
+  command: null
+  archive: null
+verification:
+  reproduced: false
+  expected: "KotlinSourceSet is marked with a Kotlin Gradle Plugin DSL marker so source-set DSL scope is distinguished from other Kotlin Gradle Plugin DSL scopes."
+  actual: "The public issue is an internal Kotlin Gradle Plugin API design request. It provides no runnable project, code sample, stack trace, comments, attachments, affected versions, reproduction steps, or observable failing behavior."
+  reason: "A human must define the intended DSL-scope behavior and an observable compiler or integration test in the Kotlin Gradle Plugin source repository before this request can be verified."
+error: "The required versions.yaml is absent. No authenticated YouTrack integration is available to guarantee jetbrains-team visibility for the required private comment, so no comment or attachment was published. The platform-managed delivery mode also prohibits pushing the claim separately; remote ownership could not be established before analysis."
+youtrack:
+  commentAdded: false
+  attachmentAdded: false
+  marker: "automated-reproducer:KT-64722:2026-07-30T13:27:35.856Z"
