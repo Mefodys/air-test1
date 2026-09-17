@@ -256,7 +256,12 @@
               "updated": "2026-07-16T13:59:22.027Z",
               "status": "NEW",
               "result": null,
-              "attempts": 0
+              "attempts": 1,
+              "processingStatus": "PROCESSING",
+              "processingStartedAt": "2026-09-17T13:02:03Z",
+              "processingOwner": "0bdfa6c4-0353-4d5c-ba8c-7081f00014d7",
+              "lastAttemptAt": "2026-09-17T13:02:03Z",
+              "checkedTicketUpdatedAt": null
             },
             {
               "id": "KT-56830",
