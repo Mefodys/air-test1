@@ -299,14 +299,14 @@
               "url": "https://youtrack.jetbrains.com/issue/KT-58445",
               "created": "2023-05-03T20:29:26.295Z",
               "updated": "2024-10-18T19:31:22.132Z",
-              "status": "PROCESSING",
-              "processingStatus": "PROCESSING",
-              "result": null,
+              "status": "NEEDS_HUMAN",
+              "processingStatus": "NEEDS_HUMAN",
+              "result": "tickets/Kotlin/Tools. Gradle/KT-58445/result.yaml",
               "attempts": 1,
-              "processingStartedAt": "2026-09-17T13:36:32Z",
-              "processingOwner": "backlog-reproducer-9a9be965-8f50-491e-bf60-d38e81645fbc",
-              "lastAttemptAt": "2026-09-17T13:36:32Z",
-              "checkedTicketUpdatedAt": null
+              "processingStartedAt": null,
+              "processingOwner": null,
+              "lastAttemptAt": "2026-09-17T13:37:10Z",
+              "checkedTicketUpdatedAt": "2024-10-18T19:31:22.132Z"
             },
             {
               "id": "KT-59156",
