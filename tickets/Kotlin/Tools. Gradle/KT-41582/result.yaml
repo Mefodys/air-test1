@@ -1,0 +1,25 @@
+ticket: KT-41582
+status: REPRODUCER_CREATED
+checkedAt: "2026-09-17T10:54:21Z"
+checkedTicketUpdatedAt: "2026-06-25T13:39:19.766Z"
+environment:
+  kotlin: "2.4.20"
+  gradle: "9.7.1"
+  jdk: "OpenJDK 25.0.2"
+  os: "Linux (Docker: gradle:9.7.1-jdk25)"
+reproducer:
+  found: false
+  created: true
+  updated: false
+  command: "docker run --rm -v $PWD:/workspace -w /workspace -e GRADLE_USER_HOME=/tmp/gradle gradle:9.7.1-jdk25 ./gradlew --no-daemon -Dmaven.repo.local=/workspace/.m2 clean publishToMavenLocal"
+  archive: "reproducer.zip"
+verification:
+  reproduced: true
+  expected: "Applying maven-publish to a Kotlin JVM module creates a publication, so publishToMavenLocal writes Maven artifacts without manual publication configuration."
+  actual: "The isolated build succeeded with publishToMavenLocal UP-TO-DATE, but produced no Maven-local files. Gradle listed no publication-specific publish task."
+  reason: null
+error: "No authenticated YouTrack integration was available to guarantee the required jetbrains-team comment visibility, so no comment or attachment was posted."
+youtrack:
+  issueUpdatedAt: "2026-06-25T13:39:19.766Z"
+  duplicateCommentMarkerChecked: "<!-- automated-reproducer:KT-41582:2026-06-25T13:39:19.766Z -->"
+  commentPosted: false
