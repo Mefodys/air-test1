@@ -1,0 +1,28 @@
+ticket: KT-64893
+status: NEEDS_HUMAN
+checkedAt: "2026-09-17T22:52:35Z"
+checkedTicketUpdatedAt: "2025-01-17T20:24:09.431Z"
+environment:
+  kotlin: "Unavailable: versions.yaml is not present"
+  gradle: "Unavailable: versions.yaml is not present"
+  jdk: "25.0.2"
+  os: "Linux 6.17.0-1017-aws x86_64"
+reproducer:
+  found: false
+  created: false
+  updated: false
+  command: null
+  archive: null
+verification:
+  reproduced: false
+  expected: "Configuring a Kotlin Multiplatform source set from inside a target accepts sourceSets.jvmMain.get() and sourceSets.named(\"jvmMain\") with only the target-level sourceSets deprecation warning."
+  actual: "The public issue provides Kotlin DSL snippets and no attachment. It reports DSL_SCOPE_VIOLATION build-script compilation errors with Kotlin 2.0.0-Beta3 and documents getByName as a workaround. The required repository version matrix is absent, so the version-dependent behavior could not be tested against configured Kotlin, Gradle, and JDK versions."
+  reason: "A human must provide versions.yaml or otherwise define the Kotlin, Gradle, and JDK versions to check before a deterministic isolated reproducer can be created and verified."
+error: "The required versions.yaml and configured YouTrack inventory query are absent. No authenticated YouTrack integration is available to guarantee jetbrains-team visibility for the required private comment, so no comment or attachment was published. The platform-managed delivery mode prohibits pushing the claim separately; the claim and final result will be delivered together."
+youtrack:
+  visibilityChecked: true
+  visibility: "public"
+  commentAdded: false
+  attachmentAdded: false
+  marker: "automated-reproducer:KT-64893:2025-01-17T20:24:09.431Z"
+signature: "Produced by Air Automations. Name: Backlog reproducer / Run: https://air.jetbrains.cloud/org/05cf1a7f-6ab5-713b-abd3-29d0c8a05e2d/automations/532b03ac-789f-4461-97e2-0743d00580e6?run=3e20fabd-cf79-471f-9d9d-47b60a1c8765"
