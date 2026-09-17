@@ -154,9 +154,12 @@
               "url": "https://youtrack.jetbrains.com/issue/KT-50552",
               "created": "2021-12-27T17:29:02.115Z",
               "updated": "2026-07-16T13:12:25.522Z",
-              "status": "NEW",
+              "status": "PROCESSING",
               "result": null,
-              "attempts": 0
+              "attempts": 1,
+              "processingStartedAt": "2026-09-17T12:11:03Z",
+              "processingOwner": "7a781805-d76f-47f1-a97a-7055118d521a",
+              "lastAttemptAt": "2026-09-17T12:11:03Z"
             },
             {
               "id": "KT-50852",
