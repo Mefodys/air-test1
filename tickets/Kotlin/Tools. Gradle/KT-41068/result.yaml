@@ -1,0 +1,25 @@
+ticket: KT-41068
+status: NEEDS_HUMAN
+ticketUpdatedAt: "2026-08-20T11:49:43.908Z"
+checkedAt: "2026-09-17T10:38:42Z"
+environment:
+  kotlin: "2.4.20"
+  gradle: "9.7.1"
+  jdk: "OpenJDK 25.0.2"
+  os: "Linux"
+reproducer:
+  found: false
+  created: false
+  updated: false
+  command: null
+  archive: null
+verification:
+  reproduced: false
+  expected: "On Windows, after Kotlin compilation daemon connection fails, the fallback Java process fails with CreateProcess error=206 because its classpath exceeds the Windows command-line length limit."
+  actual: "The issue has no attachment or standalone reproducer. Its reported symptom requires Windows CreateProcess behavior and cannot be observed in the available Linux environment."
+  reason: "Windows is required to reproduce the reported CreateProcess error=206."
+youtrack:
+  commentAdded: false
+  attachmentAdded: false
+  marker: "automated-reproducer:KT-41068:2026-08-20T11:49:43.908Z"
+error: null
