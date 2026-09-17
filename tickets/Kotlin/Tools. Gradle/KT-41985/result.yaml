@@ -1,0 +1,25 @@
+ticket: KT-41985
+status: NEEDS_HUMAN
+checkedAt: "2026-09-17T10:57:50Z"
+checkedTicketUpdatedAt: "2026-07-07T13:05:59.687Z"
+environment:
+  kotlin: "2.4.20"
+  gradle: "9.7.1"
+  jdk: "OpenJDK 25"
+  os: "Linux (Docker: gradle:9.7.1-jdk25)"
+reproducer:
+  found: false
+  created: true
+  updated: false
+  command: "docker run --rm --network host -v $PWD:/workspace -w /workspace gradle:9.7.1-jdk25 gradle --no-daemon clean build"
+  archive: null
+verification:
+  reproduced: false
+  expected: "Replacing KotlinCompile.kotlinOptions.freeCompilerArgs with a new list should fail during configuration with an actionable message that recommends appending arguments instead."
+  actual: "The isolated build did not reach Kotlin Gradle Plugin configuration: Gradle Plugin Portal could not resolve org.jetbrains.kotlin.jvm:org.jetbrains.kotlin.jvm.gradle.plugin:2.4.20."
+  reason: "The repository-configured Kotlin 2.4.20 plugin artifact is unavailable from the accessible Gradle Plugin Portal, so the reported behavior cannot be checked on the required versions."
+youtrack:
+  commentAdded: false
+  attachmentAdded: false
+  marker: "automated-reproducer:KT-41985:2026-07-07T13:05:59.687Z"
+error: "No authenticated YouTrack integration was available to guarantee required jetbrains-team visibility. No comment or attachment was posted."
