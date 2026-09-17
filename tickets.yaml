@@ -84,12 +84,13 @@
               "url": "https://youtrack.jetbrains.com/issue/KT-46199",
               "created": "2021-04-19T18:37:24.721Z",
               "updated": "2026-08-06T10:53:58.267Z",
-              "status": "PROCESSING",
-              "result": null,
+              "status": "NEEDS_HUMAN",
+              "result": "tickets/Kotlin/Tools. Gradle/KT-46199/result.yaml",
               "attempts": 1,
-              "processingStartedAt": "2026-09-17T11:45:20Z",
-              "processingOwner": "7a1af56b-d07a-4c2d-9110-0d862713bda9",
-              "lastAttemptAt": "2026-09-17T11:45:20Z"
+              "processingStartedAt": null,
+              "processingOwner": null,
+              "lastAttemptAt": "2026-09-17T11:46:04Z",
+              "checkedTicketUpdatedAt": "2026-08-06T10:53:58.267Z"
             },
             {
               "id": "KT-47594",

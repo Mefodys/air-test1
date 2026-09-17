@@ -1,0 +1,21 @@
+ticket: KT-46199
+status: NEEDS_HUMAN
+checkedAt: "2026-09-17T11:46:04Z"
+checkedTicketUpdatedAt: "2026-08-06T10:53:58.267Z"
+environment:
+  kotlin: null
+  gradle: null
+  jdk: "OpenJDK 25.0.2"
+  os: "Linux"
+reproducer:
+  found: false
+  created: false
+  updated: false
+  command: null
+  archive: null
+verification:
+  reproduced: false
+  expected: "The Kotlin compiler's -Xplugin argument contains only the intended compiler-plugin artifact."
+  actual: "The issue supplies no runnable project or attachment. A minimal project requires Kotlin, Gradle, and plugin versions from versions.yaml, but that required configuration file is absent from this checkout."
+  reason: "Cannot create a configured reproducer without versions.yaml."
+error: "versions.yaml is missing; no configured Kotlin, Gradle, JDK, or plugin versions are available. No authenticated YouTrack integration is available to create the required jetbrains-team-only comment."
