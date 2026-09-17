@@ -1,0 +1,25 @@
+ticket: KT-48324
+status: NEEDS_HUMAN
+checkedAt: "2026-09-17T11:52:00Z"
+checkedTicketUpdatedAt: "2024-10-18T21:26:12.981Z"
+environment:
+  kotlin: null
+  gradle: null
+  jdk: "OpenJDK 25.0.2"
+  os: "Linux"
+reproducer:
+  found: false
+  created: false
+  updated: false
+  command: null
+  archive: null
+verification:
+  reproduced: false
+  expected: "The Kotlin Gradle extension exposes Kotlin daemon JVM arguments through a ListProperty-compatible API, allowing callers to append arguments without reading the current value."
+  actual: "The issue contains a feature request and discussion only. It supplies no Gradle project, code sample, stack trace, or deterministic steps that demonstrate the failing mutable property API."
+  reason: "A reproducer cannot be created without inventing an API contract and expected behavior. The required versions.yaml configuration is also absent from the checkout."
+youtrack:
+  commentAdded: false
+  attachmentAdded: false
+  marker: "automated-reproducer:KT-48324:2024-10-18T21:26:12.981Z"
+error: "No authenticated YouTrack integration was available to guarantee the required jetbrains-team visibility, so no comment was posted."
