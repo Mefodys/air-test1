@@ -571,9 +571,14 @@
               "url": "https://youtrack.jetbrains.com/issue/KT-63281",
               "created": "2023-11-07T18:23:23.769Z",
               "updated": "2025-01-17T21:00:57.606Z",
-              "status": "NEW",
+              "youtrackStatus": "Backlog",
+              "processingStatus": "PROCESSING",
               "result": null,
-              "attempts": 0
+              "attempts": 1,
+              "processingStartedAt": "2026-09-17T18:20:00Z",
+              "processingOwner": "e3983e03-0926-419a-b14e-cc6365a37bcf",
+              "lastAttemptAt": "2026-09-17T18:20:00Z",
+              "checkedTicketUpdatedAt": null
             },
             {
               "id": "KT-63674",
