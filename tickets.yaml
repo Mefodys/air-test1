@@ -845,14 +845,15 @@
               "url": "https://youtrack.jetbrains.com/issue/KT-67576",
               "created": "2024-04-19T06:31:22.829Z",
               "updated": "2026-03-25T10:23:26.858Z",
-              "status": "PROCESSING",
-              "processingStatus": "PROCESSING",
-              "result": null,
+              "status": "FAILED",
+              "youtrackStatus": "Planned",
+              "processingStatus": "FAILED",
+              "result": "tickets/Kotlin/Tools. Gradle/KT-67576/result.yaml",
               "attempts": 1,
-              "processingStartedAt": "2026-09-17T23:51:29Z",
-              "processingOwner": "d17373a6-9101-472f-85b3-f304e6820e83",
-              "lastAttemptAt": "2026-09-17T23:51:29Z",
-              "checkedTicketUpdatedAt": null
+              "processingStartedAt": null,
+              "processingOwner": null,
+              "lastAttemptAt": "2026-09-17T23:52:28Z",
+              "checkedTicketUpdatedAt": "2026-03-25T10:23:26.858Z"
             },
             {
               "id": "KT-68107",

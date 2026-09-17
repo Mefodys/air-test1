@@ -1,0 +1,28 @@
+ticket: KT-67576
+status: FAILED
+checkedAt: "2026-09-17T23:52:28Z"
+checkedTicketUpdatedAt: "2026-03-25T10:23:26.858Z"
+environment:
+  kotlin: "Unavailable: versions.yaml is not present"
+  gradle: "Unavailable: versions.yaml is not present"
+  jdk: "25.0.2"
+  os: "Linux x86_64"
+reproducer:
+  found: false
+  created: false
+  updated: false
+  command: null
+  archive: null
+verification:
+  reproduced: false
+  expected: "The Kotlin Gradle Plugin Maven metadata identifies dynamically required runtime components so offline repository mirrors can include them."
+  actual: "Verification was not run because the configured Kotlin, Gradle, and plugin versions are unavailable."
+  reason: "The required versions.yaml is absent, so the automation cannot create and verify a deterministic reproducer with configured versions."
+error: "The configured YouTrack inventory query is absent, so full paginated inventory synchronization could not be performed. The platform-managed push-to-source delivery mode prohibits pushing and confirming the claim separately; origin/main still lists KT-67576 as NEW. No authenticated YouTrack integration is available to guarantee jetbrains-team visibility, so no comment or attachment was published."
+youtrack:
+  visibilityChecked: true
+  visibility: "public"
+  commentAdded: false
+  attachmentAdded: false
+  marker: "automated-reproducer:KT-67576:2026-03-25T10:23:26.858Z"
+signature: "Produced by Air Automations. Name: Backlog reproducer / Run: https://air.jetbrains.cloud/org/05cf1a7f-6ab5-713b-abd3-29d0c8a05e2d/automations/532b03ac-789f-4461-97e2-0743d00580e6?run=d17373a6-9101-472f-85b3-f304e6820e83"
