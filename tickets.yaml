@@ -617,14 +617,14 @@
               "url": "https://youtrack.jetbrains.com/issue/KT-64040",
               "created": "2023-12-04T11:23:32.088Z",
               "updated": "2025-01-17T20:56:26.293Z",
-              "status": "PROCESSING",
-              "processingStatus": "PROCESSING",
-              "result": null,
+              "status": "NEEDS_HUMAN",
+              "processingStatus": "NEEDS_HUMAN",
+              "result": "tickets/Kotlin/Tools. Gradle/KT-64040/result.yaml",
               "attempts": 1,
-              "processingStartedAt": "2026-09-17T20:01:45Z",
-              "processingOwner": "6cb17deb-6a51-407d-9a83-5534592d3689",
-              "lastAttemptAt": "2026-09-17T20:01:45Z",
-              "checkedTicketUpdatedAt": null
+              "processingStartedAt": null,
+              "processingOwner": null,
+              "lastAttemptAt": "2026-09-17T20:00:20Z",
+              "checkedTicketUpdatedAt": "2025-01-17T20:56:26.293Z"
             },
             {
               "id": "KT-64101",
