@@ -269,14 +269,14 @@
               "url": "https://youtrack.jetbrains.com/issue/KT-56830",
               "created": "2023-02-21T13:51:40.736Z",
               "updated": "2025-02-14T17:54:24.727Z",
-              "status": "PROCESSING",
-              "result": null,
+              "status": "NEEDS_HUMAN",
+              "result": "tickets/Kotlin/Tools. Gradle/KT-56830/result.yaml",
               "attempts": 1,
-              "processingStatus": "PROCESSING",
-              "processingStartedAt": "2026-09-17T13:15:00Z",
-              "processingOwner": "91600b25-1ea5-4990-a96c-314af180b650",
+              "processingStatus": "NEEDS_HUMAN",
+              "processingStartedAt": null,
+              "processingOwner": null,
               "lastAttemptAt": "2026-09-17T13:15:00Z",
-              "checkedTicketUpdatedAt": null
+              "checkedTicketUpdatedAt": "2025-02-14T17:54:24.727Z"
             },
             {
               "id": "KT-58266",
