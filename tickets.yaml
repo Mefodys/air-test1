@@ -44,9 +44,10 @@
               "url": "https://youtrack.jetbrains.com/issue/KT-41582",
               "created": "2020-09-01T15:44:34.555Z",
               "updated": "2026-06-25T13:39:19.766Z",
-              "status": "NEW",
+              "status": "PROCESSING",
               "result": null,
-              "attempts": 0
+              "attempts": 1,
+              "lastAttemptAt": "2026-09-17T10:51:09Z"
             },
             {
               "id": "KT-41985",
