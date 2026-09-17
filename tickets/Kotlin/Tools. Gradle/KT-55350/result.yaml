@@ -1,0 +1,25 @@
+ticket: KT-55350
+status: NEEDS_HUMAN
+checkedAt: "2026-09-17T12:48:30Z"
+checkedTicketUpdatedAt: "2024-10-18T21:22:17.815Z"
+environment:
+  kotlin: "Unavailable: versions.yaml is not present"
+  gradle: "Unavailable: versions.yaml is not present"
+  jdk: "Unavailable: versions.yaml is not present"
+  os: "Linux host; Docker and Podman are installed"
+reproducer:
+  found: false
+  created: false
+  updated: false
+  command: null
+  archive: null
+verification:
+  reproduced: false
+  expected: "The Kotlin Gradle plugin publishes a dependency constraint that aligns kotlin-metadata-jvm with the Kotlin compiler version."
+  actual: "The ticket provides a proposed publishing change and related issue links, but no runnable project, failing dependency graph, or concrete compiler/library version pair that demonstrates the reported build failure."
+  reason: "A configured version matrix is required to create a reliable reproducer, but versions.yaml is absent. The available ticket context also lacks a runnable failing scenario."
+youtrack:
+  commentAdded: false
+  attachmentAdded: false
+  marker: "automated-reproducer:KT-55350:2024-10-18T21:22:17.815Z"
+error: "No authenticated YouTrack integration is available to guarantee the required jetbrains-team visibility, so no comment or attachment was posted."

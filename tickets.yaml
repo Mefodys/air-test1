@@ -225,13 +225,13 @@
               "url": "https://youtrack.jetbrains.com/issue/KT-55350",
               "created": "2022-12-07T17:32:14.780Z",
               "updated": "2024-10-18T21:22:17.815Z",
-              "status": "PROCESSING",
-              "result": null,
+              "status": "NEEDS_HUMAN",
+              "result": "tickets/Kotlin/Tools. Gradle/KT-55350/result.yaml",
               "attempts": 1,
-              "processingStartedAt": "2026-09-17T12:47:14Z",
-              "processingOwner": "b10018db-494d-402e-b4e3-2baef309dc2e",
-              "lastAttemptAt": "2026-09-17T12:47:14Z",
-              "checkedTicketUpdatedAt": null
+              "processingStartedAt": null,
+              "processingOwner": null,
+              "lastAttemptAt": "2026-09-17T12:48:30Z",
+              "checkedTicketUpdatedAt": "2024-10-18T21:22:17.815Z"
             },
             {
               "id": "KT-55763",
