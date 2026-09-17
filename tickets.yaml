@@ -1573,8 +1573,13 @@
               "created": "2026-06-03T16:59:56.465Z",
               "updated": "2026-06-08T13:26:25.966Z",
               "status": "NEW",
+              "processingStatus": "PROCESSING",
               "result": null,
-              "attempts": 0
+              "attempts": 1,
+              "processingStartedAt": "2026-09-17T22:46:29Z",
+              "processingOwner": "f2c95df7-1296-4fa1-93b6-659f5214afba",
+              "lastAttemptAt": "2026-09-17T22:46:29Z",
+              "checkedTicketUpdatedAt": null
             },
             {
               "id": "KT-86738",
