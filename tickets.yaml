@@ -541,9 +541,14 @@
               "url": "https://youtrack.jetbrains.com/issue/KT-62095",
               "created": "2023-09-20T16:53:09.909Z",
               "updated": "2025-01-17T20:50:10.345Z",
-              "status": "NEW",
+              "youtrackStatus": "Backlog",
+              "processingStatus": "PROCESSING",
               "result": null,
-              "attempts": 0
+              "attempts": 1,
+              "processingStartedAt": "2026-09-17T17:44:24Z",
+              "processingOwner": "45f4d78f-0a1d-4dce-82e3-c04b053762b0",
+              "lastAttemptAt": "2026-09-17T17:44:24Z",
+              "checkedTicketUpdatedAt": null
             },
             {
               "id": "KT-62258",
