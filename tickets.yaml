@@ -70,9 +70,12 @@
               "url": "https://youtrack.jetbrains.com/issue/KT-44454",
               "created": "2021-01-20T14:21:59.847Z",
               "updated": "2026-07-07T13:02:04.177Z",
-              "status": "NEW",
+              "status": "PROCESSING",
               "result": null,
-              "attempts": 0
+              "attempts": 1,
+              "processingStartedAt": "2026-09-17T11:35:57Z",
+              "processingOwner": "434135ba7228c3ef9be68b6aaa0ef4a2",
+              "lastAttemptAt": "2026-09-17T11:35:57Z"
             },
             {
               "id": "KT-46199",
