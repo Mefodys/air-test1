@@ -1,0 +1,25 @@
+ticket: KT-60138
+status: NEEDS_HUMAN
+ticketUpdatedAt: "2025-01-17T20:47:25.406Z"
+checkedAt: "2026-09-17T14:18:00Z"
+environment:
+  kotlin: "1.9.20-dev-5069 (reported)"
+  gradle: "not specified"
+  jdk: "OpenJDK 25.0.2"
+  os: "Linux"
+reproducer:
+  found: false
+  created: false
+  updated: false
+  command: null
+  archive: null
+verification:
+  reproduced: false
+  expected: "On Windows, NativeDownloadAndPlatformLibsIT is flaky after Windows skipping is removed, failing because konan.properties lacks dependenciesUrl during Kotlin/Native dependency download."
+  actual: "The public issue supplies no attachment or runnable project. Its sole reproduction condition is a Windows-specific Kotlin repository integration test, which cannot be run or verified in the available Linux environment."
+  reason: "Windows and the corresponding Kotlin compiler integration-test environment are required."
+youtrack:
+  commentAdded: false
+  attachmentAdded: false
+  marker: "automated-reproducer:KT-60138:2025-01-17T20:47:25.406Z"
+error: "No authenticated YouTrack integration is available to guarantee jetbrains-team visibility for the required private comment."
