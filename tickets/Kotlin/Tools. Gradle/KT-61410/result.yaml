@@ -1,0 +1,25 @@
+ticket: KT-61410
+status: REPRODUCER_CREATED
+checkedAt: "2026-09-17T16:17:00Z"
+checkedTicketUpdatedAt: "2026-07-23T13:46:51.321Z"
+environment:
+  kotlin: "2.4.20"
+  gradle: "9.7.1"
+  jdk: "25 (Gradle container image)"
+  os: "Linux (Docker container)"
+reproducer:
+  found: false
+  created: true
+  updated: false
+  command: "./gradlew compileKotlin --stacktrace"
+  archive: "reproducer.zip"
+verification:
+  reproduced: true
+  expected: "A typed Kotlin Gradle DSL compiler option configures -Xjsr305=strict outside freeCompilerArgs."
+  actual: "Gradle script compilation fails with Unresolved reference 'jsr305' at compilerOptions { jsr305.set(\"strict\") }."
+  reason: null
+error: "YouTrack publication was not attempted because no authenticated integration is available to guarantee jetbrains-team visibility."
+youtrack:
+  commentAdded: false
+  attachmentAdded: false
+  marker: "automated-reproducer:KT-61410:2026-07-23T13:46:51.321Z"
