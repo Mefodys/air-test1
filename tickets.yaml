@@ -664,9 +664,12 @@
               "url": "https://youtrack.jetbrains.com/issue/KT-64462",
               "created": "2023-12-19T18:39:46.391Z",
               "updated": "2026-07-30T13:24:31.653Z",
-              "status": "NEW",
+              "status": "PROCESSING",
               "result": null,
-              "attempts": 0
+              "attempts": 1,
+              "processingStartedAt": "2026-09-17T20:36:45Z",
+              "processingOwner": "d5813ab3-3d6d-4d00-b170-591067c8d41e",
+              "lastAttemptAt": "2026-09-17T20:36:45Z"
             },
             {
               "id": "KT-64722",
