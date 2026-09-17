@@ -649,8 +649,13 @@
               "created": "2023-12-08T16:35:20.894Z",
               "updated": "2026-07-24T16:02:16.632Z",
               "status": "NEW",
+              "processingStatus": "PROCESSING",
               "result": null,
-              "attempts": 0
+              "attempts": 1,
+              "processingStartedAt": "2026-09-17T20:26:33.502Z",
+              "processingOwner": "c0f7864a-2dae-4e66-ba62-b4b8411adc47",
+              "lastAttemptAt": "2026-09-17T20:26:33.502Z",
+              "checkedTicketUpdatedAt": null
             },
             {
               "id": "KT-64462",
