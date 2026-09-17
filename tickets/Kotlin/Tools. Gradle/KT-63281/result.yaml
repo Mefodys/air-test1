@@ -1,0 +1,25 @@
+ticket: KT-63281
+status: NEEDS_HUMAN
+checkedAt: "2026-09-17T18:23:22Z"
+checkedTicketUpdatedAt: "2025-01-17T21:00:57.606Z"
+environment:
+  kotlin: "Unavailable: versions.yaml is not present"
+  gradle: "Unavailable: versions.yaml is not present"
+  jdk: "25.0.2"
+  os: "Linux 6.17.0-1017-aws x86_64"
+reproducer:
+  found: false
+  created: false
+  updated: false
+  command: null
+  archive: null
+verification:
+  reproduced: false
+  expected: "KotlinTestReport uses Gradle VerificationException and report-provider wiring without dynamically setting ignoreFailures or upToDateWhen, avoiding adverse local and remote task-caching behavior."
+  actual: "The public issue is an internal Kotlin Gradle Plugin implementation request. It supplies no runnable project, comments, attachments, affected versions, failing output, deterministic reproduction steps, or observable acceptance test."
+  reason: "A human must define an observable regression test and the intended Kotlin, Gradle, and JDK version matrix, then verify the change in the Kotlin repository's KotlinTestReport integration-test infrastructure."
+error: "The required versions.yaml is absent. No authenticated YouTrack integration is available to guarantee jetbrains-team visibility for the required private comment, so no comment or attachment was published."
+youtrack:
+  commentAdded: false
+  attachmentAdded: false
+  marker: "automated-reproducer:KT-63281:2025-01-17T21:00:57.606Z"
