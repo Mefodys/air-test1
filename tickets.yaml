@@ -680,7 +680,11 @@
               "updated": "2026-07-30T13:27:35.856Z",
               "status": "NEW",
               "result": null,
-              "attempts": 0
+              "attempts": 1,
+              "processingStatus": "PROCESSING",
+              "processingStartedAt": "2026-09-17T21:10:00Z",
+              "processingOwner": "f0577e94-c7fe-4368-96a9-896f3fa3104b",
+              "lastAttemptAt": "2026-09-17T21:10:00Z"
             },
             {
               "id": "KT-64789",
