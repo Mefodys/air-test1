@@ -225,9 +225,13 @@
               "url": "https://youtrack.jetbrains.com/issue/KT-55350",
               "created": "2022-12-07T17:32:14.780Z",
               "updated": "2024-10-18T21:22:17.815Z",
-              "status": "NEW",
+              "status": "PROCESSING",
               "result": null,
-              "attempts": 0
+              "attempts": 1,
+              "processingStartedAt": "2026-09-17T12:47:14Z",
+              "processingOwner": "b10018db-494d-402e-b4e3-2baef309dc2e",
+              "lastAttemptAt": "2026-09-17T12:47:14Z",
+              "checkedTicketUpdatedAt": null
             },
             {
               "id": "KT-55763",
