@@ -1,0 +1,29 @@
+ticket: KT-64040
+status: NEEDS_HUMAN
+checkedAt: "2026-09-17T20:00:20Z"
+checkedTicketUpdatedAt: "2025-01-17T20:56:26.293Z"
+environment:
+  kotlin: "Unavailable: versions.yaml is not present"
+  gradle: "Unavailable: versions.yaml is not present"
+  jdk: "25.0.2"
+  os: "Linux 6.17.0-1017-aws x86_64"
+reproducer:
+  found: false
+  created: false
+  updated: false
+  command: null
+  archive: null
+verification:
+  reproduced: false
+  expected: "assertNoBuildWarnings detects build warnings when KGP integration tests run with DEBUG logging."
+  actual: "The public ticket reports that DEBUG output does not use the w: prefix expected by the assertion helper, but supplies no standalone reproducer, deterministic output fixture, or test command."
+  reason: "Verification requires the Kotlin repository's internal KGP integration-test harness, a deterministic DEBUG-output fixture, and the configured Kotlin/Gradle/JDK version matrix."
+error: "The required versions.yaml and configured YouTrack inventory query are absent, so the complete inventory could not be synchronized reliably."
+youtrack:
+  visibilityChecked: true
+  visibility: "public"
+  commentAdded: true
+  commentId: "27-14420359"
+  commentVisibility: "jetbrains-team"
+  attachmentAdded: false
+  marker: "automated-reproducer:KT-64040:2025-01-17T20:56:26.293Z"
