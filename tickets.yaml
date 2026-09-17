@@ -737,14 +737,15 @@
               "url": "https://youtrack.jetbrains.com/issue/KT-64905",
               "created": "2024-01-11T17:03:31.113Z",
               "updated": "2025-01-17T20:23:07.183Z",
-              "status": "NEW",
-              "processingStatus": "PROCESSING",
-              "result": null,
+              "youtrackStatus": "Backlog",
+              "status": "NEEDS_HUMAN",
+              "processingStatus": "NEEDS_HUMAN",
+              "result": "tickets/Kotlin/Tools. Gradle/KT-64905/result.yaml",
               "attempts": 1,
-              "processingStartedAt": "2026-09-17T22:56:34Z",
-              "processingOwner": "f7591c6d-86c3-40b9-ac70-02f9809b7f1b",
-              "lastAttemptAt": "2026-09-17T22:56:34Z",
-              "checkedTicketUpdatedAt": null
+              "processingStartedAt": null,
+              "processingOwner": null,
+              "lastAttemptAt": "2026-09-17T22:57:11Z",
+              "checkedTicketUpdatedAt": "2025-01-17T20:23:07.183Z"
             },
             {
               "id": "KT-65136",
