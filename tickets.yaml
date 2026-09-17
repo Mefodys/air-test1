@@ -98,9 +98,12 @@
               "url": "https://youtrack.jetbrains.com/issue/KT-47594",
               "created": "2021-07-03T19:27:12.069Z",
               "updated": "2026-07-06T18:21:17.267Z",
-              "status": "NEW",
+              "status": "PROCESSING",
               "result": null,
-              "attempts": 0
+              "attempts": 1,
+              "processingStartedAt": "2026-09-17T11:49:00Z",
+              "processingOwner": "6b871461-1e59-44bc-b738-9528325496d9",
+              "lastAttemptAt": "2026-09-17T11:49:00Z"
             },
             {
               "id": "KT-48324",
