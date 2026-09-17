@@ -314,9 +314,14 @@
               "url": "https://youtrack.jetbrains.com/issue/KT-59156",
               "created": "2023-06-07T11:25:02.156Z",
               "updated": "2026-07-23T13:33:53.579Z",
-              "status": "NEW",
+              "status": "PROCESSING",
+              "processingStatus": "PROCESSING",
               "result": null,
-              "attempts": 0
+              "attempts": 1,
+              "processingStartedAt": "2026-09-17T14:01:44Z",
+              "processingOwner": "ab6f40c6-83f5-43d1-9a70-21c459c2aceb",
+              "lastAttemptAt": "2026-09-17T14:01:44Z",
+              "checkedTicketUpdatedAt": null
             },
             {
               "id": "KT-60138",
