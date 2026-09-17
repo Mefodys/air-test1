@@ -239,14 +239,14 @@
               "url": "https://youtrack.jetbrains.com/issue/KT-55763",
               "created": "2023-01-04T16:44:33.083Z",
               "updated": "2026-07-16T13:58:39.295Z",
-              "status": "NEW",
-              "result": null,
+              "status": "NEEDS_HUMAN",
+              "result": "tickets/Kotlin/Tools. Gradle/KT-55763/result.yaml",
               "attempts": 1,
-              "processingStatus": "PROCESSING",
-              "processingStartedAt": "2026-09-17T12:52:23Z",
-              "processingOwner": "70d7d3eb-5266-46b8-ae16-83aea5264cb2",
-              "lastAttemptAt": "2026-09-17T12:52:23Z",
-              "checkedTicketUpdatedAt": null
+              "processingStatus": "NEEDS_HUMAN",
+              "processingStartedAt": null,
+              "processingOwner": null,
+              "lastAttemptAt": "2026-09-17T12:53:54Z",
+              "checkedTicketUpdatedAt": "2026-07-16T13:58:39.295Z"
             },
             {
               "id": "KT-56129",

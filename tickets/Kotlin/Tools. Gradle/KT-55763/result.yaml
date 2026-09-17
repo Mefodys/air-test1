@@ -1,0 +1,25 @@
+ticket: KT-55763
+status: NEEDS_HUMAN
+checkedAt: "2026-09-17T12:53:54Z"
+checkedTicketUpdatedAt: "2026-07-16T13:58:39.295Z"
+environment:
+  kotlin: "Unavailable: versions.yaml is not present"
+  gradle: "Unavailable: versions.yaml is not present"
+  jdk: "OpenJDK 25.0.2"
+  os: "Linux host; Docker and Podman are installed"
+reproducer:
+  found: false
+  created: false
+  updated: false
+  command: null
+  archive: null
+verification:
+  reproduced: false
+  expected: "With kotlin.build.report.output=file and project isolation enabled, the default build report path follows the overridden rootProject.buildDir."
+  actual: "The public ticket gives the three required properties but has no Gradle project, build-report output, stack trace, or Kotlin/Gradle version needed to establish a deterministic failing scenario."
+  reason: "A configured version matrix and a runnable project or observed report-path output are required for reliable verification."
+youtrack:
+  commentAdded: false
+  attachmentAdded: false
+  marker: "automated-reproducer:KT-55763:2026-07-16T13:58:39.295Z"
+error: "No authenticated YouTrack integration is available to guarantee the required jetbrains-team visibility, so no comment or attachment was posted."
