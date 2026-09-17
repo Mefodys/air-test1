@@ -769,14 +769,14 @@
               "url": "https://youtrack.jetbrains.com/issue/KT-65424",
               "created": "2024-01-31T08:22:33.607Z",
               "updated": "2026-09-07T11:58:58.920Z",
-              "status": "PROCESSING",
-              "processingStatus": "PROCESSING",
-              "result": null,
+              "status": "FAILED",
+              "processingStatus": "FAILED",
+              "result": "tickets/Kotlin/Tools. Gradle/KT-65424/result.yaml",
               "attempts": 1,
-              "processingStartedAt": "2026-09-17T23:10:00Z",
-              "processingOwner": "e49481f8-f8f9-42c4-baeb-339863e068f5",
-              "lastAttemptAt": "2026-09-17T23:10:00Z",
-              "checkedTicketUpdatedAt": null
+              "processingStartedAt": null,
+              "processingOwner": null,
+              "lastAttemptAt": "2026-09-17T23:13:00Z",
+              "checkedTicketUpdatedAt": "2026-09-07T11:58:58.920Z"
             },
             {
               "id": "KT-65745",
