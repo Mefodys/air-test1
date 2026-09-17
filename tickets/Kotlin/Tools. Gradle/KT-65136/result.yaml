@@ -1,0 +1,28 @@
+ticket: KT-65136
+status: NEEDS_HUMAN
+checkedAt: "2026-09-17T23:07:53Z"
+checkedTicketUpdatedAt: "2025-01-20T08:47:53.932Z"
+environment:
+  kotlin: "Unavailable: versions.yaml is not present"
+  gradle: "Unavailable: versions.yaml is not present"
+  jdk: "25.0.2"
+  os: "Linux 6.17.0-1017-aws x86_64"
+reproducer:
+  found: true
+  created: false
+  updated: false
+  command: null
+  archive: null
+verification:
+  reproduced: false
+  expected: "The linked JPMS Gradle project should compile without unresolved transitive modules, unnamed-module visibility errors, or module-info.java package errors."
+  actual: "The public issue links an existing GitHub reproducer and reports three distinct Kotlin Gradle plugin JPMS failures. The repository does not define the required target versions, and the isolated container could not resolve GitHub to download the linked project, so no issue-provided code was executed and the behavior was not verified."
+  reason: "A human must add versions.yaml with the Kotlin, Gradle, and JDK versions to check and provide isolated-container network access to the linked public reproducer."
+error: "The required versions.yaml and configured YouTrack inventory query are absent. The isolated container could not resolve github.com. No authenticated YouTrack integration is available to guarantee jetbrains-team visibility for the required private comment, so no comment or attachment was published. The platform-managed delivery mode prohibits pushing the claim separately; the claim and final result will be delivered together."
+youtrack:
+  visibilityChecked: true
+  visibility: "public"
+  commentAdded: false
+  attachmentAdded: false
+  marker: "automated-reproducer:KT-65136:2025-01-20T08:47:53.932Z"
+signature: "Produced by Air Automations. Name: Backlog reproducer / Run: https://air.jetbrains.cloud/org/05cf1a7f-6ab5-713b-abd3-29d0c8a05e2d/automations/532b03ac-789f-4461-97e2-0743d00580e6?run=d429c7b2-75c8-4e5e-832a-5f15f549b80f"
