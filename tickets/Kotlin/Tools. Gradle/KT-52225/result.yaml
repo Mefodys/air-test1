@@ -1,0 +1,25 @@
+ticket: KT-52225
+status: NEEDS_HUMAN
+checkedAt: "2026-09-17T12:26:48Z"
+checkedTicketUpdatedAt: "2026-08-03T12:35:33.671Z"
+environment:
+  kotlin: null
+  gradle: null
+  jdk: "OpenJDK 25.0.2"
+  os: "Linux"
+reproducer:
+  found: false
+  created: false
+  updated: false
+  command: null
+  archive: null
+verification:
+  reproduced: false
+  expected: "Kapt task build metrics collected by inheritors of KaptTask are reported through the BuildMetricsReporterService."
+  actual: "The public ticket has no reproduction steps, command, project, source code, logs, comments, attachments, or linked reproducer. The checkout also has no versions.yaml defining the Kotlin, Gradle, JDK, or plugin versions needed for a faithful isolated project."
+  reason: "A human must provide a minimal affected Gradle project, the invocation and observable metrics output, plus the version matrix before this internal metrics-reporting behavior can be verified safely."
+youtrack:
+  commentAdded: false
+  attachmentAdded: false
+  marker: "automated-reproducer:KT-52225:2026-08-03T12:35:33.671Z"
+error: "No authenticated YouTrack integration is available to guarantee jetbrains-team visibility; no comment or attachment was posted."
