@@ -830,8 +830,14 @@
               "created": "2024-04-16T07:44:48.006Z",
               "updated": "2025-01-17T20:20:20.484Z",
               "status": "NEW",
+              "youtrackStatus": "Backlog",
+              "processingStatus": "PROCESSING",
               "result": null,
-              "attempts": 0
+              "attempts": 1,
+              "processingStartedAt": "2026-09-17T23:35:00Z",
+              "processingOwner": "b5060d0b-e702-4e39-af55-3134f82554d9",
+              "lastAttemptAt": "2026-09-17T23:35:00Z",
+              "checkedTicketUpdatedAt": null
             },
             {
               "id": "KT-67576",
