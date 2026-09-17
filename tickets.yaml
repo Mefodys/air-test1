@@ -254,14 +254,14 @@
               "url": "https://youtrack.jetbrains.com/issue/KT-56555",
               "created": "2023-02-09T17:28:42.578Z",
               "updated": "2026-07-16T13:59:22.027Z",
-              "status": "NEW",
-              "result": null,
+              "status": "NEEDS_HUMAN",
+              "result": "tickets/Kotlin/Tools. Gradle/KT-56555/result.yaml",
               "attempts": 1,
-              "processingStatus": "PROCESSING",
-              "processingStartedAt": "2026-09-17T13:02:03Z",
-              "processingOwner": "0bdfa6c4-0353-4d5c-ba8c-7081f00014d7",
-              "lastAttemptAt": "2026-09-17T13:02:03Z",
-              "checkedTicketUpdatedAt": null
+              "processingStatus": "NEEDS_HUMAN",
+              "processingStartedAt": null,
+              "processingOwner": null,
+              "lastAttemptAt": "2026-09-17T13:03:00Z",
+              "checkedTicketUpdatedAt": "2026-07-16T13:59:22.027Z"
             },
             {
               "id": "KT-56830",
