@@ -1,0 +1,26 @@
+ticket: KT-41985
+status: FAILED
+checkedAt: "2026-09-17T11:13:10Z"
+checkedTicketUpdatedAt: "2026-07-07T13:05:59.687Z"
+environment:
+  kotlin: "2.4.20"
+  gradle: "9.7.1"
+  jdk: "OpenJDK 25"
+  os: "Linux (Docker: gradle:9.7.1-jdk25)"
+reproducer:
+  found: false
+  created: true
+  updated: false
+  command: "docker run --rm --network host -v $PWD:/workspace -w /workspace gradle:9.7.1-jdk25 gradle --no-daemon compileKotlin"
+  archive: null
+verification:
+  reproduced: false
+  expected: "Assigning freeCompilerArgs with '=' after explicitApi() should be rejected with actionable guidance, because it can replace compiler arguments added by the Kotlin Gradle plugin."
+  actual: "Gradle failed during plugin resolution before Kotlin compilation: org.jetbrains.kotlin.jvm:org.jetbrains.kotlin.jvm.gradle.plugin:2.4.20 was not found in the Gradle Plugin Portal."
+  reason: "The configured Kotlin version could not be resolved, so the constructed project could not be used to observe the reported behavior."
+error: "Plugin resolution failure for org.jetbrains.kotlin.jvm version 2.4.20."
+youtrack:
+  commentAdded: false
+  attachmentAdded: false
+  marker: "automated-reproducer:KT-41985:2026-07-07T13:05:59.687Z"
+  error: "No authenticated YouTrack integration was available to guarantee the required jetbrains-team visibility, so no comment or attachment was posted."

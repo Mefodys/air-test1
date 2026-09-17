@@ -56,9 +56,11 @@
               "url": "https://youtrack.jetbrains.com/issue/KT-41985",
               "created": "2020-09-17T09:54:22.437Z",
               "updated": "2026-07-07T13:05:59.687Z",
-              "status": "NEW",
-              "result": null,
-              "attempts": 0
+              "status": "FAILED",
+              "result": "tickets/Kotlin/Tools. Gradle/KT-41985/result.yaml",
+              "attempts": 1,
+              "lastAttemptAt": "2026-09-17T11:13:10Z",
+              "checkedTicketUpdatedAt": "2026-07-07T13:05:59.687Z"
             },
             {
               "id": "KT-44454",
