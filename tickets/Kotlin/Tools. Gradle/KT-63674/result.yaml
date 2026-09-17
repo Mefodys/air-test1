@@ -1,0 +1,27 @@
+ticket: KT-63674
+status: NEEDS_HUMAN
+checkedAt: "2026-09-17T19:27:27Z"
+checkedTicketUpdatedAt: "2025-01-17T20:56:54.092Z"
+environment:
+  kotlin: "Unavailable: versions.yaml is not present"
+  gradle: "Unavailable: versions.yaml is not present"
+  jdk: "25.0.2"
+  os: "Linux 6.17.0-1017-aws x86_64"
+reproducer:
+  found: false
+  created: false
+  updated: false
+  command: null
+  archive: null
+verification:
+  reproduced: false
+  expected: "Changing module-info.java or package-info.java invalidates the affected Kotlin Gradle compilation so incremental compilation rebuilds the module."
+  actual: "The public issue provides an implementation requirement but no runnable project, affected version, command, observable failing output, comments, or attachments from which to verify the reported Gradle input-tracking behavior."
+  reason: "A human must define a deterministic incremental-build scenario and expected task outcome, provide the Kotlin, Gradle, and JDK version matrix, and verify the Gradle input behavior in the Kotlin Gradle Plugin integration-test environment."
+error: "The required versions.yaml and configured YouTrack inventory query are absent. No authenticated YouTrack integration is available to guarantee jetbrains-team visibility for the required private comment, so no comment or attachment was published."
+youtrack:
+  visibilityChecked: true
+  visibility: "public"
+  commentAdded: false
+  attachmentAdded: false
+  marker: "automated-reproducer:KT-63674:2025-01-17T20:56:54.092Z"

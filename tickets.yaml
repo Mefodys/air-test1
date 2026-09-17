@@ -586,14 +586,15 @@
               "url": "https://youtrack.jetbrains.com/issue/KT-63674",
               "created": "2023-11-21T13:43:08.010Z",
               "updated": "2025-01-17T20:56:54.092Z",
-              "status": "PROCESSING",
-              "processingStatus": "PROCESSING",
-              "result": null,
+              "status": "NEEDS_HUMAN",
+              "youtrackStatus": "Backlog",
+              "processingStatus": "NEEDS_HUMAN",
+              "result": "tickets/Kotlin/Tools. Gradle/KT-63674/result.yaml",
               "attempts": 1,
-              "processingStartedAt": "2026-09-17T19:26:41Z",
-              "processingOwner": "80441132-7745-49e7-998a-bb26499a9eef",
-              "lastAttemptAt": "2026-09-17T19:26:41Z",
-              "checkedTicketUpdatedAt": null
+              "processingStartedAt": null,
+              "processingOwner": null,
+              "lastAttemptAt": "2026-09-17T19:27:27Z",
+              "checkedTicketUpdatedAt": "2025-01-17T20:56:54.092Z"
             },
             {
               "id": "KT-63675",
@@ -1879,9 +1880,15 @@
               "url": "https://youtrack.jetbrains.com/issue/KT-63674",
               "created": "2023-11-21T13:43:08.010Z",
               "updated": "2025-01-17T20:56:54.092Z",
-              "status": "NEW",
-              "result": null,
-              "attempts": 0
+              "status": "NEEDS_HUMAN",
+              "youtrackStatus": "Backlog",
+              "processingStatus": "NEEDS_HUMAN",
+              "result": "tickets/Kotlin/Tools. Gradle/KT-63674/result.yaml",
+              "attempts": 1,
+              "processingStartedAt": null,
+              "processingOwner": null,
+              "lastAttemptAt": "2026-09-17T19:27:27Z",
+              "checkedTicketUpdatedAt": "2025-01-17T20:56:54.092Z"
             },
             {
               "id": "KT-63675",
