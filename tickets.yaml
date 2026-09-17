@@ -345,8 +345,13 @@
               "created": "2023-07-14T18:27:46.957Z",
               "updated": "2026-07-23T13:37:15.664Z",
               "status": "NEW",
+              "processingStatus": "PROCESSING",
               "result": null,
-              "attempts": 0
+              "attempts": 1,
+              "processingStartedAt": "2026-09-17T14:31:54Z",
+              "processingOwner": "94873055-da99-401d-91c6-df39a08c1e58",
+              "lastAttemptAt": "2026-09-17T14:31:54Z",
+              "checkedTicketUpdatedAt": null
             },
             {
               "id": "KT-60542",
