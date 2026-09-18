@@ -1216,13 +1216,13 @@
               "created": "2024-11-25T19:54:31.702Z",
               "updated": "2026-08-06T15:06:35.863Z",
               "status": "NEW",
-              "processingStatus": "PROCESSING",
-              "result": null,
+              "processingStatus": "FAILED",
+              "result": "tickets/Kotlin/Tools. Gradle/KT-73402/result.yaml",
               "attempts": 1,
-              "processingStartedAt": "2026-09-18T06:23:57Z",
-              "processingOwner": "b4a340f2-d2d2-4d0e-9911-9fecd039a9a6",
-              "lastAttemptAt": "2026-09-18T06:23:57Z",
-              "checkedTicketUpdatedAt": null
+              "processingStartedAt": null,
+              "processingOwner": null,
+              "lastAttemptAt": "2026-09-18T06:24:33Z",
+              "checkedTicketUpdatedAt": "2026-08-06T15:06:35.863Z"
             },
             {
               "id": "KT-73580",
