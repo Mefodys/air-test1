@@ -967,9 +967,14 @@
               "url": "https://youtrack.jetbrains.com/issue/KT-70419",
               "created": "2024-08-02T07:47:48.404Z",
               "updated": "2025-07-17T16:45:23.961Z",
-              "status": "NEW",
-              "result": null,
-              "attempts": 0
+              "status": "FAILED",
+              "processingStatus": "FAILED",
+              "result": "tickets/Kotlin/Tools. Gradle/KT-70419/result.yaml",
+              "attempts": 1,
+              "processingStartedAt": null,
+              "processingOwner": null,
+              "lastAttemptAt": "2026-09-18T01:46:40Z",
+              "checkedTicketUpdatedAt": "2025-07-17T16:45:23.961Z"
             },
             {
               "id": "KT-70509",
