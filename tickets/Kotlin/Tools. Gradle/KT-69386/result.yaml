@@ -1,0 +1,28 @@
+ticket: KT-69386
+status: FAILED
+checkedAt: "2026-09-18T00:51:38Z"
+checkedTicketUpdatedAt: "2024-06-25T12:54:02.517Z"
+environment:
+  kotlin: "Unavailable: versions.yaml is not present"
+  gradle: "Unavailable: versions.yaml is not present"
+  jdk: "Not checked"
+  os: "Linux x86_64"
+reproducer:
+  found: false
+  created: false
+  updated: false
+  command: null
+  archive: null
+verification:
+  reproduced: false
+  expected: "The reported migration scenario can be evaluated with the configured Kotlin and Gradle versions."
+  actual: "Verification was not started because the claim could not be pushed and confirmed before processing."
+  reason: "The push-to-source delivery mode prohibits the required intermediate push, so exclusive claim ownership could not be established."
+error: "Full inventory synchronization could not be performed because the configured YouTrack query is absent. The required versions.yaml is also absent, so the configured Kotlin and Gradle versions cannot be determined. No authenticated YouTrack integration is available to guarantee jetbrains-team visibility, so no comment or attachment was published."
+youtrack:
+  visibilityChecked: true
+  visibility: "public"
+  commentAdded: false
+  attachmentAdded: false
+  marker: "automated-reproducer:KT-69386:2024-06-25T12:54:02.517Z"
+signature: "Produced by Air Automations. Name: Backlog reproducer / Run: https://air.jetbrains.cloud/org/05cf1a7f-6ab5-713b-abd3-29d0c8a05e2d/automations/532b03ac-789f-4461-97e2-0743d00580e6?run=85f4aa0f-ace9-40e3-a016-31ee9f21f332"
