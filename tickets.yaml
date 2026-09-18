@@ -1049,16 +1049,6 @@
               "checkedTicketUpdatedAt": "2026-08-06T13:21:50.426Z"
             },
             {
-              "id": "KT-71144",
-              "summary": "Add migration suggestions into KotlinOptions Kdoc",
-              "url": "https://youtrack.jetbrains.com/issue/KT-71144",
-              "created": "2024-09-02T14:42:26.988Z",
-              "updated": "2024-12-11T09:26:08.160Z",
-              "status": "NEW",
-              "result": null,
-              "attempts": 0
-            },
-            {
               "id": "KT-71146",
               "summary": "Add kotlinOptions signatures into compilerOptions DSL",
               "url": "https://youtrack.jetbrains.com/issue/KT-71146",
@@ -2212,5 +2202,11 @@
       }
     }
   },
-  "privateTickets": []
+  "privateTickets": [
+    {
+      "id": "KT-71144",
+      "processingStatus": "SKIPPED_PRIVATE",
+      "reason": "Restricted visibility. Manual review is required."
+    }
+  ]
 }
