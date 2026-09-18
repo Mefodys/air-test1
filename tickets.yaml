@@ -1201,13 +1201,13 @@
               "created": "2024-11-06T13:51:41.432Z",
               "updated": "2024-11-06T14:55:02.378Z",
               "status": "NEW",
-              "processingStatus": "PROCESSING",
-              "result": null,
+              "processingStatus": "FAILED",
+              "result": "tickets/Kotlin/Tools. Gradle/KT-72870/result.yaml",
               "attempts": 1,
-              "processingStartedAt": "2026-09-18T06:02:00Z",
-              "processingOwner": "87e1107a-01fb-4813-97ce-78be16c348bc",
-              "lastAttemptAt": "2026-09-18T06:02:00Z",
-              "checkedTicketUpdatedAt": null
+              "processingStartedAt": null,
+              "processingOwner": null,
+              "lastAttemptAt": "2026-09-18T06:02:26Z",
+              "checkedTicketUpdatedAt": "2024-11-06T14:55:02.378Z"
             },
             {
               "id": "KT-73402",
