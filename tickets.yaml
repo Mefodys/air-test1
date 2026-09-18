@@ -982,9 +982,14 @@
               "url": "https://youtrack.jetbrains.com/issue/KT-70509",
               "created": "2024-08-06T12:28:03.188Z",
               "updated": "2026-08-06T13:14:56.721Z",
-              "status": "NEW",
+              "youtrackStatus": "Backlog",
+              "processingStatus": "PROCESSING",
               "result": null,
-              "attempts": 0
+              "attempts": 1,
+              "processingStartedAt": "2026-09-18T01:54:14Z",
+              "processingOwner": "c6b2b134-49d7-4647-ab4a-4ac4dd06f76c",
+              "lastAttemptAt": "2026-09-18T01:54:14Z",
+              "checkedTicketUpdatedAt": null
             },
             {
               "id": "KT-70761",
