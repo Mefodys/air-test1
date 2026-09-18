@@ -983,13 +983,13 @@
               "created": "2024-08-06T12:28:03.188Z",
               "updated": "2026-08-06T13:14:56.721Z",
               "youtrackStatus": "Backlog",
-              "processingStatus": "PROCESSING",
-              "result": null,
+              "processingStatus": "FAILED",
+              "result": "tickets/Kotlin/Tools. Gradle/KT-70509/result.yaml",
               "attempts": 1,
-              "processingStartedAt": "2026-09-18T01:54:14Z",
-              "processingOwner": "c6b2b134-49d7-4647-ab4a-4ac4dd06f76c",
-              "lastAttemptAt": "2026-09-18T01:54:14Z",
-              "checkedTicketUpdatedAt": null
+              "processingStartedAt": null,
+              "processingOwner": null,
+              "lastAttemptAt": "2026-09-18T01:55:44Z",
+              "checkedTicketUpdatedAt": "2026-08-06T13:14:56.721Z"
             },
             {
               "id": "KT-70761",
