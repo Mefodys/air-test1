@@ -1070,9 +1070,15 @@
               "url": "https://youtrack.jetbrains.com/issue/KT-71179",
               "created": "2024-09-03T14:06:20.227Z",
               "updated": "2025-06-10T21:56:54.120Z",
-              "status": "NEW",
-              "result": null,
-              "attempts": 0
+              "status": "FAILED",
+              "youtrackStatus": "Backlog",
+              "processingStatus": "FAILED",
+              "result": "tickets/Kotlin/Tools. Gradle/KT-71179/result.yaml",
+              "attempts": 1,
+              "processingStartedAt": null,
+              "processingOwner": null,
+              "lastAttemptAt": "2026-09-18T04:16:47Z",
+              "checkedTicketUpdatedAt": "2025-06-10T21:56:54.120Z"
             },
             {
               "id": "KT-71443",
