@@ -1040,9 +1040,13 @@
               "url": "https://youtrack.jetbrains.com/issue/KT-71057",
               "created": "2024-08-29T09:07:04.622Z",
               "updated": "2026-08-06T13:21:50.426Z",
-              "status": "NEW",
-              "result": null,
-              "attempts": 0
+              "status": "FAILED",
+              "result": "tickets/Kotlin/Tools. Gradle/KT-71057/result.yaml",
+              "attempts": 1,
+              "processingStartedAt": null,
+              "processingOwner": null,
+              "lastAttemptAt": "2026-09-18T03:16:24Z",
+              "checkedTicketUpdatedAt": "2026-08-06T13:21:50.426Z"
             },
             {
               "id": "KT-71144",
