@@ -1086,9 +1086,14 @@
               "url": "https://youtrack.jetbrains.com/issue/KT-71443",
               "created": "2024-09-12T15:57:27.035Z",
               "updated": "2026-08-06T13:23:42.334Z",
-              "status": "NEW",
+              "status": "PROCESSING",
+              "processingStatus": "PROCESSING",
               "result": null,
-              "attempts": 0
+              "attempts": 1,
+              "processingStartedAt": "2026-09-18T04:21:41Z",
+              "processingOwner": "fdd4d293-5c77-408e-93d7-bc7b9c5dce08",
+              "lastAttemptAt": "2026-09-18T04:21:41Z",
+              "checkedTicketUpdatedAt": null
             },
             {
               "id": "KT-71489",
