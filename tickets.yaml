@@ -937,9 +937,14 @@
               "url": "https://youtrack.jetbrains.com/issue/KT-69967",
               "created": "2024-07-17T05:28:41.087Z",
               "updated": "2025-04-22T10:42:59.534Z",
-              "status": "NEW",
-              "result": null,
-              "attempts": 0
+              "status": "FAILED",
+              "processingStatus": "FAILED",
+              "result": "tickets/Kotlin/Tools. Gradle/KT-69967/result.yaml",
+              "attempts": 1,
+              "processingStartedAt": null,
+              "processingOwner": null,
+              "lastAttemptAt": "2026-09-18T01:06:17Z",
+              "checkedTicketUpdatedAt": "2025-04-22T10:42:59.534Z"
             },
             {
               "id": "KT-70004",
