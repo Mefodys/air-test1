@@ -1276,13 +1276,13 @@
               "created": "2025-01-17T04:59:27.411Z",
               "updated": "2025-03-04T18:14:56.795Z",
               "status": "NEW",
-              "processingStatus": "PROCESSING",
-              "result": null,
+              "processingStatus": "FAILED",
+              "result": "tickets/Kotlin/Tools. Gradle/KT-74488/result.yaml",
               "attempts": 1,
-              "processingStartedAt": "2026-09-18T07:18:57Z",
-              "processingOwner": "098febc2-ceaf-4841-957a-ec7623928d44",
-              "lastAttemptAt": "2026-09-18T07:18:57Z",
-              "checkedTicketUpdatedAt": null
+              "processingStartedAt": null,
+              "processingOwner": null,
+              "lastAttemptAt": "2026-09-18T07:20:16Z",
+              "checkedTicketUpdatedAt": "2025-03-04T18:14:56.795Z"
             },
             {
               "id": "KT-74731",
