@@ -1231,8 +1231,13 @@
               "created": "2024-12-02T10:55:12.019Z",
               "updated": "2024-12-04T16:35:35.047Z",
               "status": "NEW",
-              "result": null,
-              "attempts": 0
+              "processingStatus": "FAILED",
+              "result": "tickets/Kotlin/Tools. Gradle/KT-73580/result.yaml",
+              "attempts": 1,
+              "processingStartedAt": null,
+              "processingOwner": null,
+              "lastAttemptAt": "2026-09-18T06:31:59Z",
+              "checkedTicketUpdatedAt": "2024-12-04T16:35:35.047Z"
             },
             {
               "id": "KT-74264",
