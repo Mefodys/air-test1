@@ -1,0 +1,29 @@
+ticket: KT-72247
+status: FAILED
+checkedAt: "2026-09-18T05:31:46Z"
+checkedTicketUpdatedAt: "2026-04-24T07:45:15.848Z"
+environment:
+  kotlin: "Unavailable: versions.yaml is not present"
+  gradle: "Unavailable: versions.yaml is not present"
+  jdk: "25.0.2 (available; verification not run)"
+  os: "Linux 6.17.0-1017-aws x86_64"
+reproducer:
+  found: false
+  created: false
+  updated: false
+  command: null
+  archive: null
+verification:
+  reproduced: false
+  expected: "Not evaluated because processing could not pass the required remote-claim gate."
+  actual: "Verification was not started."
+  reason: "The push-to-source delivery mode forbids the intermediate push required to establish remote claim ownership."
+error: "Inventory synchronization could not be completed because the configured YouTrack query is absent. versions.yaml is also absent. The required claim commit cannot be pushed during the run under the selected delivery mode, so issue content was not loaded and no verification or YouTrack publication was attempted."
+youtrack:
+  visibilityChecked: true
+  visibility: "public"
+  detailsLoaded: false
+  commentAdded: false
+  attachmentAdded: false
+  marker: "automated-reproducer:KT-72247:2026-04-24T07:45:15.848Z"
+signature: "Produced by Air Automations. Name: Backlog reproducer / Run: https://air.jetbrains.cloud/org/05cf1a7f-6ab5-713b-abd3-29d0c8a05e2d/automations/532b03ac-789f-4461-97e2-0743d00580e6?run=95a053be-7d33-45dd-aadc-4279d6e4ef72"

@@ -1129,9 +1129,13 @@
               "url": "https://youtrack.jetbrains.com/issue/KT-72247",
               "created": "2024-10-14T10:02:38.913Z",
               "updated": "2026-04-24T07:45:15.848Z",
-              "status": "NEW",
-              "result": null,
-              "attempts": 0
+              "status": "FAILED",
+              "result": "tickets/Kotlin/Tools. Gradle/KT-72247/result.yaml",
+              "attempts": 1,
+              "processingStartedAt": null,
+              "processingOwner": null,
+              "lastAttemptAt": "2026-09-18T05:31:46Z",
+              "checkedTicketUpdatedAt": "2026-04-24T07:45:15.848Z"
             },
             {
               "id": "KT-72395",
