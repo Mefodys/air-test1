@@ -1171,9 +1171,13 @@
               "url": "https://youtrack.jetbrains.com/issue/KT-78094",
               "created": "2024-11-01T14:16:18.365Z",
               "updated": "2025-06-05T16:23:14.425Z",
-              "status": "NEW",
-              "result": null,
-              "attempts": 0
+              "status": "FAILED",
+              "result": "tickets/Kotlin/Tools. Gradle/KT-78094/result.yaml",
+              "attempts": 1,
+              "processingStartedAt": null,
+              "processingOwner": null,
+              "lastAttemptAt": "2026-09-18T05:46:57Z",
+              "checkedTicketUpdatedAt": "2025-06-05T16:23:14.425Z"
             },
             {
               "id": "KT-72854",
