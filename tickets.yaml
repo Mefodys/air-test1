@@ -876,9 +876,15 @@
               "url": "https://youtrack.jetbrains.com/issue/KT-68534",
               "created": "2024-05-27T07:29:37.479Z",
               "updated": "2026-07-30T14:37:59.716Z",
-              "status": "NEW",
-              "result": null,
-              "attempts": 0
+              "status": "FAILED",
+              "youtrackStatus": "To be discussed",
+              "processingStatus": "FAILED",
+              "result": "tickets/Kotlin/Tools. Gradle/KT-68534/result.yaml",
+              "attempts": 1,
+              "processingStartedAt": null,
+              "processingOwner": null,
+              "lastAttemptAt": "2026-09-18T00:36:35Z",
+              "checkedTicketUpdatedAt": "2026-07-30T14:37:59.716Z"
             },
             {
               "id": "KT-69383",
