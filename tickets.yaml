@@ -1115,12 +1115,13 @@
               "url": "https://youtrack.jetbrains.com/issue/KT-71716",
               "created": "2024-09-24T12:49:37.613Z",
               "updated": "2024-11-11T17:59:02.123Z",
-              "status": "PROCESSING",
-              "result": null,
+              "status": "FAILED",
+              "result": "tickets/Kotlin/Tools. Gradle/KT-71716/result.yaml",
               "attempts": 1,
-              "processingStartedAt": "2026-09-18T05:21:38Z",
-              "processingOwner": "4c65810f-328b-4415-9d56-52608da7ef89",
-              "lastAttemptAt": "2026-09-18T05:21:38Z"
+              "processingStartedAt": null,
+              "processingOwner": null,
+              "lastAttemptAt": "2026-09-18T05:21:58Z",
+              "checkedTicketUpdatedAt": "2024-11-11T17:59:02.123Z"
             },
             {
               "id": "KT-72247",
