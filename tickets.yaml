@@ -892,9 +892,12 @@
               "url": "https://youtrack.jetbrains.com/issue/KT-69383",
               "created": "2024-06-24T18:44:23.290Z",
               "updated": "2025-04-04T13:37:46.211Z",
-              "status": "NEW",
+              "status": "PROCESSING",
               "result": null,
-              "attempts": 0
+              "attempts": 1,
+              "processingStartedAt": "2026-09-18T00:40:00Z",
+              "processingOwner": "ef9ae5e3-51e6-4e5e-aeae-f41c9c72e66a",
+              "lastAttemptAt": "2026-09-18T00:40:00Z"
             },
             {
               "id": "KT-69386",
