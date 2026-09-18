@@ -1185,9 +1185,14 @@
               "url": "https://youtrack.jetbrains.com/issue/KT-72854",
               "created": "2024-11-06T09:51:48.033Z",
               "updated": "2026-08-06T13:31:45.770Z",
-              "status": "NEW",
-              "result": null,
-              "attempts": 0
+              "status": "FAILED",
+              "processingStatus": "FAILED",
+              "result": "tickets/Kotlin/Tools. Gradle/KT-72854/result.yaml",
+              "attempts": 1,
+              "processingStartedAt": null,
+              "processingOwner": null,
+              "lastAttemptAt": "2026-09-18T05:57:15Z",
+              "checkedTicketUpdatedAt": "2026-08-06T13:31:45.770Z"
             },
             {
               "id": "KT-72870",
