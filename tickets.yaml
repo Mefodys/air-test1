@@ -861,9 +861,14 @@
               "url": "https://youtrack.jetbrains.com/issue/KT-68107",
               "created": "2024-05-10T16:11:48.592Z",
               "updated": "2024-10-14T19:15:36.527Z",
-              "status": "NEW",
+              "status": "PROCESSING",
+              "processingStatus": "PROCESSING",
               "result": null,
-              "attempts": 0
+              "attempts": 1,
+              "processingStartedAt": "2026-09-18T00:07:30Z",
+              "processingOwner": "54188526-d15b-4787-8daf-90d2eb763c67",
+              "lastAttemptAt": "2026-09-18T00:07:30Z",
+              "checkedTicketUpdatedAt": null
             },
             {
               "id": "KT-68534",
