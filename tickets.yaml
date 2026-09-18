@@ -1011,9 +1011,14 @@
               "url": "https://youtrack.jetbrains.com/issue/KT-70841",
               "created": "2024-08-21T09:07:28.048Z",
               "updated": "2025-06-10T22:02:13.453Z",
-              "status": "NEW",
+              "status": "PROCESSING",
+              "processingStatus": "PROCESSING",
               "result": null,
-              "attempts": 0
+              "attempts": 1,
+              "processingStartedAt": "2026-09-18T02:11:29Z",
+              "processingOwner": "1ca7615e-1311-4478-bced-d1ff0e31d487",
+              "lastAttemptAt": "2026-09-18T02:11:29Z",
+              "checkedTicketUpdatedAt": null
             },
             {
               "id": "KT-70871",
