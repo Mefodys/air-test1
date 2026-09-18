@@ -952,9 +952,14 @@
               "url": "https://youtrack.jetbrains.com/issue/KT-70004",
               "created": "2024-07-18T09:23:39.673Z",
               "updated": "2026-07-30T14:02:51.988Z",
-              "status": "NEW",
-              "result": null,
-              "attempts": 0
+              "status": "FAILED",
+              "processingStatus": "FAILED",
+              "result": "tickets/Kotlin/Tools. Gradle/KT-70004/result.yaml",
+              "attempts": 1,
+              "processingStartedAt": null,
+              "processingOwner": null,
+              "lastAttemptAt": "2026-09-18T01:31:25Z",
+              "checkedTicketUpdatedAt": "2026-07-30T14:02:51.988Z"
             },
             {
               "id": "KT-70419",
