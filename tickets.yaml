@@ -922,14 +922,14 @@
               "url": "https://youtrack.jetbrains.com/issue/KT-69682",
               "created": "2024-07-05T10:04:51.476Z",
               "updated": "2026-09-07T16:03:27.846Z",
-              "status": "PROCESSING",
-              "processingStatus": "PROCESSING",
-              "result": null,
+              "status": "FAILED",
+              "processingStatus": "FAILED",
+              "result": "tickets/Kotlin/Tools. Gradle/KT-69682/result.yaml",
               "attempts": 1,
-              "processingStartedAt": "2026-09-18T01:01:38Z",
-              "processingOwner": "1a6767b8-38cb-4b0f-941f-32de82359820",
-              "lastAttemptAt": "2026-09-18T01:01:38Z",
-              "checkedTicketUpdatedAt": null
+              "processingStartedAt": null,
+              "processingOwner": null,
+              "lastAttemptAt": "2026-09-18T01:02:05Z",
+              "checkedTicketUpdatedAt": "2026-09-07T16:03:27.846Z"
             },
             {
               "id": "KT-69967",
