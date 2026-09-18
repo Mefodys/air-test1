@@ -1026,12 +1026,13 @@
               "url": "https://youtrack.jetbrains.com/issue/KT-70871",
               "created": "2024-08-22T09:09:25.269Z",
               "updated": "2025-05-25T14:09:04.132Z",
-              "status": "PROCESSING",
-              "result": null,
+              "status": "FAILED",
+              "result": "tickets/Kotlin/Tools. Gradle/KT-70871/result.yaml",
               "attempts": 1,
-              "processingStartedAt": "2026-09-18T03:13:22Z",
-              "processingOwner": "891a25b7-5ff1-4dd3-ac8b-9cab588128c6",
-              "lastAttemptAt": "2026-09-18T03:13:22Z"
+              "processingStartedAt": null,
+              "processingOwner": null,
+              "lastAttemptAt": "2026-09-18T03:14:40Z",
+              "checkedTicketUpdatedAt": "2025-05-25T14:09:04.132Z"
             },
             {
               "id": "KT-71057",
