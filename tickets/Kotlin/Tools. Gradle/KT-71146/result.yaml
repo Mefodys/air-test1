@@ -1,0 +1,28 @@
+ticket: KT-71146
+status: FAILED
+checkedAt: "2026-09-18T04:00:00Z"
+checkedTicketUpdatedAt: "2024-12-11T09:25:43.768Z"
+environment:
+  kotlin: "Unavailable: versions.yaml is not present"
+  gradle: "Unavailable: versions.yaml is not present"
+  jdk: "25.0.2"
+  os: "Linux x86_64"
+reproducer:
+  found: false
+  created: false
+  updated: false
+  command: null
+  archive: null
+verification:
+  reproduced: false
+  expected: "The compilerOptions DSL exposes deprecated kotlinOptions-compatible signatures with migration guidance."
+  actual: "Verification was not run because the configured Kotlin, Gradle, and plugin versions are unavailable."
+  reason: "The required versions.yaml is absent, so the automation cannot create and verify a deterministic reproducer with configured versions."
+error: "The configured YouTrack inventory query is absent, so full paginated inventory synchronization could not be performed. The platform-managed push-to-source delivery mode prohibits pushing and confirming the claim separately; origin/main still lists KT-71146 as NEW. No authenticated YouTrack integration is available to guarantee jetbrains-team visibility, so no comment or attachment was published."
+youtrack:
+  visibilityChecked: true
+  visibility: "public"
+  commentAdded: false
+  attachmentAdded: false
+  marker: "automated-reproducer:KT-71146:2024-12-11T09:25:43.768Z"
+signature: "Produced by Air Automations. Name: Backlog reproducer / Run: https://air.jetbrains.cloud/org/05cf1a7f-6ab5-713b-abd3-29d0c8a05e2d/automations/532b03ac-789f-4461-97e2-0743d00580e6?run=776c70f2-2cc1-4a01-b381-96737c6f87d6"
